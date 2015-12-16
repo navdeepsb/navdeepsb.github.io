@@ -11,13 +11,7 @@ html {
 
 body {
 	font-family: "Roboto Slab", "Source Code Pro", monospace;
-	color: #444;
-	background: #593950; /* Eggplant (sonal) */
-	background: #90374d; /* Crimson (brick red) */
-	background: #e53c41; /* Soft red */
-	background: #6066c8; /* Soft blue */
-	background: #2d3250; /* Midnight (dark blue) */
-	color: #fff;
+	background: #2d3250;
 	color: #eee;
 }
 
