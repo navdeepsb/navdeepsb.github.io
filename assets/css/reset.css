@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 1em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	color: #333;
+}
+
+section {
+	max-width: 65em;
+	margin: 0 auto;
+	padding: 30px 15px 0 15px;
+}
+section:first-of-type {
+	padding-top: 100px;
+}
+section:last-of-type {
+	padding-bottom: 30px;
+}
+
+a, input, button, select {
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+p, ul, ol {
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: #3b8686;
+	border-bottom: 1px solid;
+}
+
+hr {
+	border-top: 1px solid #aaa;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+img {
+	max-width: 100%;
+}

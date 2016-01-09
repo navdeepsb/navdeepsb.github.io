@@ -1,42 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Good ol' meta tags -->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- App title -->
 	<title>Navdeep Singh Bagga | navdeepsb</title>
-
-	<!-- Any and all stylesheets -->
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/util.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/css/swipebox.min.css">
+	<link rel="stylesheet" href="assets/css/reset.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/typography.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/header.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/footer.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/code.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/project.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/writing.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/drawing.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/xp.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/connect.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/builtwith.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/grid.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/colours.css?v=1.0.0">
+	<link rel="stylesheet" href="assets/css/util.css?v=1.0.0">
 </head>
 <body>
-	<div class="align--center">
-		<img src="img/me.jpg" class="pic" alt="Navdeep Singh Bagga">
-	</div>
-	<h1 class="title align--center">
-		Navdeep Singh Bagga
-	</h1>
-	<p class="subtitle align--center">Web Designer, Javascript Developer, Artist</p>
-	<h1 class="align--center">
-		<a href="https://www.facebook.com/navdeepsb" target="_blank" rel="nofollow">
-			<span class="fa fa-facebook-square"></span>
-		</a>
-		<a href="https://twitter.com/navdeepsb" target="_blank" rel="nofollow">
-			<span class="fa fa-twitter"></span>
-		</a>
-		<a href="https://plus.google.com/+NavdeepSinghBagga" target="_blank" rel="nofollow">
-			<span class="fa fa-google-plus"></span>
-		</a>
-		<a href="https://www.github.com/navdeepsb" target="_blank" rel="nofollow">
-			<span class="fa fa-github"></span>
-		</a>
-	</h1>
+	<header class="header grid">
+		<div class="col col-4 no-gutter">
+			<a href="/" tabindex="-1">
+				<div class="header__ele header__dp img-wrapper">
+					<img src="http://www.gravatar.com/avatar/a1e227f5dc4280bfbe04aef8bcbf1373?s=80" alt="Navdeep Singh Bagga | navdeepsb">
+				</div>
+				<span class="header__ele">Navdeep Singh Bagga</span>
+			</a>
+		</div><!-- .col -->
+		<div class="col col-4 no-gutter align--center">
+			<span class="header__ele">nsb</span>
+		</div><!-- .col -->
+		<div class="col col-4 no-gutter align--right">
+			<span class="header__ele expansion">nice sunglasses, bro</span>
+		</div><!-- .col -->
+	</header><!-- .header.grid -->
+
+	<section class="section-code">
+		<div class="code">
+			<div class="code__header grid">
+				<div class="col col-6--fixed no-gutter">&gt;_ portfolio.js</div><!-- .col -->
+				<div class="col col-6--fixed no-gutter mime tsize--small align--right">text/javascript</div><!-- .col -->
+			</div><!-- .code__header.grid -->
+			<div class="code__inner">
+				<pre><code><!--
+-->(<span class="keyword">function</span>() {
+    <span class="keyword">var</span> <span class="identifier">content</span> = [
+        <span class="string">"About Me"</span>, <span class="comment">// A jibber-jabber on myself</span>
+        <span class="string">"Projects"</span>, <span class="comment">// A collection of my projects</span>
+        <span class="string">"Creative Writing"</span>, <span class="comment">// Some of my thought exaggerations</span>
+        <span class="string">"Drawings"</span>, <span class="comment">// A sneak-peek into my childhood</span>
+        <span class="string">"Professional Experience"</span>, <span class="comment">// My work life</span>
+        <span class="string">"Connect With Me"</span>, <span class="comment">// My social presence</span>
+        <span class="string">"Built With"</span> <span class="comment">// Attributions and humble thanks</span>
+    ];
+
+    <span class="comment">// Abstracting the implementation, please bare with me ;P</span>
+    <span class="keyword">var</span> <span class="identifier">jumpTo</span> = <span class="keyword">function</span>( <span class="param">contentItem</span> ) {<span class="comment">...</span>};
+
+    <span class="comment">// Now let's go places</span>
+    <span class="identifier">jumpTo</span>( <select name="jumper" id="jumper">
+    	<option value="-1" selected="selected" disabled="disabled">Please  select</option>
+    	<option value="0">About Me</option>
+    	<option value="1">Projects</option>
+    	<option value="2">Creative Writing</option>
+    	<option value="3">Drawings</option>
+    	<option value="4">Professional Experience</option>
+    	<option value="5">Connect With Me</option>
+    	<option value="6">Built With</option>
+    </select> ); <span class="comment">// 0-based index, remember</span>
+})();<!--
+				--></code></pre>
+			</div><!-- .code__inner -->
+		</div><!-- .code -->
+	</section><!-- .section-code -->
+
+	<section class="section-about">
+		<h1 class="font--serif align--center">
+			<span class="underline">About Me</span>
+		</h1>
+		<p>Hey! I am <span class="cherrylove">Navdeep</span> and this is my portfolio. I hail from <span class="grassygreen">India</span> and like you, I am a nerd. A software engineer by profession, I love working on front-end technologies; <span class="goldenapple">JavaScript</span> being my favourite. I love listening to Classic Rock, revering <span class="summersky">Led Zeppelin</span> as eternal Gods. In some parallel universe, I am a padawan of <span class="crimson">Obi-Wan Kenobi</span> wielding a <span class="greensaber">green lightsaber</span>. God! I love <span class="brightyellow">Star Wars</span> - the best thing ever happened to me!</p>
+		<p>I love using <span class="grassygreen">pastel colors</span> and <span class="peacock">2D shapes</span> in my designs. My unreasonable infatuation for <span class="babypink">monospace fonts</span> is always reflected in my work.</p>
+		<p>Oh and I am a <span class="summersky">Madridista</span>, totally into European football. Hala Madrid!</p>
+	</section><!-- .section-about -->
+
+	<section class="section-projects">
+		<h1 class="font--serif align--center">
+			<span class="underline">Projects</span>
+		</h1>
+		<p class="align--center">Below is an array of my favourite projects. Click on any one of them for details.</p>
+		<div class="grid align--center">
+			<div class="col col-4">
+				<a href="/merainstitute" class="project">
+					<img src="assets/img/merainstitute.png" alt="merainstitute" width="160">
+					<h2>merainstitute.com</h2>
+					<p>An aggregation of coaching institutes all across India.</p>
+					<p class="tsize--small">#Cofounder #WebDeveloper #Designer</p>
+				</a><!-- .project -->
+			</div><!-- .col -->
+			<div class="col col-4">
+				<a href="/homearte" class="project">
+					<img src="assets/img/homearte.png" alt="homearte" width="160">
+					<h2>homearte.in</h2>
+					<p>A home decor website specializing in modular kitchens.</p>
+					<p class="tsize--small">#WebDeveloper #Designer</p>
+				</a><!-- .project -->
+			</div><!-- .col -->
+			<div class="col col-4">
+				<a href="/badger" class="project">
+					<img src="assets/img/badger.png" alt="badger" width="160">
+					<h2>BadgerJS</h2>
+					<p>A JavaScript notification library for web applications.</p>
+					<p class="tsize--small">#PersonalProject #WebDeveloper</p>
+				</a><!-- .project -->
+			</div><!-- .col -->
+		</div><!-- .grid -->
+		<p class="align--center">More to come, stay tuned...</p>
+	</section><!-- .section-projects -->
+
+	<section class="section-writing">
+		<h1 class="font--serif align--center">
+			<span class="underline">Creative Writing</span>
+		</h1>
+		<p class="align--center">Sometimes, awesome things brew up in my mind. Some of them, I have tried to turn into written accounts. Read on...</p>
+		<div class="grid">
+			<div class="col col-4">
+				<a href="/the-jester-memoir" class="writing">
+					<h3 class="font--serif align--center">The Jester Memoir</h3>
+					<hr />
+					<p>A recount of one of my childhood experiences.</p>
+					<div class="grid">
+						<div class="col col-6--fixed no-gutter">
+							<p class="tsize--small">Feb 2013</p>
+						</div><!-- .col -->
+						<div class="col col-6--fixed no-gutter">
+							<p class="tsize--small align--right">Word count - 788</p>
+						</div><!-- .col -->
+					</div><!-- .grid -->
+				</a><!-- .writing -->
+			</div><!-- .col -->
+			<div class="col col-4">
+				<a href="/the-classic-rock-juggernaut" class="writing">
+					<h3 class="font--serif align--center">The Classic Rock Juggernaut</h3>
+					<hr />
+					<p>A dream that I had about the mighty Led Zeppelin.</p>
+					<div class="grid">
+						<div class="col col-6--fixed no-gutter">
+							<p class="tsize--small">Jun 2014</p>
+						</div><!-- .col -->
+						<div class="col col-6--fixed no-gutter">
+							<p class="tsize--small align--right">Word count - 439</p>
+						</div><!-- .col -->
+					</div><!-- .grid -->
+				</a><!-- .writing -->
+			</div><!-- .col -->
+			<div class="col col-4">
+				<a href="/good-and-evil" class="writing">
+					<h3 class="font--serif align--center">Good and Evil</h3>
+					<hr />
+					<p>A poem on the interdependence of the two opposing forces.</p>
+					<div class="grid">
+						<div class="col col-6--fixed no-gutter">
+							<p class="tsize--small">May 2011</p>
+						</div><!-- .col -->
+						<div class="col col-6--fixed no-gutter">
+							<p class="tsize--small align--right">Word count - 250</p>
+						</div><!-- .col -->
+					</div><!-- .grid -->
+				</a><!-- .writing -->
+			</div><!-- .col -->
+		</div><!-- .grid -->
+	</section><!-- .section-writing -->
+
+	<section class="section-drawings">
+		<h1 class="font--serif align--center">
+			<span class="underline">Drawings</span>
+		</h1>
+		<div class="align--center grid">
+			<div class="col col-3">
+				<div class="drawing img-wrapper">
+					<a href="#" class="drawing__card" data-imgs='[{"href":"assets/img/drawing-arnie.jpg"},{"href":"assets/img/drawing-snowy-bridge.jpg"},{"href":"assets/img/drawing-genie.jpg"},{"href":"assets/img/drawing-three-friends.jpg"}]' tabindex="-1">
+						<img src="assets/img/drawing-arnie.jpg" alt="Arnie">
+					</a>
+				</div><!-- .drawing -->
+			</div><!-- .col -->
+			<div class="col col-3">
+				<div class="drawing img-wrapper">
+					<a href="#" class="drawing__card" data-imgs='[{"href":"assets/img/drawing-snowy-bridge.jpg"},{"href":"assets/img/drawing-genie.jpg"},{"href":"assets/img/drawing-three-friends.jpg"},{"href":"assets/img/drawing-arnie.jpg"}]' tabindex="-1">
+						<img src="assets/img/drawing-snowy-bridge.jpg" alt="Snowy Bridge">
+					</a>
+				</div><!-- .drawing -->
+			</div><!-- .col -->
+			<div class="col col-3">
+				<div class="drawing img-wrapper">
+					<a href="#" class="drawing__card" data-imgs='[{"href":"assets/img/drawing-genie.jpg"},{"href":"assets/img/drawing-three-friends.jpg"},{"href":"assets/img/drawing-arnie.jpg"},{"href":"assets/img/drawing-snowy-bridge.jpg"}]' tabindex="-1">
+						<img src="assets/img/drawing-genie.jpg" alt="Genie">
+					</a>
+				</div><!-- .drawing -->
+			</div><!-- .col -->
+			<div class="col col-3">
+				<div class="drawing img-wrapper">
+					<a href="#" class="drawing__card" data-imgs='[{"href":"assets/img/drawing-three-friends.jpg"},{"href":"assets/img/drawing-arnie.jpg"},{"href":"assets/img/drawing-snowy-bridge.jpg"},{"href":"assets/img/drawing-genie.jpg"}]' tabindex="-1">
+						<img src="assets/img/drawing-three-friends.jpg" alt="Three Friends">
+					</a>
+				</div><!-- .drawing -->
+			</div><!-- .col -->
+		</div><!-- .grid -->
+	</section><!-- .section-drawings -->
+
+	<section class="section-xp">
+		<h1 class="font--serif align--center">
+			<span class="underline">Professional Experience</span>
+		</h1>
+		<div class="xp grid">
+			<div class="col col-4">
+				<strong>Nov 2015 - present</strong>
+			</div><!-- .col -->
+			<div class="col col-8">
+				Software Engineer at Kore Inc., Hyderabad <a href="#reveal" class="toggle tsize--small" data-target="#kore" tabindex="-1">view details</a>
+				<ul id="kore" class="hide">
+					<li>Part of team looking after client-side aspects of enterprise admin console of Kore’s web application</li>
+					<li>Primary work on JavaScript, jQuery, Handlebars, HTML5 and CSS3</li>
+				</ul>
+			</div><!-- .col -->
+		</div><!-- .xp.grid -->
+		<div class="xp grid">
+			<div class="col col-4">
+				<strong>May 2015 - Oct 2015</strong>
+			</div><!-- .col -->
+			<div class="col col-8">
+				Startup and freelancing <a href="#reveal" class="toggle tsize--small" data-target="#startup" tabindex="-1">view details</a>
+				<ul id="startup" class="hide">
+					<li>Co-founded merainstitute.com</li>
+					<li>Front-end developer for homearte.in</li>
+					<li>Skills acquired in jQuery, Backbone and Handlebars</li>
+					<li>Used Stylus and SASS for writing maintainable stylesheets</li>
+				</ul>
+			</div><!-- .col -->
+		</div><!-- .xp.grid -->
+		<div class="xp grid">
+			<div class="col col-4">
+				<strong>Jul 2013 - Apr 2015</strong>
+			</div><!-- .col -->
+			<div class="col col-8">
+				Associate Software Engineer at ClearTrail Technologies Pvt. Ltd., Indore <a href="#reveal" class="toggle tsize--small" data-target="#cleartrail" tabindex="-1">view details</a>
+				<ul id="cleartrail" class="hide">
+					<li>Responsible for maintaining audit reports that present complex data to user in a simplified manner</li>
+					<li>Active member of software release cycle</li>
+					<li>Primary work on C# ASP.NET web applications, Windows services, MS SQL Server, HTML5, CSS3 and JavaScript</li>
+				</ul>
+			</div><!-- .col -->
+		</div><!-- .xp.grid -->
+		<div class="xp grid">
+			<div class="col col-4">
+				<strong>May 2013</strong>
+			</div><!-- .col -->
+			<div class="col col-8">
+				Graduated from Shri G.S. Institute of Technology and Science, Indore <a href="#reveal" class="toggle tsize--small" data-target="#college" tabindex="-1">view details</a>
+				<ul id="college" class="hide">
+					<li>Earned Bachelor of Engineering (B.E.) in Computer Engineering, First Class</li>
+				</ul>
+			</div><!-- .col -->
+		</div><!-- .xp.grid -->
+	</section><!-- .section-xp -->
+
+	<section class="section-connect">
+		<h1 class="font--serif align--center">
+			<span class="underline">Connect With Me</span>
+		</h1>
+		<p class="align--center">I keep regular tabs on the following, feel free to ping me...</p>
+		<p class="align--center">
+			<a href="mailto:navdeepb3191@gmail.com" rel="nofollow" target="_blank" title="navdeepb3191@gmail.com" tabindex="-1">
+				<span class="fa fa-envelope-o fa-2x"></span>
+			</a>
+			<a href="https://www.facebook.com/navdeepsb" rel="nofollow" target="_blank" title="/navdeepsb" tabindex="-1">
+				<span class="fa fa-facebook-square fa-2x"></span>
+			</a>
+			<a href="https://www.twitter.com/navdeepsb" rel="nofollow" target="_blank" title="@navdeepsb" tabindex="-1">
+				<span class="fa fa-twitter fa-2x"></span>
+			</a>
+			<a href="https://plus.google.com/+NavdeepSinghBagga" rel="nofollow" target="_blank" title="+NavdeepSinghBagga" tabindex="-1">
+				<span class="fa fa-google-plus fa-2x"></span>
+			</a>
+		</p>
+	</section><!-- .section-connect -->
+
+	<section class="section-builtwith">
+		<h1 class="font--serif align--center">
+			<span class="underline">Built With</span>
+		</h1>
+		<p class="align--center">A humble thanks to below awesome projects for augmenting my portfolio.</p>
+		<p class="align--center hide">
+			<a href="https://jquery.com/" rel="nofollow" target="_blank" tabindex="-1">jQuery</a>
+			<a href="https://www.google.com/fonts" rel="nofollow" target="_blank" tabindex="-1">Google Fonts</a>
+			<a href="http://fortawesome.github.io/Font-Awesome" rel="nofollow" target="_blank" tabindex="-1">Font Awesome</a>
+			<a href="http://brutaldesign.github.io/swipebox/" rel="nofollow" target="_blank" tabindex="-1">Swipebox</a>
+			<a href="http://www.sublimetext.com/" rel="nofollow" target="_blank" tabindex="-1">Sublime Text</a>
+		</p>
+		<ol>
+			<li>
+				<a href="https://jquery.com/" rel="nofollow" target="_blank" tabindex="-1">jQuery</a>
+			</li>
+			<li>
+				<a href="https://www.google.com/fonts" rel="nofollow" target="_blank" tabindex="-1">Google Fonts</a>
+			</li>
+			<li>
+				<a href="http://fortawesome.github.io/Font-Awesome" rel="nofollow" target="_blank" tabindex="-1">Font Awesome</a>
+			</li>
+			<li>
+				<a href="http://brutaldesign.github.io/swipebox/" rel="nofollow" target="_blank" tabindex="-1">Swipebox</a>
+			</li>
+			<li>
+				<a href="http://www.sublimetext.com/" rel="nofollow" target="_blank" tabindex="-1">Sublime Text</a>
+			</li>
+		</ol>
+	</section><!-- .section-builtwith -->
+
+	<footer class="footer">
+		<p class="align--center">
+			May the Force be with you.
+		</p>
+	</footer><!-- .footer -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/js/jquery.swipebox.min.js"></script>
+	<script src="assets/js/expansions.js?v=1.0.0"></script>
+	<script src="assets/js/main.js?v=1.0.0"></script>
 </body>
 </html>
-
-<!-- @author Navdeep -->

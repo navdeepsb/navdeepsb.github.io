@@ -1,0 +1,15 @@
+.font--serif {
+	font-family: "Roboto Slab", serif;
+}
+
+.tsize--small {
+	font-size: 0.7rem;
+}
+
+.tsize--normal {
+	font-size: 1rem;
+}
+
+.tsize--big {
+	font-size: 2rem;
+}

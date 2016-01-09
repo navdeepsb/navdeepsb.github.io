@@ -1,0 +1,29 @@
+.xp a {
+	margin-left: 5px;
+}
+
+.xp ul {
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+.xp .col:first-child {
+	text-align: left;
+}
+@media screen and ( min-width: 700px ) {
+	.xp .col:first-child {
+		text-align: right;
+	}
+}
+
+.xp .col:nth-child( 2 ) {
+	border-bottom: 1px solid #ddd;
+}
+@media screen and ( min-width: 700px ) {
+	.xp .col:nth-child( 2 ) {
+		border-bottom: 0;
+	}
+}
+.xp:last-child .col {
+	border-bottom: 0;
+}

@@ -1,0 +1,33 @@
+.writing {
+	display: block;
+	padding: 20px;
+	min-height: 200px;
+	color: white;
+	background: #73626e;
+	border-radius: 3px;
+	box-shadow: 0 2px 0 white, 0 7px 0 rgba( 0, 0, 0, 0.1 );
+}
+
+.writing h3 {
+	font-weight: normal;
+	margin-top: 0;
+}
+
+.writing hr {
+	border-top: 2px solid rgba( 255, 255, 255, 0.2 );
+}
+
+.section-writing .col:nth-child(1) .writing {
+	background: #413e4a;
+}
+.section-writing .col:nth-child(2) .writing {
+	background: #b38184;
+}
+.section-writing .col:nth-child(3) .writing {
+	background: #73626e;
+}
+
+
+.writing__full p {
+	text-align: justify;
+}

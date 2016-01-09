@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BadgerJS | navdeepsb</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+	<link rel="stylesheet" href="../assets/css/reset.css?v=1.0.0">
+	<link rel="stylesheet" href="../assets/css/typography.css?v=1.0.0">
+	<link rel="stylesheet" href="../assets/css/header.css?v=1.0.0">
+	<link rel="stylesheet" href="../assets/css/project.css?v=1.0.0">
+	<link rel="stylesheet" href="../assets/css/footer.css?v=1.0.0">
+	<link rel="stylesheet" href="../assets/css/grid.css?v=1.0.0">
+	<link rel="stylesheet" href="../assets/css/util.css?v=1.0.0">
+</head>
+<body>
+	<header class="header grid">
+		<div class="col col-4 no-gutter">
+			<a href="/" tabindex="-1">
+				<div class="header__ele header__dp img-wrapper">
+					<img src="http://www.gravatar.com/avatar/a1e227f5dc4280bfbe04aef8bcbf1373?s=80" alt="Navdeep Singh Bagga | navdeepsb">
+				</div>
+				<span class="header__ele">Navdeep Singh Bagga</span>
+			</a>
+		</div><!-- .col -->
+		<div class="col col-4 no-gutter align--center">
+			nsb
+		</div><!-- .col -->
+		<div class="col col-4 no-gutter align--right">
+			<span class="expansion">readmode</span>
+		</div><!-- .col -->
+	</header><!-- .header.grid -->
+
+	<section class="bg-basic">
+		<h1 class="font--serif">
+			<span class="tsize--big">BadgerJS</span>
+		</h1>
+		<hr />
+		<p>
+			Personal project, Developer
+		</p>
+	</section>
+
+	<section class="bg-about">
+		<h2 class="font--serif">About</h2>
+		<p>Badger is a JavaScript notification library that I wrote to solve the disturbance caused in user experience in traditional form validations. A common way to convey error messages in forms are to insert an error text right below the input field or above the action button. In this way, the form components change position due to the addition of an extra element in the DOM. Consider a mobile device environment where the viewport is further reduced by the keyboard panel. If the input field is not focussed after the error has occurred, it might be the case that the user can totally ignore the error message and he/she can get confused regarding the form not being submitted despite clicking on the button.<br /><br />Other applications of Badger include displaying quick notifications to the user. These notifications stack one above the other and stay on top of the screen. The notifications can be of three types – success, warn and error. They can be short-lived (three seconds by default) or made to persist until the user taps on them to make them go away. Badger is highly configurable and one can alter the appearance of the notification cards to match the colour scheme of one’s website.</p>
+	</section>
+
+	<section class="bg--demo">
+		<h2 class="font--serif">Demo</h2>
+		<p>Below GIF demonstrates the use of Badger for a typical form validation of empty fields and valid email address. From here on, I shall mention a Badger notification card simply as Badger.</p>
+		<div class="align--center">
+			<img src="../assets/img/badger/demo.gif" alt="badger">
+		</div>
+		<p>Regardless of the size of the viewport, the user will definitely see the card as it appears on the top of the screen. Moreover, the form components with which the user has gotten accustomed to do not change their positions at all. This Badger goes away automatically after a configurable "stay" time.<br /><br />Badger can be effectively used in lengthy forms and to display the results of AJAX requests on the webpage. For example, a user edits his profile and updates the display picture of his account. Instead of finding the best place to show the result of this upload, we can use Badger - a green Badger with appropriate message to show success and a red Badger in case the upload fails.</p>
+	</section>
+
+	<section class="bg-techie">
+		<h2 class="font--serif">Technical details</h2>
+		<p>
+			The library is written in <a href="http://coffeescript.org/" rel="nofollow" target="_blank" tabindex="-1">CoffeeScript</a> that transpiles into JavaScript and has a dependency on <a href="https://jquery.com/" rel="nofollow" target="_blank" tabindex="-1">jQuery</a>. Two APIs are exposed to the user :-
+			<ol>
+				<li>
+					<code>init()</code> - initializes Badger with custom configuration
+				</li>
+				<li>
+					<code>show()</code> - shows the notification cards on the screen
+				</li>
+			</ol>
+		</p>
+		<br />
+		<p>
+			The code is open source, you can find it on <a href="https://github.com/navdeepsb/badger" rel="nofollow" target="_blank" tabindex="-1">Github</a>. Visit the page to know how to use it and for full documentation.
+			<br />
+			<br />
+			Badger is also available on <a href="http://bower.io/" rel="nofollow" target="_blank" tabindex="-10">Bower</a> for quick download and integration.
+		</p>
+	</section>
+
+	<section class="bg-conclusion">
+		<h2 class="font--serif">Conclusion</h2>
+		<p>I love Badger. I used it extensively in my other project - <a href="/merainstitute">merainstitute.com</a> and have also employed it in this website, click <a href="#" class="show-badger">here</a> ;)</p>
+	</section>
+
+	<footer class="footer">
+		<p class="align--center">
+			Do. Or do not. There is no try.
+		</p>
+	</footer><!-- .footer -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="../assets/js/lib/jquery.badger.min.js"></script>
+	<script src="../assets/js/badger-demo.js?v=1.0.0"></script>
+</body>
+</html>
