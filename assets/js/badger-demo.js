@@ -26,8 +26,8 @@ $( document ).ready( function() {
 	});
 
 	// Helper functions:
-	var getRandomNum = function( min, max ) {
-		return Math.floor( Math.random() * ( max - min ) ) + min;
+	var generateRandomNum = function( min, max ) {
+		return Math.floor( Math.random() * max ) + min;
 	};
 
 
@@ -42,7 +42,7 @@ $( document ).ready( function() {
 				badger.show( "So, you like Badger, huh? :)", "warn" );
 				break;
 			default:
-				badger.show( "This is badger no. " + ( counter + 1 ), BADGER_TYPES[ getRandomNum( 0, BADGER_TYPES_LEN ) ] );
+				badger.show( "This is badger no. " + ( counter + 1 ), BADGER_TYPES[ generateRandomNum( 0, BADGER_TYPES_LEN ) ] );
 				break;
 		}
 
