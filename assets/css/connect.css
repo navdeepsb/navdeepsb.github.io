@@ -1,4 +1,4 @@
-.section-connect a {
+.section-connect a:not( .np ) {
 	padding: 5px;
 	margin: 10px;
 	border-bottom: none;
