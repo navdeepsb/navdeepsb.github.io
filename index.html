@@ -20,37 +20,5 @@
     <div id="content"></div>
 
     <script src="public/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script>
-        var gaInit = function() {
-            $.getScript( "//www.google-analytics.com/analytics.js" );
-            window.ga = window.ga || function () {
-                ( ga.q = ga.q || [] ).push( arguments )
-            };
-            ga.l = +new Date;
-            ga( "create", "UA-90739428-1", "auto" );
-
-            return ga;
-        };
-
-        var gaTrack = function( path, title ) {
-            var track = { page: path, title: title };
-
-            ga = window.ga || gaInit();
-
-            ga( "set", "page", path );
-            ga( "send", "pageview" );
-        };
-
-        $( document ).on( "click", "a", function( evt ) {
-            var path  = evt.currentTarget.pathname + evt.currentTarget.hash;
-            var title = evt.currentTarget.title || evt.currentTarget.text;
-            gaTrack( path, title );
-        });
-
-        gaTrack( "/#/", "Portfolio" );
-
-        // ref: http://www.marcusoft.net/2015/05/how-to-get-google-analytics-to-work-for-your-single-page-application.html
-    </script>
 </body>
 </html>

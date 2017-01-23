@@ -1,5 +1,6 @@
 // Import dependencies:
 import React from "react";
+import ReactGA from "react-ga";
 import { render as ReactDOMRender } from "react-dom";
 import { Router, Route, IndexRoute, hashHistory, applyRouterMiddleware } from "react-router";
 import useScroll from "react-router-scroll/lib/useScroll";
@@ -26,6 +27,15 @@ import NotFoundScreen from "./ui/screens/404/main.jsx";
 import "./ui/common/reset.scss";
 
 
+// Google Analytics stuff:
+ReactGA.initialize( "UA-90739428-01" );
+function logPageView() {
+    var url = window.location.pathname + window.location.hash;
+    ReactGA.set({ page: url });
+    ReactGA.pageview( url );
+}
+
+
 class App extends React.Component {
     render() {
         return (
@@ -42,7 +52,7 @@ class App extends React.Component {
 
 
 ReactDOMRender(
-    <Router history={ hashHistory } render={applyRouterMiddleware(useScroll())}>
+    <Router history={ hashHistory } render={applyRouterMiddleware(useScroll())} onUpdate={logPageView}>
         <Route path="/" component={ App }>
             <IndexRoute component={ PortfolioScreen } />
             <Route path="portfolio" component={ PortfolioScreen } />
