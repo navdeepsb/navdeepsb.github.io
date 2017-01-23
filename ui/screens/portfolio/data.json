@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Run Finder",
+        "subtitle": "UX Research. Interaction Design.",
+        "path": "/portfolio/run-finder",
+        "img": "run-finder-thumb.jpg",
+        "show": true
+    },
+    {
+        "title": "Consultant at DTE Energy",
+        "subtitle": "Contextual Inquiry. Consulting.",
+        "path": "/portfolio/consultant-dte",
+        "img": "dte-thumb.jpg",
+        "show": true
+    },
+    {
+        "title": "merainstitute.com",
+        "subtitle": "Startup. Development.",
+        "path": "/portfolio/merainstitute",
+        "img": "mi-thumb.png",
+        "show": true
+    },
+    {
+        "title": "Cyclika",
+        "subtitle": "Qualitative Research.",
+        "path": "/portfolio/cyclika",
+        "img": "cyclika-thumb.jpg",
+        "show": true
+    },
+    {
+        "title": "HomeArte",
+        "subtitle": "Design. Development.",
+        "path": "/portfolio/homearte",
+        "show": false
+    },
+    {
+        "title": "BadgerJS",
+        "subtitle": "Interaction Design. Development.",
+        "path": "/portfolio/badger",
+        "img": "badger-thumb.jpeg",
+        "show": true
+    },
+    {
+        "title": "Lusie",
+        "subtitle": "Development.",
+        "path": "/portfolio/lusie",
+        "img": "lusie-thumb.png",
+        "show": true
+    },
+    {
+        "title": "My Atelier",
+        "subtitle": "Graphic Design.",
+        "path": "/portfolio/atelier",
+        "img": "atelier-thumb.png",
+        "show": true
+    }
+]

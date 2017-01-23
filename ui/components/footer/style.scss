@@ -1,0 +1,60 @@
+$socialMediaLinkSize: 35px;
+$socialMediaIconSize: 17px;
+
+.footer {
+    max-width: 65rem;
+    margin: 0 auto;
+    color: $secondaryText;
+    padding: 0 20px 20px 20px;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            padding: 0 0 20px 0;
+        }
+    }
+
+    .footer__inner {
+        .copyright, .social-media {
+            display: block;
+            vertical-align: middle;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    width: 50%;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .copyright {
+            text-align: center;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    text-align: left;
+                }
+            }
+        }
+
+        .social-media {
+            text-align: center;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    text-align: right;
+                }
+            }
+
+            .social-media__link {
+                display: inline-block;
+                width: $socialMediaLinkSize;
+                height: $socialMediaLinkSize;
+                margin-left: 10px;
+
+                img {
+                    width: $socialMediaIconSize;
+                }
+            }
+        }
+    }
+}

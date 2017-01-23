@@ -1,0 +1,54 @@
+$formControlWidth: 400px;
+
+.contact {
+    p {
+        color: $secondaryText;
+        text-align: center;
+    }
+
+    form {
+        padding: 30px 0;
+
+        input, textarea, button {
+            display: block;
+            width: 100%;
+            outline: none;
+            border: 1px solid darken( white, 20% );
+            padding: 20px;
+            margin: 0 auto 20px auto;
+            font-family: inherit;
+            font-size: 1rem;
+            background: #fdfdfd;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    width: $formControlWidth;
+                }
+            }
+        }
+
+        input:focus, textarea:focus {
+            border: 1px solid darken( white, 40% );
+        }
+
+        button {
+            background: $accent;
+            color: white;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background: darken( $accent, 5% );
+            }
+
+            &:active {
+                background: darken( $accent, 10% );
+            }
+        }
+
+        textarea {
+            resize: none;
+            line-height: 1.5;
+        }
+    }
+}

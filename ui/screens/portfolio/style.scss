@@ -1,0 +1,106 @@
+.portfolio {
+    text-align: center;
+
+    .meta {
+        margin-top: 100px;
+    }
+}
+
+.project {
+    .banner {
+        height: 270px;
+        background: $accent;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                height: 400px;
+                margin-bottom: 40px;
+            }
+        }
+
+        img {
+            display: none;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    display: block;
+                }
+            }
+        }
+
+        .banner__overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            color: white;
+            background: rgba( black, 0 );
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    background: rgba( black, 0.4 );
+                }
+            }
+
+            .banner__text-container {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                right: 20px;
+
+                h3 {
+                    font-family: "Montserrat";
+                    font-weight: bold;
+                    font-size: 2.3rem;
+                    margin-bottom: 0;
+                    word-wrap: break-word;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .content-block {
+        padding-top: 40px;
+
+        h4 {
+            font-weight: bold;
+            font-size: 1.6rem;
+
+            &.subtitle {
+                font-weight: normal;
+                font-style: italic;
+                font-size: 1.2rem;
+            }
+        }
+
+        .img-center {
+            text-align: center;
+        }
+
+        img {
+            border: 1px solid #bebebe;
+
+            & + p {
+                text-align: center;
+                font-size: 0.9rem;
+                margin-bottom: 40px;
+            }
+        }
+
+        .snippet {
+            padding: 20px 0;
+            font-style: italic;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    padding: 20px 120px;
+                }
+            }
+        }
+    }
+}

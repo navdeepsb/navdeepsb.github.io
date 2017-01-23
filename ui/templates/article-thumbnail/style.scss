@@ -1,0 +1,16 @@
+$width: 300px;
+
+.article-thumbnail {
+    max-width: $width;
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    vertical-align: top;
+
+    h3 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+}

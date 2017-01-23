@@ -1,0 +1,62 @@
+.resume {
+    .event {
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .event__timestamp, .event__details {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .event__timestamp {
+        text-align: right;
+        padding-right: 20px;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                width: 35%;
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    }
+
+    .event__details {
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                width: 65%;
+            }
+        }
+
+        .title {
+            margin-bottom: 0;
+            font-size: 1.2rem;
+        }
+
+        .location {
+            margin-top: 0;
+            color: $secondaryText;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    }
+
+    .pdf-text {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

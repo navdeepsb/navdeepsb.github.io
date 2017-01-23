@@ -1,0 +1,27 @@
+[
+    {
+        "type": "linkedin",
+        "background": "#007BB6",
+        "to": "https://www.linkedin.com/in/navdeepsb"
+    },
+    {
+        "type": "facebook",
+        "background": "#3B5998",
+        "to": "https://www.facebook.com/navdeepsb"
+    },
+    {
+        "type": "twitter",
+        "background": "#00ACED",
+        "to": "https://www.twitter.com/navdeepsb"
+    },
+    {
+        "type": "google-plus",
+        "background": "#DD4B39",
+        "to": "https://plus.google.com/+NavdeepSinghBagga"
+    },
+    {
+        "type": "instagram",
+        "background": "#BC2A8D",
+        "to": "https://www.instagram.com/_navdeepsb_/"
+    }
+]

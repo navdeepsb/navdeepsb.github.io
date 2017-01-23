@@ -1,0 +1,80 @@
+.header {
+    text-align: left;
+    padding: 20px;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            text-align: center;
+        }
+    }
+
+    img {
+        margin: 25px 0;
+    }
+
+    h1 {
+        font-family: "Source Sans Pro", "Calibri", "Arial", sans-serif;
+        font-size: 2.2rem;
+        font-weight: 300;
+        margin: 0;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                font-size: 3.1rem;
+            }
+        }
+    }
+
+    h2 {
+        margin-top: 5px;
+        font-size: 1rem;
+        color: $secondaryText;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    text-align: center;
+                }
+            }
+
+            li {
+                display: block;
+                margin: 10px 0;
+
+                @media screen and (min-width: $breakpoint-web) {
+                    & {
+                        display: inline-block;
+                        margin: 0 20px;
+                    }
+                }
+
+                a {
+                    color: $primaryText;
+
+                    &.active {
+                        color: $accent;
+
+                        @media screen and (min-width: $breakpoint-web) {
+                            & {
+                                box-shadow: 0 6px 0 white, 0 7px $accent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

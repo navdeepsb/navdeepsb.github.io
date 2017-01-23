@@ -1,0 +1,25 @@
+$width: 300px;
+
+
+.proj-thumbnail {
+    max-width: $width;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+
+    .box {
+        width: $width;
+        height: $width;
+        background: $accent;
+    }
+
+    h3 {
+        color: $primaryText;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        margin: 0;
+    }
+}

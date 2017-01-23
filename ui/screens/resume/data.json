@@ -1,0 +1,73 @@
+[
+    {
+        "timerange": "Jan 2017 - present",
+        "title": "UX Designer at UMSI Design Clinic",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Performing qualitative research for a voice-based telehealth system",
+            "Designing for the elderly"
+        ]
+    },
+    {
+        "timerange": "Sep 2016 - present",
+        "title": "University of Michigan School of Information",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "M.S. candidate in Information, 2018",
+            "Specializing in Human-Computer Interaction",
+            "Information Officer of the master’s association",
+            "Cumulative GPA - 4.00",
+            "Go Blue!"
+        ]
+    },
+    {
+        "timerange": "Nov 2015 - Jun 2016",
+        "title": "Front-End Developer at Kore Inc.",
+        "location": "Hyderabad, India",
+        "details": [
+            "Worked on the front-end of the enterprise administration console",
+            "Refactored and created web modules in a custom jQuery framework",
+            "Primary work on JavaScript, jQuery, Handlebars, HTML5 and CSS3"
+        ]
+    },
+    {
+        "timerange": "Oct 2015",
+        "title": "Front-End Developer at HomeArte",
+        "location": "Indore, India",
+        "details": [
+            "Designed and developed Phase 1 of the website",
+            "Integrated web pages with a Spring MVC back-end using jQuery"
+        ]
+    },
+    {
+        "timerange": "May 2015 - Sep 2015",
+        "title": "Co-Founder at merainstitute.com",
+        "location": "Indore, India",
+        "details": [
+            "Sole front-end developer",
+            "Designed and developed the entire website",
+            "In charge of public relations, content writing and branding"
+        ]
+    },
+    {
+        "timerange": "Jul 2013 - Apr 2015",
+        "title": "Associate Software Developer at ClearTrail Technologies Pvt. Ltd.",
+        "location": "Indore, India",
+        "details": [
+            "Wrote modules for an existing ASP.NET web application",
+            "Maintained an alert manager Windows service",
+            "Designed and developed web audit reports",
+            "Primary work on JavaScript, HTML and CSS along with PL/SQL procedures",
+            "Active member of software release cycle"
+        ]
+    },
+    {
+        "timerange": "Sep 2009 - May 2013",
+        "title": "Shri G.S. Institute of Technology and Science",
+        "location": "Indore, India",
+        "details": [
+            "Awarded Bachelor of Engineering (B.E.) in the First Division",
+            "Majored in Computer Engineering"
+        ]
+    }
+]
