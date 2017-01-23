@@ -35,7 +35,7 @@ export default class Resume extends React.Component {
                     return <Event data={ event } key={ idx } />;
                 }) }
                 <p className="pdf-text">
-                    <a href={ require( "./resume.pdf" ) } target="_blank" rel="nofollow" title="Resume PDF">Download PDF</a>
+                    <a href={ require( "./Resume - Navdeep Singh Bagga.pdf" ) } target="_blank" rel="nofollow" title="Resume PDF">Download PDF</a>
                 </p>
             </div>
         );
