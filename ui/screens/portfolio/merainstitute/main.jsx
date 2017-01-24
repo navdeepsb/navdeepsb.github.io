@@ -45,7 +45,7 @@ export default class MeraInstitute extends React.Component {
                     <h4>Technical Details</h4>
                     <p>Source code is available on <a href="https://github.com/navdeepsb/merainstitute-gists" target="_blank" rel="nofollow" tabIndex="-1" title="Source Code of merainstitute.com">Github</a>. This is a "gist" repo branched out from the main repo to show only the front-end code. The repo is just a collection of files. The actual working project is available with me, please contact me personally if you want to see it.</p>
                     <br />
-                    <p>This startup was not only an opportunity for entrepreneurship but also to sharpen by front-end development skills. I was the sole front-end developer and designed, developed and intergrated the web pages with a Spring MVC back-end. I used Handlebars to make reusable templates and Backbone to handle complex form submissions. Grunt was used to automate the tasks as well as to cook up the front-end assets.</p>
+                    <p>This startup was not only an opportunity for entrepreneurship but also to sharpen my front-end development skills. I was the sole front-end developer and designed, developed and intergrated the web pages with a Spring MVC back-end. I used Handlebars to make reusable templates and Backbone to handle complex form submissions. Grunt was used to automate the tasks as well as to cook up the front-end assets.</p>
                     <br />
                     <p>Below screenshots are from my development environment and not the production website which is down now. Please excuse the dummy data.</p>
                 </div>
