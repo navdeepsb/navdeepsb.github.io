@@ -44,6 +44,11 @@ module.exports = {
         data: "@import './ui/common/globals';"
     },
     plugins: [
+        new webpack.DefinePlugin({
+            "process.env": {
+                NODE_ENV: JSON.stringify( "production" )
+            }
+        }),
         new webpack.optimize.UglifyJsPlugin({ minimize: true })
     ]
 };

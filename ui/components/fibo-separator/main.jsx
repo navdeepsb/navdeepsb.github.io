@@ -30,7 +30,7 @@ export default class FibonacciSeparator extends React.Component {
         fibNumbers = fibNumbers.concat( dupItems );
 
         return (
-            <div className="separator">
+            <div className="fibo-separator">
                 { fibNumbers.map( ( x, idx ) => {
                     return <div className="item" style={{ width: `${ x }px` }} key={ idx } />;
                 }) }

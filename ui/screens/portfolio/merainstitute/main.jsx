@@ -64,11 +64,6 @@ export default class MeraInstitute extends React.Component {
                 </div>
                 <div className="content-block">
                     <h4>For Coaching Institutes</h4>
-                    <ul>
-                        <li>Manage profile</li>
-                        <li>Adding a course</li>
-                        <li>Adding photos</li>
-                    </ul>
                     <div className="img-center">
                         <img src={ require( "./mi-institute-profile.png" ) } alt="Screenshot of merainstitute.com's institute manage profile page." />
                         <p>Fig. 5 - All the information made available in the pages described above is fed into the system via a "manage profile" page. This page can only be accessed by a institute after logging into the website and is basically a form equipped with partial saves and separated into logical sections. Each section is accessible throught tabs that are present on the top as well as the bottom.</p>
