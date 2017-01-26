@@ -15,13 +15,17 @@ export default class Atelier extends React.Component {
                 <div className="description">
                     <p>All about me in a single slide. Created in Adobe Illustrator.</p>
                 </div>
-                <img src={ require( "./start-finish-share.png" ) } alt="Start. Finish. Share." />
+                <img src={ require( "./flower-collage.png" ) } alt="Flower Collage showcasing Composition" />
                 <div className="description">
-                    <p>I have a thing for silhouettes. Used Adobe Photoshop to convey my new year resolution for 2017.</p>
+                    <p>Peach and its symbolism: an example of composition characterized by random balance and overall harmonious agreement. Created in Adobe Photoshop.</p>
                 </div>
                 <img src={ require( "./frisco.png" ) } alt="San Francisco - City of Dreams" />
                 <div className="description">
                     <p>I always wanted to visit San Francisco and was in Berkeley visiting a good friend of mine during the 2016 holidays. Created this mini-banner in Illustrator for the upcoming awesome trip at that time.</p>
+                </div>
+                <img src={ require( "./start-finish-share.png" ) } alt="Start. Finish. Share." />
+                <div className="description">
+                    <p>I have a thing for silhouettes. Used Adobe Photoshop to convey my new year resolution for 2017.</p>
                 </div>
                 <img src={ require( "./cali-lines.png" ) } alt="Cali Lines" />
                 <div className="description">

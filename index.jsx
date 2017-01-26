@@ -52,7 +52,7 @@ class App extends React.Component {
 
 
 ReactDOMRender(
-    <Router history={ hashHistory } render={applyRouterMiddleware(useScroll())} onUpdate={logPageView}>
+    <Router history={ hashHistory } render={ applyRouterMiddleware( useScroll() ) } onUpdate={ logPageView }>
         <Route path="/" component={ App }>
             <IndexRoute component={ PortfolioScreen } />
             <Route path="portfolio" component={ PortfolioScreen } />
