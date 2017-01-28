@@ -19,7 +19,7 @@ export default class Header extends React.Component {
             <div className="header">
                 <img src={ logoSrc } width="70" alt="Website logo" />
                 <h1>Navdeep Singh Bagga</h1>
-                <h2>Aspiring UX professional seeking summer internship.</h2>
+                <h2>Aspiring UI/UX professional seeking summer internship.</h2>
                 <FibonacciSeparator />
                 <nav>
                     <ul>
