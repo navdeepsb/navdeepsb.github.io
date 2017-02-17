@@ -11,6 +11,10 @@ export default class Atelier extends React.Component {
                 <div className="description">
                     <p>My first jab at Adobe Illustrator. I made four faces using simple shapes; called it Diversity. One of my friends pointed out that the face on the bottom right looked a lot like me which I agreed. I made it the logo of my portfolio website.</p>
                 </div>
+                <img src={ require( "./alphabet-poster.jpg" ) } alt="Alphabet poster - The ABC of Camping" />
+                <div className="description">
+                    <p>The ABC of camping. I used a sans serif typeface (Montserrat) that fit well with the complementary color harmony. This gave an overall modern look which I was aiming for. Purpose of this poster is to hand it over to anyone who wants to go on a camping trip and let them know what they can expect at an awesome experience of camping. The icons used are from flaticon.com and are works of their original authors. Made in Adobe Illustrator.</p>
+                </div>
                 <img src={ require( "./about-me.jpg" ) } alt="About Me slide" />
                 <div className="description">
                     <p>All about me in a single slide. Created in Adobe Illustrator.</p>

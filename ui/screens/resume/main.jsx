@@ -31,12 +31,12 @@ export default class Resume extends React.Component {
     render() {
         return (
             <div className="resume">
-                { resumeEvents.map( ( event, idx ) => {
-                    return <Event data={ event } key={ idx } />;
-                }) }
                 <p className="pdf-text">
                     <a href={ require( "./Resume - Navdeep Singh Bagga.pdf" ) } target="_blank" rel="nofollow" title="Resume PDF">Download PDF</a>
                 </p>
+                { resumeEvents.map( ( event, idx ) => {
+                    return <Event data={ event } key={ idx } />;
+                }) }
             </div>
         );
     }
