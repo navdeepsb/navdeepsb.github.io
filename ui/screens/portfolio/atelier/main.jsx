@@ -19,6 +19,10 @@ export default class Atelier extends React.Component {
                 <div className="description">
                     <p>All about me in a single slide. Created in Adobe Illustrator.</p>
                 </div>
+                <img src={ require( "./infographic-masala-chai.jpg" ) } alt="An infographic about my favorite beverage, Masala Chai (Spiced Tea Latte or Chai Tea Latte)" />
+                <div className="description">
+                    <p>An infographic about my favorite beverage, Masala Chai (Spiced Tea Latte or Chai Tea Latte). Created in Adobe Illustrator.</p>
+                </div>
                 <img src={ require( "./floral-collage.png" ) } alt="Flower Collage showcasing Composition" />
                 <div className="description">
                     <p>Peach and its symbolism: an example of composition characterized by random balance and overall harmonious agreement. Created in Adobe Photoshop.</p>
