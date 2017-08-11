@@ -1,11 +1,21 @@
 [
     {
-        "timerange": "Jan 2017 - present",
+        "timerange": "May 2017 - Aug 2017",
+        "title": "Product Design Intern at Duo Security",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Worked on a data viz project to present user information to admins",
+            "Delivered a new feature to take care of lost/stolen devices",
+            "Moderated a usability test session"
+        ]
+    },
+    {
+        "timerange": "Jan 2017 - Apr 2017",
         "title": "UX Designer at UMSI Design Clinic",
         "location": "Ann Arbor, MI",
         "details": [
-            "Performing qualitative research for a voice-based telehealth system",
-            "Designing for the elderly"
+            "Performed qualitative research for a voice-based telehealth system",
+            "Designed for the elderly"
         ]
     },
     {
@@ -16,7 +26,6 @@
             "M.S. candidate in Information, 2018",
             "Specializing in Human-Computer Interaction",
             "Information Officer of the master’s association",
-            "Cumulative GPA - 4.00",
             "Go Blue!"
         ]
     },
