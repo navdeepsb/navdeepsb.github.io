@@ -5,6 +5,11 @@
         "to": "https://www.linkedin.com/in/navdeepsb"
     },
     {
+        "type": "github",
+        "background": "#24292E",
+        "to": "https://github.com/navdeepsb"
+    },
+    {
         "type": "facebook",
         "background": "#3B5998",
         "to": "https://www.facebook.com/navdeepsb"
