@@ -59,6 +59,6 @@
         "subtitle": "Graphic Design.",
         "path": "/portfolio/atelier",
         "img": "atelier-thumb.png",
-        "show": true
+        "show": false
     }
 ]

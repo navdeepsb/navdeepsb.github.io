@@ -24,6 +24,7 @@ export default class Header extends React.Component {
                 <nav>
                     <ul>
                         <li><IndexLink to="/" activeClassName="active">Portfolio</IndexLink></li>
+                        <li><Link to="/atelier" activeClassName="active">Graphic Design</Link></li>
                         <li><Link to="/creative-writing" activeClassName="active">Creative Writing</Link></li>
                         <li><Link to="/resume" activeClassName="active">Resume</Link></li>
                         <li><Link to="/contact" activeClassName="active">Get In Touch</Link></li>

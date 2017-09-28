@@ -59,7 +59,7 @@ export default class Atelier extends React.Component {
                 <div className="description">
                     <p>The logo I designed for my startup, <Link to="portfolio/merainstitute" tabIndex="-1">merainstitute.com</Link>. The word "merainstitute" is made up of two words - "mera", meaning "my" in Hindi, and "institute", so the website means "my institute". I decided to focus on the letters "m" and "i" and this logo perfectly captures both these alphabets in a single shape. Designed in MS PowerPoint.</p>
                 </div>
-                <img src={ require( "../lusie/lusie-logo.png" ) } alt="Lusie logo" className="logo" />
+                <img src={ require( "./lusie-logo.png" ) } alt="Lusie logo" className="logo" />
                 <div className="description">
                     <p>The logo for <Link to="portfolio/lusie" tabIndex="-1">Lusie</Link>. I used the number "51" to represent the letters "si" in the word "lusie". The end-result is quirky and very closely resembles the game, housie, which I automated. Designed in MS PowerPoint.</p>
                 </div>
