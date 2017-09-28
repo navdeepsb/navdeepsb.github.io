@@ -31,6 +31,16 @@ img {
     max-width: 100%;
 }
 
+figure {
+    margin: 0;
+
+    figcaption {
+        text-align: center;
+        font-size: 0.9rem;
+        margin: 20px 0 40px 0;
+    }
+}
+
 .container {
     max-width: 65rem;
     min-height: 400px;

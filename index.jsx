@@ -16,6 +16,7 @@ import CyclikaScreen from "./ui/screens/portfolio/cyclika/main.jsx";
 import LusieScreen from "./ui/screens/portfolio/lusie/main.jsx";
 import AtelierScreen from "./ui/screens/portfolio/atelier/main.jsx";
 import BadgerScreen from "./ui/screens/portfolio/badger/main.jsx";
+import WorthyScreen from "./ui/screens/portfolio/worthy/main.jsx";
 import MeraInstituteScreen from "./ui/screens/portfolio/merainstitute/main.jsx";
 import CreativeWritingScreen from "./ui/screens/creative-writing/main.jsx";
 import ResumeScreen from "./ui/screens/resume/main.jsx";
@@ -62,6 +63,7 @@ ReactDOMRender(
             <Route path="portfolio/lusie" component={ LusieScreen } />
             <Route path="portfolio/atelier" component={ AtelierScreen } />
             <Route path="portfolio/badger" component={ BadgerScreen } />
+            <Route path="portfolio/worthy" component={ WorthyScreen } />
             <Route path="portfolio/merainstitute" component={ MeraInstituteScreen } />
             <Route path="creative-writing" component={ CreativeWritingScreen } />
             <Route path="creative-writing/:articleName" component={ Article } />

@@ -1,7 +1,14 @@
 [
     {
+        "title": "Worthy",
+        "subtitle": "UX Research + Design. IxDesign.",
+        "path": "/portfolio/worthy",
+        "img": "worthy-thumb.jpg",
+        "show": true
+    },
+    {
         "title": "Run Finder",
-        "subtitle": "UX Research. Interaction Design.",
+        "subtitle": "UX Research. IxDesign.",
         "path": "/portfolio/run-finder",
         "img": "run-finder-thumb.jpg",
         "show": true
@@ -35,7 +42,7 @@
     },
     {
         "title": "BadgerJS",
-        "subtitle": "Interaction Design. Development.",
+        "subtitle": "IxDesign. Development.",
         "path": "/portfolio/badger",
         "img": "badger-thumb.jpeg",
         "show": true
