@@ -1,5 +1,12 @@
 [
     {
+        "title": "Run Finder",
+        "subtitle": "UX Research. IxDesign.",
+        "path": "/portfolio/run-finder",
+        "img": "run-finder-thumb.jpg",
+        "show": true
+    },
+    {
         "title": "Worthy",
         "subtitle": "UX Research + Design. IxDesign.",
         "path": "/portfolio/worthy",
@@ -7,10 +14,29 @@
         "show": true
     },
     {
-        "title": "Run Finder",
-        "subtitle": "UX Research. IxDesign.",
-        "path": "/portfolio/run-finder",
-        "img": "run-finder-thumb.jpg",
+        "title": "Lost Endpoints Workflow @ Duo",
+        "subtitle": "UX Research + Design.",
+        "path": "/portfolio/endpoints-ra",
+        "img": "duo-thumb.png",
+        "show": true
+    },
+    {
+        "title": "Endpoints Reporting & Analysis @ Duo",
+        "subtitle": "UX Research + Design. Data Viz.",
+        "path": "/portfolio/endpoints-ra",
+        "img": "duo-thumb.png",
+        "show": false
+    },
+    {
+        "title": "Usability Evaluation of Expedia",
+        "subtitle": "UX Research.",
+        "path": "/portfolio/expedia",
+        "show": true
+    },
+    {
+        "title": "Audioate",
+        "subtitle": "UX Research. Consulting.",
+        "path": "/portfolio/audioate",
         "show": true
     },
     {
