@@ -18,6 +18,7 @@ export default class Worthy extends React.Component {
                         </div>
                     </div>
                 </div>
+                <p style={{ textAlign: "right" }}>Not interested in the process? <a href="https://marvelapp.com/35e21i0" rel="nofollow" target="_blank" tabIndex="-1" title="Hi-fi prototype hosted on Marvel App">Open prototype in new tab</a></p>
                 <div className="content-block">
                     <h4>The Backstory</h4>
                     <p>Since I have arrived in the US, I have become diligent about my expenses and having multiple dispersed sources of money such as bank accounts, credit cards and even things like Venmo, have hindered my ability to micro-manage my transactions.</p>
