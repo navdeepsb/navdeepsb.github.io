@@ -5,7 +5,7 @@ import "./style.scss";
 
 export default class ArticleTpl extends React.Component {
     render() {
-        var data = this.props.data;
+        let data = this.props.data;
 
         return (
             <div className="article">

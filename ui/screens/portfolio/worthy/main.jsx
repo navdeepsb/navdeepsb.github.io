@@ -1,23 +1,24 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss"
 
 export default class Worthy extends React.Component {
     render() {
         // Variables:
         let listItemGutter = "20px";
+        let bannerData = {
+            projName: "Worthy",
+            roles: "UX Researcher + Designer, Interaction Designer",
+            duration: "Sep- 2017",
+            imgSrc: require( "./olga-delawrence-dollars-unsplash.jpg" ),
+            inProgress: true
+        };
 
         return (
             <div className="project">
-                <div className="banner img-wrapper">
-                    <img src={ require( "./olga-delawrence-dollars-unsplash.jpg" ) } alt="Worthy banner" />
-                    <div className="banner__overlay">
-                        <div className="banner__text-container">
-                            <h3>Worthy <span className="badge">In Progress</span></h3>
-                            <p>Role: UX Researcher + Designer, Interaction Designer | Sep- 2017</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <p style={{ textAlign: "right" }}>Not interested in the process? <a href="https://marvelapp.com/35e21i0" rel="nofollow" target="_blank" tabIndex="-1" title="Hi-fi prototype hosted on Marvel App">Open prototype in new tab</a></p>
                 <div className="content-block">
                     <h4>The Backstory</h4>

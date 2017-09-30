@@ -1,20 +1,21 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss"
 
 export default class ConsultantDTE extends React.Component {
     render() {
+        let bannerData = {
+            projName: "Cyclika",
+            roles: "UX Researcher",
+            duration: "Oct 2016 - Jan 2017",
+            imgSrc: require( "./cyclika-banner.jpg" )
+        };
+
         return (
             <div className="project">
-                <div className="banner img-wrapper">
-                    <img src={ require( "./cyclika-banner.jpg" ) } alt="Cyclika banner" />
-                    <div className="banner__overlay">
-                        <div className="banner__text-container">
-                            <h3>Cyclika</h3>
-                            <p>Role: UX Researcher | Oct 2016 - Jan 2017</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
                     <h4>Highlights</h4>
                     <ul>

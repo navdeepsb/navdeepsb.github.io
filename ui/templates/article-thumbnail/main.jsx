@@ -7,8 +7,8 @@ import { Link } from "react-router";
 
 export default class ArticleThumbnail extends React.Component {
     render() {
-        var data = this.props.data;
-        var preview = data.content.substr( 0, 200 );
+        let data = this.props.data;
+        let preview = data.content.substr( 0, 200 );
 
         return (
             <div className="article-thumbnail">

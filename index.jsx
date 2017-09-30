@@ -31,7 +31,7 @@ import "./ui/common/reset.scss";
 // Google Analytics stuff:
 ReactGA.initialize( "UA-90739428-01" );
 function logPageView() {
-    var url = window.location.pathname + window.location.hash;
+    let url = window.location.pathname + window.location.hash;
     ReactGA.set({ page: url });
     ReactGA.pageview( url );
 }

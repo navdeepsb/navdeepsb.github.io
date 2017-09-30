@@ -1,24 +1,25 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss"
 
 export default class ConsultantDTE extends React.Component {
     render() {
+        let bannerData = {
+            projName: "Consultant at DTE Energy",
+            roles: "UX Researcher, Consultant",
+            duration: "Sep-Dec 2016",
+            imgSrc: require( "./dte-banner.jpg" )
+        };
+
         return (
             <div className="project">
-                <div className="banner img-wrapper">
-                    <img src={ require( "./dte-banner.jpg" ) } alt="Consultant DTE banner" />
-                    <div className="banner__overlay">
-                        <div className="banner__text-container">
-                            <h3>Consultant at DTE Energy</h3>
-                            <p>Roles: UX Researcher, Consultant | Sep-Dec 2016</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
                     <h4>Objective</h4>
-                    <p>To evaluate current work practices and suggest recommendations to improve the existing workflow of Detroit-based utilites company, DTE Energy. I worked with three other team members to provide an outside perspective on the workflow and we worked together over the course of four months researching and analysing the client needs through user-centered design techniques such as contextual inquiry and making an affinity wall.</p>
-                    <p>The final report as well as the artefacts for each of the steps of the process followed are available on request, please contact me at navdeepb@umich.edu and I will be happy to share them with you.</p>
+                    <p>To evaluate current work practices and suggest recommendations to improve the existing workflow of Detroit-based utilites company, DTE Energy. I worked with 3 other team members to provide an outside perspective on the workflow and we worked together over the course of 4 months researching and analysing the client needs through user-centered design techniques such as contextual inquiry and making an affinity wall.</p>
+                    <p>The final report as well as the artefacts for each of the steps of the process followed are available on request and not published here due to an <strong>NDA agreement</strong>. Please contact me at navdeepb@umich.edu and I will be happy to share them with you.</p>
                 </div>
                 <div className="content-block">
                     <h4>The Process</h4>

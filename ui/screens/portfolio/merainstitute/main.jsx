@@ -1,20 +1,21 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss"
 
 export default class MeraInstitute extends React.Component {
     render() {
+        let bannerData = {
+            projName: "merainstitute.com",
+            roles: "Co-Founder, Front-End Developer",
+            duration: "May-Sep 2015",
+            imgSrc: require( "./merainstitute-banner.png" )
+        };
+
         return (
             <div className="project">
-                <div className="banner img-wrapper">
-                    <img src={ require( "./merainstitute-banner.png" ) } alt="merainstitute.com banner" />
-                    <div className="banner__overlay" style={{ background: "none" }}>
-                        <div className="banner__text-container">
-                            <h3>merainstitute.com</h3>
-                            <p>Roles: Co-founder, Front-End Developer | May-Sep 2015</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
                     <h4>Problem Statement</h4>
                     <p>To aggregate academic coaching institutes all over India providing preparation for highly competitive exams like JEE and AIIMS in a single website for students to easily decide the institute they want to join.</p>

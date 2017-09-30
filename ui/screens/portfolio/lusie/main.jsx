@@ -1,19 +1,20 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss"
 
 export default class Lusie extends React.Component {
     render() {
+        let bannerData = {
+            projName: "Lusie",
+            roles: "Problem Solver, Developer",
+            duration: "Oct 2015"
+        };
+
         return (
             <div className="project">
-                <div className="banner img-wrapper" style={{ background: "#ff6b6b" }}>
-                    <div className="banner__overlay" style={{ background: "none" }}>
-                        <div className="banner__text-container">
-                            <h3>Lusie</h3>
-                            <p>Roles: Problem Solver, Developer | Oct 2015</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
                     <h4>Problem Statement</h4>
                     <p>To automate the household board game of housie a.k.a. tambola a.k.a. Indian Bingo.</p>

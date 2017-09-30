@@ -1,19 +1,20 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss"
 
 export default class Badger extends React.Component {
     render() {
+        let bannerData = {
+            projName: "BadgerJS",
+            roles: "Interaction Designer, Developer",
+            duration: "Jun 2015"
+        };
+
         return (
             <div className="project">
-                <div className="banner img-wrapper" style={{ background: "#83AF9B" }}>
-                    <div className="banner__overlay" style={{ background: "none" }}>
-                        <div className="banner__text-container">
-                            <h3>BadgerJS</h3>
-                            <p>Roles: Interaction Designer, Developer | Jun 2015</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
                     <h4>Problem Statement</h4>
                     <p>To display notifications without changing the current DOM structure of a web page.</p>
@@ -28,7 +29,7 @@ export default class Badger extends React.Component {
                 </div>
                 <div className="content-block">
                     <h4>Demo</h4>
-                    <p><img src={ require( "./demo.gif" ) } alt="Demonstration gif of Badger" /></p>
+                    <p style={{ textAlign: "center" }}><img src={ require( "./demo.gif" ) } alt="Demonstration gif of Badger" /></p>
                     <p>
                         Regardless of the size of the viewport, the user will definitely see the card as it appears on the top of the screen. Moreover, the form components with which the user has gotten accustomed to do not change their positions at all. This Badger goes away automatically after a configurable "stay" time.
                         <br /><br />
