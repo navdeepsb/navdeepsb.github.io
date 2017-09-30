@@ -1,12 +1,5 @@
 [
     {
-        "title": "Run Finder",
-        "subtitle": "UX Research. IxDesign.",
-        "path": "/portfolio/run-finder",
-        "img": "run-finder-thumb.jpg",
-        "show": true
-    },
-    {
         "title": "Worthy",
         "subtitle": "UX Research + Design. IxDesign.",
         "path": "/portfolio/worthy",
@@ -28,6 +21,13 @@
         "show": false
     },
     {
+        "title": "Run Finder",
+        "subtitle": "UX Research. IxDesign.",
+        "path": "/portfolio/run-finder",
+        "img": "run-finder-thumb.jpg",
+        "show": true
+    },
+    {
         "title": "Usability Evaluation of Expedia",
         "subtitle": "UX Research.",
         "path": "/portfolio/expedia",
@@ -37,6 +37,18 @@
         "title": "Audioate",
         "subtitle": "UX Research. Consulting.",
         "path": "/portfolio/audioate",
+        "show": true
+    },
+    {
+        "title": "UMSI Design Clinice",
+        "subtitle": "UX Research + Design.",
+        "path": "/portfolio/umsi-design-clinic",
+        "show": true
+    },
+    {
+        "title": "This Portfolio",
+        "subtitle": "Design. Development.",
+        "path": "/portfolio/this",
         "show": true
     },
     {
