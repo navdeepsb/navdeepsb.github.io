@@ -13,6 +13,10 @@ export default class Worthy extends React.Component {
             roles: "UX Researcher + Designer, Interaction Designer",
             duration: "Sep- 2017",
             imgSrc: require( "./olga-delawrence-dollars-unsplash.jpg" ),
+            imgCredit: {
+                author: "Olga Delawrence",
+                link: "https://unsplash.com/@walkingondream"
+            },
             inProgress: true
         };
 
@@ -177,7 +181,7 @@ export default class Worthy extends React.Component {
                     </div>
                     <br />
                     <br />
-                    <h4 className="subtitle">Monefy</h4>
+                    <h4 className="subtitle">Monefy by MonefyApp</h4>
                     <a href="https://play.google.com/store/apps/details?id=com.monefy.app.lite" rel="nofollow" target="_blank" tabIndex="-1" title="Monefy - Money Manager">View on Google Play</a>
                     <div style={{ overflow: "hidden" }}>
                         <ul className="green" style={{ float: "left" }}>
