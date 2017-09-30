@@ -14,7 +14,7 @@ import links from "./data.json";
 // The component representing a social media link:
 class SocialMediaLink extends React.Component {
     render() {
-        var data = this.props.data;
+        let data = this.props.data;
 
         return (
             <a href={ data.to } className="social-media__link img-wrapper" rel="nofollow" target="_blank" tabIndex="-1" style={{ background: data.background }} title={ `Link to ${ data.type }` }>
@@ -27,7 +27,7 @@ class SocialMediaLink extends React.Component {
 
 export default class Footer extends React.Component {
     render() {
-        var currYear = new Date().getFullYear();
+        let currYear = new Date().getFullYear();
 
         return (
             <div className="footer">

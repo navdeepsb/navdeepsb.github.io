@@ -1,20 +1,21 @@
 import React from "react";
 
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
 import "../style.scss";
 
 export default class RunFinder extends React.Component {
     render() {
+        let bannerData = {
+            projName: "Run Finder",
+            roles: "UX Researcher, Interaction Designer",
+            duration: "Sep-Dec 2016",
+            imgSrc: require( "./run-finder-banner.jpg" )
+        };
+
         return (
             <div className="project">
-                <div className="banner img-wrapper">
-                    <img src={ require( "./run-finder-banner.jpg" ) } alt="Run Finder banner" />
-                    <div className="banner__overlay">
-                        <div className="banner__text-container">
-                            <h3>Run Finder</h3>
-                            <p>Roles: UX Researcher, Interaction Designer | Sep-Dec 2016</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
                     <h4>Problem Statement</h4>
                     <p>
