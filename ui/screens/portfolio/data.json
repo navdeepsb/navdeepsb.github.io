@@ -10,7 +10,7 @@
         "title": "Lost Endpoints Workflow @ Duo",
         "subtitle": "UX Research + Design.",
         "path": "/portfolio/endpoints-ra",
-        "img": "duo-thumb.png",
+        "img": "lost-endpoints-thumb.jpg",
         "show": true
     },
     {
@@ -31,6 +31,7 @@
         "title": "Usability Evaluation of Expedia",
         "subtitle": "UX Research.",
         "path": "/portfolio/expedia",
+        "img": "expedia-thumb.png",
         "show": true
     },
     {
@@ -40,15 +41,15 @@
         "show": true
     },
     {
-        "title": "UMSI Design Clinice",
-        "subtitle": "UX Research + Design.",
-        "path": "/portfolio/umsi-design-clinic",
-        "show": true
-    },
-    {
         "title": "This Portfolio",
         "subtitle": "Design. Development.",
         "path": "/portfolio/this",
+        "show": true
+    },
+    {
+        "title": "UMSI Design Clinic",
+        "subtitle": "UX Research + Design.",
+        "path": "/portfolio/umsi-design-clinic",
         "show": true
     },
     {
