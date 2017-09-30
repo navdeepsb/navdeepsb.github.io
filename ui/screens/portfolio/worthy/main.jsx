@@ -2,11 +2,11 @@ import React from "react";
 
 import "../style.scss"
 
-// Variables:
-let listItemGutter = "20px";
-
 export default class Worthy extends React.Component {
     render() {
+        // Variables:
+        let listItemGutter = "20px";
+
         return (
             <div className="project">
                 <div className="banner img-wrapper">
