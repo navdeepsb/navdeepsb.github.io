@@ -7,14 +7,14 @@
         "show": true
     },
     {
-        "title": "Lost Endpoints Workflow @ Duo",
+        "title": "Lost Endpoints Workflow @ Duo [WIP]",
         "subtitle": "UX Research + Design.",
         "path": "/portfolio/endpoints-ra",
         "img": "lost-endpoints-thumb.jpg",
-        "show": true
+        "show": false
     },
     {
-        "title": "Endpoints Reporting & Analysis @ Duo",
+        "title": "Endpoints Reporting & Analysis @ Duo [WIP]",
         "subtitle": "UX Research + Design. Data Viz.",
         "path": "/portfolio/endpoints-ra",
         "img": "duo-thumb.png",
@@ -28,29 +28,30 @@
         "show": true
     },
     {
-        "title": "Usability Evaluation of Expedia",
+        "title": "Usability Evaluation of Expedia [WIP]",
         "subtitle": "UX Research.",
         "path": "/portfolio/expedia",
         "img": "expedia-thumb.png",
+        "show": false
+    },
+    {
+        "title": "Audiovate",
+        "subtitle": "UX Research. PM. Consulting.",
+        "path": "/portfolio/audiovate",
+        "img": "audiovate-thumb.jpg",
         "show": true
     },
     {
-        "title": "Audioate",
-        "subtitle": "UX Research. Consulting.",
-        "path": "/portfolio/audioate",
-        "show": true
-    },
-    {
-        "title": "This Portfolio",
+        "title": "This Portfolio [WIP]",
         "subtitle": "Design. Development.",
         "path": "/portfolio/this",
-        "show": true
+        "show": false
     },
     {
-        "title": "UMSI Design Clinic",
+        "title": "UMSI Design Clinic [WIP]",
         "subtitle": "UX Research + Design.",
         "path": "/portfolio/umsi-design-clinic",
-        "show": true
+        "show": false
     },
     {
         "title": "Consultant at DTE Energy",
