@@ -10,7 +10,11 @@ export default class RunFinder extends React.Component {
             projName: "Run Finder",
             roles: "UX Researcher, Interaction Designer",
             duration: "Sep-Dec 2016",
-            imgSrc: require( "./run-finder-banner.jpg" )
+            imgSrc: require( "./run-finder-banner.jpg" ),
+            imgCredit: {
+                author: "Curtis MacNewton",
+                link: "https://unsplash.com/@curtismacnewton"
+            },
         };
 
         return (
@@ -109,9 +113,11 @@ export default class RunFinder extends React.Component {
                     <p>Fig. 5 - Brainstorm session outcome</p>
                     <h4 className="subtitle">Usability Study and Feedback</h4>
                     <p>Finally, I made a lo-fi prototype and tested it on one of the users of my target audience. The paper prototype proved very helpful as it could be made quickly, discarded easily and changed according to the feedback. Below is the video of me demonstrating the lo-fi prototype.</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/shU4mAXRXrE" frameBorder="0" allowFullScreen></iframe>
+                    <div className="fluid-media">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/shU4mAXRXrE" frameBorder="0" rel="nofollow" allowFullScreen></iframe>
+                    </div>
                     <h4 className="subtitle">Hi-fi prototyping</h4>
-                    <iframe width="428" height="866" src="http://invis.io/879OLVPBQ" frameBorder="0" allowFullScreen style={{ border: "0" }}></iframe>
+                    <iframe width="428" height="866" src="http://invis.io/879OLVPBQ" frameBorder="0" rel="nofollow" allowFullScreen style={{ border: "0" }}></iframe>
                 </div>
                 <div className="content-block">
                     <h4>Key Takeaways</h4>

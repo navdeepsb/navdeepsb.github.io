@@ -4,7 +4,6 @@ import React from "react";
 import { Link } from "react-router";
 
 
-
 export default class ArticleThumbnail extends React.Component {
     render() {
         let data = this.props.data;
