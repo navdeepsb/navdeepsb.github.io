@@ -7,7 +7,6 @@ import "../style.scss"
 export default class Worthy extends React.Component {
     render() {
         // Variables:
-        let listItemGutter = "20px";
         let bannerData = {
             projName: "Worthy",
             roles: "UX Researcher + Designer, Interaction Designer",
@@ -45,17 +44,17 @@ export default class Worthy extends React.Component {
                     <br />
                     <h4 className="subtitle">Problems with this approach</h4>
                     <ul>
-                        <li style={{ marginBottom: listItemGutter }}>
+                        <li className="padded-list-item">
                             <em>Adding new rows</em>
                             <br />
                             Adding new rows for one table would affect other tables situated side-by-side. One approach is to locate all the tables vertically below one another but isn't that an overkill? There's got to be a better solution.
                         </li>
-                        <li style={{ marginBottom: listItemGutter }}>
+                        <li className="padded-list-item">
                             <em>No insights</em>
                             <br />
                             At the end of the day, this approach was just a set of monthly sheets sitting in their own silos not sharing data with each other. What if these sheets could talk to each other? What if I can look at my categorical spends every month and corelate them with the allocated budget? And then, predict in advance when and if I am going to go over-budget?
                         </li>
-                        <li style={{ marginBottom: listItemGutter }}>
+                        <li className="padded-list-item">
                             <em>Poor visibility of hidden & shared transactions</em>
                             <br />
                             It is often the case that one of my roommates would pay a bill for the entire house and we would give them the owed amount. It would also be the case when I pay and I am owed. For the former case, I owe money and hence, my effective balance is my bank balance minus the amount I owe since this will be deducted eventually. Please note that there is no deduction to my bank balance yet. That is why I chose to name it as "hidden" transaction since it is not affecting the balance just yet. For the latter case, my effective balance would be my bank account minus the amount deducted plus the amount owed to me. I chose to name this as "shared" transaction. Let me visualize this in Fig. 3.
@@ -223,17 +222,17 @@ export default class Worthy extends React.Component {
                     <h4 className="subtitle">v1</h4>
                     <p>This ho-fi-ish prototype shows the web app which has 3 main components, which one can reach using the top nav.</p>
                     <ol>
-                        <li style={{ marginBottom: listItemGutter }}>
+                        <li className="padded-list-item">
                             <em>Transaction Exchange</em>
                             <br />
                             To add/edit transactions, bank sources, categories, modules and even to add/delete people with whom the user will be sharing the transactions with.
                         </li>
-                        <li style={{ marginBottom: listItemGutter }}>
+                        <li className="padded-list-item">
                             <em>Worth Overview</em>
                             <br />
                             The "home" page giving an overview of the monthly spendings with transactions sorted by date by default. Other sort/group options include Category and Module.
                         </li>
-                        <li style={{ marginBottom: listItemGutter }}>
+                        <li className="padded-list-item">
                             <em>Settings</em>
                             <br />
                             This contains a generic profile information form as well as password set/reset form.

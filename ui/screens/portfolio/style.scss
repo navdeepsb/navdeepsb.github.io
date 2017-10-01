@@ -1,3 +1,6 @@
+$listItemGutter: 20px;
+
+
 .portfolio {
     text-align: center;
 
@@ -94,6 +97,10 @@
         }
 
         // @src http://www.bymichaellancaster.com/blog/fluid-iframe-and-images-without-javascript-plugins/
+    }
+
+    .padded-list-item {
+        margin-bottom: $listItemGutter;
     }
 
     .red { color: #F38181; }
