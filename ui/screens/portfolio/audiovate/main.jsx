@@ -14,7 +14,8 @@ export default class Audiovate extends React.Component {
             imgCredit: {
                 author: "Nourdine Diouane",
                 link: "https://unsplash.com/@nourdine"
-            }
+            },
+            noOverlayOnImgWanted: true
         };
 
         return (

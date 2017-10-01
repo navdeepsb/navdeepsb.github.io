@@ -10,7 +10,8 @@ export default class MeraInstitute extends React.Component {
             projName: "merainstitute.com",
             roles: "Co-Founder, Front-End Developer",
             duration: "May-Sep 2015",
-            imgSrc: require( "./merainstitute-banner.png" )
+            imgSrc: require( "./merainstitute-banner.png" ),
+            noOverlayOnImgWanted: true
         };
 
         return (

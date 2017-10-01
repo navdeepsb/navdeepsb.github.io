@@ -16,7 +16,7 @@ export default class ProjectBannerTpl extends React.Component {
             <div className="banner__outer">
                 <div className={ "banner img-wrapper" + ( isImgBanner ? "" : " banner--no-img" ) }>
                     { imgEle }
-                    <div className={ "banner__overlay" + ( isImgBanner ? "" : " banner__overlay--no-bkg" ) }>
+                    <div className={ "banner__overlay" + ( !isImgBanner || data.noOverlayOnImgWanted ? " banner__overlay--no-bkg" : "" ) }>
                         <div className="banner__text-container">
                             <h3>{ data.projName } { badgeEle }</h3>
                             <p>Roles: { data.roles } | { data.duration }</p>
