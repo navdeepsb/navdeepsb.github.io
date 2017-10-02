@@ -30,6 +30,16 @@
         ]
     },
     {
+        "timerange": "Apr 2017",
+        "title": "Temp Web Assistant at U-M Office of Provost",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Developed a crucial website from scratch for the department of the Provost and the Vice-President",
+            "Separated the data and UI presentation so new data every year can be quickly integrated",
+            "Summoned for another project after completion of this project"
+        ]
+    },
+    {
         "timerange": "Jan 2017 - Apr 2017",
         "title": "UX Designer at UMSI Design Clinic",
         "location": "Ann Arbor, MI",
