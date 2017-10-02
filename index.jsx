@@ -18,6 +18,7 @@ import BadgerScreen from "./ui/screens/portfolio/badger/main.jsx";
 import WorthyScreen from "./ui/screens/portfolio/worthy/main.jsx";
 import MeraInstituteScreen from "./ui/screens/portfolio/merainstitute/main.jsx";
 import AudiovateScreen from "./ui/screens/portfolio/audiovate/main.jsx";
+import ExpediaScreen from "./ui/screens/portfolio/expedia/main.jsx";
 import CreativeWritingScreen from "./ui/screens/creative-writing/main.jsx";
 import ArticleScreen from "./ui/screens/creative-writing/article.jsx";
 import ResumeScreen from "./ui/screens/resume/main.jsx";
@@ -66,6 +67,7 @@ ReactDOMRender(
             <Route path="portfolio/worthy" component={ WorthyScreen } />
             <Route path="portfolio/merainstitute" component={ MeraInstituteScreen } />
             <Route path="portfolio/audiovate" component={ AudiovateScreen } />
+            <Route path="portfolio/expedia" component={ ExpediaScreen } />
             <Route path="atelier" component={ AtelierScreen } />
             <Route path="creative-writing" component={ CreativeWritingScreen } />
             <Route path="creative-writing/:articleName" component={ ArticleScreen } />

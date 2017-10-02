@@ -28,11 +28,11 @@
         "show": true
     },
     {
-        "title": "Usability Evaluation of Expedia [WIP]",
+        "title": "Usability Evaluation of Expedia",
         "subtitle": "UX Research.",
         "path": "/portfolio/expedia",
         "img": "expedia-thumb.png",
-        "show": false
+        "show": true
     },
     {
         "title": "Audiovate",
