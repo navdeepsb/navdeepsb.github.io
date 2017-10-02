@@ -14,7 +14,8 @@ export default class Audiovate extends React.Component {
             imgCredit: {
                 author: "Nourdine Diouane",
                 link: "https://unsplash.com/@nourdine"
-            }
+            },
+            noOverlayOnImgWanted: true
         };
 
         return (
@@ -169,8 +170,10 @@ export default class Audiovate extends React.Component {
                     <br />
                     <h4 className="subtitle">SWOT Analysis</h4>
                     <p>Our last step was to conduct a SWOT (strengths, weaknesses, opportunities & threats) analysis on Audiovate (Fig. 8).</p>
+                    <br />
+                    <br />
                     <figure>
-                        <img src={ require( "./swot.jpg" ) } alt="Stengths, weaknesses, opportunities & threats analysis for Audiovate" className="no-border padded" />
+                        <img src={ require( "./swot.jpg" ) } alt="Stengths, weaknesses, opportunities & threats analysis for Audiovate" className="no-border" />
                         <figcaption>Fig. 8 - SWOT analysis</figcaption>
                     </figure>
                 </div>

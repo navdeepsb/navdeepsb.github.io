@@ -24,7 +24,7 @@ a {
     color: $accent;
 }
 
-h1, h2, h3, p, ul {
+h1, h2, h3, p, ul, ol {
     line-height: 1.5;
 }
 
@@ -34,6 +34,7 @@ img {
 
 figure {
     margin: 0;
+    text-align: center;
 
     figcaption {
         text-align: center;
