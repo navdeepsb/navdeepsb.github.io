@@ -32,7 +32,7 @@ export default class Resume extends React.Component {
         return (
             <div className="resume">
                 <p className="pdf-text">
-                    <a href={ require( "./Resume - Navdeep Singh Bagga.pdf" ) } target="_blank" rel="nofollow" title="Resume PDF">Download PDF</a>
+                    <a href={ require( "./Resume - Navdeep Singh Bagga - UMSI 2018.pdf" ) } target="_blank" rel="nofollow" title="Resume PDF">Download PDF</a>
                 </p>
                 { resumeEvents.map( ( event, idx ) => {
                     return <Event data={ event } key={ idx } />;

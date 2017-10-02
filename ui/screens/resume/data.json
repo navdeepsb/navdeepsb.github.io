@@ -1,12 +1,32 @@
 [
     {
+        "timerange": "Sep 2017 - present",
+        "title": "Research Assistant (UX Engineer) at U-M",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Primary focus to generate insights from para-transit ridership data",
+            "In charge of data mining, information visualization, UX design & front-end development",
+            "Sponsored by NIDILRR (National Institute on Disability, Independent Living, and Rehabilitation Research)"
+        ]
+    },
+    {
+        "timerange": "Sep 2017 - present",
+        "title": "Teaching Assistant (Graphic Design) at U-M",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Assisting 33 students with intro to graphic design & visual communication",
+            "Responsible for grading assignments, logistics & lab help"
+        ]
+    },
+    {
         "timerange": "May 2017 - Aug 2017",
         "title": "Product Design Intern at Duo Security",
         "location": "Ann Arbor, MI",
         "details": [
             "Worked on a data viz project to present user information to admins",
-            "Delivered a new feature to take care of lost/stolen devices",
-            "Moderated a usability test session"
+            "Delivered a new feature to take care of lost/stolen corporate-issued devices",
+            "Moderated a usability test session",
+            "Gave a lightning talk on effective use of web forms"
         ]
     },
     {
@@ -20,7 +40,7 @@
     },
     {
         "timerange": "Sep 2016 - present",
-        "title": "University of Michigan School of Information",
+        "title": "University of Michigan School of Information (UMSI)",
         "location": "Ann Arbor, MI",
         "details": [
             "M.S. candidate in Information, 2018",
@@ -35,8 +55,8 @@
         "location": "Hyderabad, India",
         "details": [
             "Worked on the front-end of the enterprise administration console",
-            "Refactored and created web modules in a custom jQuery framework",
-            "Primary work on JavaScript, jQuery, Handlebars, HTML5 and CSS3"
+            "Refactored & created web modules in a custom jQuery framework",
+            "Primary work on JavaScript, jQuery, Handlebars, HTML5 & CSS3"
         ]
     },
     {
@@ -44,7 +64,7 @@
         "title": "Front-End Developer at HomeArte",
         "location": "Indore, India",
         "details": [
-            "Designed and developed Phase 1 of the website",
+            "Designed & developed Phase 1 of the website",
             "Integrated web pages with a Spring MVC back-end using jQuery"
         ]
     },
@@ -54,8 +74,8 @@
         "location": "Indore, India",
         "details": [
             "Sole front-end developer",
-            "Designed and developed the entire website",
-            "In charge of public relations, content writing and branding"
+            "Designed & developed the entire website",
+            "In charge of public relations, content writing & branding"
         ]
     },
     {
@@ -65,14 +85,14 @@
         "details": [
             "Wrote modules for an existing ASP.NET web application",
             "Maintained an alert manager Windows service",
-            "Designed and developed web audit reports",
-            "Primary work on JavaScript, HTML and CSS along with PL/SQL procedures",
+            "Designed & developed web audit reports",
+            "Primary work on JavaScript, HTML & CSS along with PL/SQL procedures",
             "Active member of software release cycle"
         ]
     },
     {
         "timerange": "Sep 2009 - May 2013",
-        "title": "Shri G.S. Institute of Technology and Science",
+        "title": "Shri G.S. Institute of Technology & Science",
         "location": "Indore, India",
         "details": [
             "Awarded Bachelor of Engineering (B.E.) in the First Division",
