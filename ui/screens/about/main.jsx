@@ -12,14 +12,14 @@ export default class About extends React.Component {
     render() {
         return (
             <div className="about">
-                <div className="banner">
+                <div className="banner banner--fluid-height" style={{ background: "none" }}>
                     <div className="banner__image">
                         <div className="img-wrapper top-img">
                             <img src={ topImageSrc } alt="Image of Navdeep looking over Berkeley Marina" />
                         </div>
                     </div>
                     <div className="banner__text">
-                        <img src={ quoteSrc } width="30" alt="Quote icon" />
+                        <img src={ quoteSrc } className="persist" width="30" alt="Quote icon" />
                         <p>Great designers don’t fall in love with their solution. Great designers fall in love with the problem.</p>
                         <em>- Jared Spool</em>
                     </div>
