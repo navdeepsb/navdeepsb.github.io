@@ -43,7 +43,7 @@
     },
     {
         "title": "This Portfolio [WIP]",
-        "subtitle": "Design. Development.",
+        "subtitle": "Design. Programming.",
         "path": "/portfolio/this",
         "show": false
     },
@@ -62,7 +62,7 @@
     },
     {
         "title": "merainstitute.com",
-        "subtitle": "Startup. Development.",
+        "subtitle": "Startup. Programming.",
         "path": "/portfolio/merainstitute",
         "img": "mi-thumb.png",
         "show": true
@@ -76,20 +76,20 @@
     },
     {
         "title": "HomeArte",
-        "subtitle": "Design. Development.",
+        "subtitle": "Design. Programming.",
         "path": "/portfolio/homearte",
         "show": false
     },
     {
         "title": "BadgerJS",
-        "subtitle": "IxDesign. Development.",
+        "subtitle": "IxDesign. Programming.",
         "path": "/portfolio/badger",
         "img": "badger-thumb.jpeg",
         "show": true
     },
     {
         "title": "Lusie",
-        "subtitle": "Development.",
+        "subtitle": "Programming.",
         "path": "/portfolio/lusie",
         "img": "lusie-thumb.png",
         "show": true

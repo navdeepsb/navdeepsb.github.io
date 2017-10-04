@@ -8,7 +8,7 @@ export default class Lusie extends React.Component {
     render() {
         let bannerData = {
             projName: "Lusie",
-            roles: "Problem Solver, Developer",
+            roles: "Problem Solver, Front-End Developer",
             duration: "Oct 2015"
         };
 

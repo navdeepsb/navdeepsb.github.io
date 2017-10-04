@@ -8,7 +8,7 @@ export default class Badger extends React.Component {
     render() {
         let bannerData = {
             projName: "BadgerJS",
-            roles: "Interaction Designer, Developer",
+            roles: "Interaction Designer, Front-End Developer",
             duration: "Jun 2015"
         };
 

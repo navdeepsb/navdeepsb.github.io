@@ -85,6 +85,10 @@ export default class MeraInstitute extends React.Component {
                         <li>I, personally, learned a lot about front-end devlopment.</li>
                     </ul>
                 </div>
+                <div className="content-block">
+                    <h4>Key Learning</h4>
+                    <p>Having not researched the problem statement thoroughly, we jumped straight into development and created the product with little market insights and limited information about the desirability of this product. For me, personally, at that time, the glam of startup and being able to practice front-end development full-time was enough to jump onboard and materialize this idea. In the future, <strong>I will not proceed with implementation without UX research</strong>.</p>
+                </div>
             </div>
         );
     }
