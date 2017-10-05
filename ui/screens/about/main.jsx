@@ -6,7 +6,7 @@ import quoteSrc from "./quotation-mark.svg";
 import berkeleyMarinaSrc from "./berkeley-marina.jpeg";
 import devDesSrc from "./dev+des.svg";
 import dalLakeSrc from "./dal-lake.jpg";
-import coloradoSrc from "./independence-pass.jpg";
+import coloradoSrc from "./independence-pass-co.jpg";
 import yosemiteSrc from "./yosemite-falls.jpg";
 
 
