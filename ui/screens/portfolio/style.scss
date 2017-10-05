@@ -2,7 +2,11 @@ $listItemGutter: 20px;
 
 
 .portfolio {
-    text-align: center;
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            text-align: center;
+        }
+    }
 
     .meta {
         margin-top: 100px;

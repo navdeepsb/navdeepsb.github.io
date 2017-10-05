@@ -39,7 +39,7 @@ export default class About extends React.Component {
                         <br /><br />
                         <img src={ devDesSrc } alt="Development plus design equals awesome!" />
                         <br /><br />
-                        When I am not UI/UXing, I like to write short articles, play my acoustic guitar and explore new sounds on Spotify or YouTube. I love to groove to the likes of Tame Impala, King Gizzard & the Lizard Wizard, Mac DeMarco and Klaus Johann Grobe. I am a Star Wars geek and a major <strong>Nature Buff</strong>.
+                        When I am not UI/UXing, I like to write short articles, play my acoustic guitar and explore new sounds on Spotify or YouTube. I love to groove to the likes of Tame Impala, King Gizzard & the Lizard Wizard, Mac DeMarco and Klaus Johann Grobe. I am a Star Wars geek and a <strong>major nature buff</strong>.
                     </p>
                 </div>
                 <figure>
