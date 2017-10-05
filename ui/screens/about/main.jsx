@@ -3,9 +3,11 @@ import React from "react";
 import "./style.scss";
 
 import quoteSrc from "./quotation-mark.svg";
-import topImageSrc from "./berkeley-marina.jpeg";
+import berkeleyMarinaSrc from "./berkeley-marina.jpeg";
 import devDesSrc from "./dev+des.svg";
-import bottomImageSrc from "./dal-lake.jpg";
+import dalLakeSrc from "./dal-lake.jpg";
+import coloradoSrc from "./independence-pass.jpg";
+import yosemiteSrc from "./yosemite-falls.jpg";
 
 
 export default class About extends React.Component {
@@ -15,7 +17,7 @@ export default class About extends React.Component {
                 <div className="banner banner--fluid-height" style={{ background: "none" }}>
                     <div className="banner__image">
                         <div className="img-wrapper top-img">
-                            <img src={ topImageSrc } alt="Image of Navdeep looking over Berkeley Marina" />
+                            <img src={ berkeleyMarinaSrc } alt="Image of Navdeep looking over Berkeley Marina" />
                         </div>
                     </div>
                     <div className="banner__text">
@@ -37,12 +39,21 @@ export default class About extends React.Component {
                         <br /><br />
                         <img src={ devDesSrc } alt="Development plus design equals awesome!" />
                         <br /><br />
-                        When I am not UI/UXing, I like to write short articles, play my acoustic guitar and explore new sounds on Spotify or YouTube. I love to groove to the likes of Tame Impala, King Gizzard & the Lizard Wizard and Mac DeMarco. I am also a nature lover and a Star Wars geek.
+                        When I am not UI/UXing, I like to write short articles, play my acoustic guitar and explore new sounds on Spotify or YouTube. I love to groove to the likes of Tame Impala, King Gizzard & the Lizard Wizard, Mac DeMarco and Klaus Johann Grobe. I am a Star Wars geek and a major <strong>Nature Buff</strong>.
                     </p>
                 </div>
-                <p style={{ textAlign: "center" }}>
-                    <img src={ bottomImageSrc } alt="Image of me overlooking the Dal Lake in Srinagar, Kashmir, India" />
-                </p>
+                <figure>
+                    <img src={ dalLakeSrc } alt="Image of me overlooking the Dal Lake in Srinagar, Kashmir, India" />
+                    <figcaption>Overlooking the pristine Himalayas at Dal Lake in Srinagar, Kashmir, India (Jun 2013)</figcaption>
+                </figure>
+                <figure>
+                    <img src={ coloradoSrc } alt="Image of me at Independence Pass in Colorado, US" />
+                    <figcaption>At Independence Pass in Colorado, US (Aug 2017)</figcaption>
+                </figure>
+                <figure>
+                    <img src={ yosemiteSrc } alt="Image of me at Yosemite Lower Falls in California, US" />
+                    <figcaption>At Yosemite Lower Falls in California, US (Sep 2017)</figcaption>
+                </figure>
             </div>
         );
     }
