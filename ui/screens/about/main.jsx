@@ -3,9 +3,10 @@ import React from "react";
 import "./style.scss";
 
 import quoteSrc from "./quotation-mark.svg";
-import berkeleyMarinaSrc from "./berkeley-marina.jpeg";
+import dpSrc from "./packard-dp.jpg";
 import devDesSrc from "./dev+des.svg";
 import dalLakeSrc from "./dal-lake.jpg";
+import gulmargSrc from "./gulmarg.jpg";
 import coloradoSrc from "./independence-pass-co.jpg";
 import yosemiteSrc from "./yosemite-falls.jpg";
 
@@ -17,7 +18,7 @@ export default class About extends React.Component {
                 <div className="banner banner--fluid-height" style={{ background: "none" }}>
                     <div className="banner__image">
                         <div className="img-wrapper top-img">
-                            <img src={ berkeleyMarinaSrc } alt="Image of Navdeep looking over Berkeley Marina" />
+                            <img src={ dpSrc } alt="Image of Navdeep looking over Berkeley Marina" />
                         </div>
                     </div>
                     <div className="banner__text">
@@ -43,15 +44,19 @@ export default class About extends React.Component {
                     </p>
                 </div>
                 <figure>
-                    <img src={ dalLakeSrc } alt="Image of me overlooking the Dal Lake in Srinagar, Kashmir, India" />
+                    <img src={ dalLakeSrc } alt="Image of me overlooking the Dal Lake in Srinagar, Kashmir, India in June 2013" />
                     <figcaption>Overlooking the pristine Himalayas at Dal Lake in Srinagar, Kashmir, India (Jun 2013)</figcaption>
                 </figure>
                 <figure>
-                    <img src={ coloradoSrc } alt="Image of me at Independence Pass in Colorado, US" />
-                    <figcaption>At Independence Pass in Colorado, US (Aug 2017)</figcaption>
+                    <img src={ gulmargSrc } alt="Image of me walking the lush green pastures of Gulmarg, Kashmir, India in June 2013" />
+                    <figcaption>Walking the lush green pastures of Gulmarg, Kashmir, India (Jun 2013)</figcaption>
                 </figure>
                 <figure>
-                    <img src={ yosemiteSrc } alt="Image of me at Yosemite Lower Falls in California, US" />
+                    <img src={ coloradoSrc } alt="Image of me at Independence Pass in Colorado, US in August 2017" />
+                    <figcaption>At Independence Pass in Colorado, US (Aug 2017.)</figcaption>
+                </figure>
+                <figure>
+                    <img src={ yosemiteSrc } alt="Image of me at Yosemite Lower Falls in California, US in September 2017" />
                     <figcaption>At Yosemite Lower Falls in California, US (Sep 2017)</figcaption>
                 </figure>
             </div>
