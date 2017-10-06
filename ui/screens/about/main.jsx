@@ -53,7 +53,7 @@ export default class About extends React.Component {
                 </figure>
                 <figure>
                     <img src={ coloradoSrc } alt="Image of me at Independence Pass in Colorado, US in August 2017" />
-                    <figcaption>At Independence Pass in Colorado, US (Aug 2017.)</figcaption>
+                    <figcaption>At Independence Pass in Colorado, US (Aug 2017)</figcaption>
                 </figure>
                 <figure>
                     <img src={ yosemiteSrc } alt="Image of me at Yosemite Lower Falls in California, US in September 2017" />
