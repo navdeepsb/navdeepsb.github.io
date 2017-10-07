@@ -1,5 +1,5 @@
-$socialMediaLinkSize: 35px;
-$socialMediaIconSize: 17px;
+$socialMediaLinkSize: 40px;
+$socialMediaIconSize: 20px;
 
 .footer {
     max-width: 65rem;
@@ -26,18 +26,8 @@ $socialMediaIconSize: 17px;
             }
         }
 
-        .copyright {
-            text-align: center;
-
-            @media screen and (min-width: $breakpoint-web) {
-                & {
-                    text-align: left;
-                }
-            }
-        }
-
         .social-media {
-            text-align: center;
+            text-align: left;
 
             @media screen and (min-width: $breakpoint-web) {
                 & {
@@ -50,6 +40,10 @@ $socialMediaIconSize: 17px;
                 width: $socialMediaLinkSize;
                 height: $socialMediaLinkSize;
                 margin-left: 10px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
 
                 img {
                     width: $socialMediaIconSize;

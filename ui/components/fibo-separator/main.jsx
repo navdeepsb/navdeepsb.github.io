@@ -15,13 +15,14 @@ export default class FibonacciSeparator extends React.Component {
         let next = start;
         let curr = 0;
 
+        let counter = itemsInSeries;
         let fibNumbers = [];
 
-        while( itemsInSeries > 1 ) {
+        while( counter > 1 ) {
             curr = prev + next;
             prev = next;
             next = curr;
-            itemsInSeries--;
+            counter--;
             if( --itemsToSkip > 0 ) continue;
             fibNumbers.push( curr );
         }
@@ -32,7 +33,7 @@ export default class FibonacciSeparator extends React.Component {
         return (
             <div className="fibo-separator">
                 { fibNumbers.map( ( x, idx ) => {
-                    return <div className="item" style={{ width: `${ x }px` }} key={ idx } />;
+                    return <div className={ "item" + ( idx < itemsInSeries / 2 ? " item--first-half" : "" ) } style={{ width: `${ x }px` }} key={ "item-" + idx } />;
                 }) }
             </div>
         );

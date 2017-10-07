@@ -1,11 +1,26 @@
 .fibo-separator {
-    text-align: center;
     margin: 30px 0;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            text-align: center;
+        }
+    }
 
     .item {
         display: inline-block;
         height: 1px;
         margin: 0 3px;
         background: #bebebe;
+    }
+
+    .item--first-half {
+        display: none;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                display: inline-block;
+            }
+        }
     }
 }

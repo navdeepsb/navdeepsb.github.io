@@ -6,10 +6,13 @@
 
     .banner__image {
         width: 100%;
+        display: none;
+        overflow: hidden;
 
         @media screen and (min-width: $breakpoint-web) {
             & {
                 width: 40%;
+                display: inline-block;
             }
         }
 
@@ -33,6 +36,7 @@
             & {
                 width: 60%;
                 margin: 0;
+                padding-left: 30px;
             }
         }
 
