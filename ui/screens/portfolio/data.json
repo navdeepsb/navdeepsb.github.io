@@ -7,11 +7,11 @@
         "show": true
     },
     {
-        "title": "Lost Endpoints Workflow @ Duo [WIP]",
-        "subtitle": "UX Research + Design.",
-        "path": "/portfolio/endpoints-ra",
-        "img": "lost-endpoints-thumb.jpg",
-        "show": false
+        "title": "Lost Endpoints Workflow",
+        "subtitle": "Product Design.",
+        "path": "/portfolio/lost-endpoints-duo",
+        "img": "duo-thumb.png",
+        "show": true
     },
     {
         "title": "Endpoints Reporting & Analysis @ Duo [WIP]",
