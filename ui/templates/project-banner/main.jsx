@@ -35,7 +35,7 @@ class ImageCreditEle extends React.Component {
         let data = this.props.data;
 
         return (
-            <p className="img-credit">Image by <a href={ data.link } rel="nofollow" target="_blank" tabIndex="-1" title={ data.author }>{ data.author }</a></p>
+            <p className="img-credit">Photo by <a href={ data.link } rel="nofollow" target="_blank" tabIndex="-1" title={ data.author }>{ data.author }</a></p>
         );
     }
 }
