@@ -11,12 +11,12 @@
         "subtitle": "Product Design.",
         "path": "/portfolio/lost-endpoints-duo",
         "img": "duo-thumb.png",
-        "show": true
+        "show": false
     },
     {
         "title": "Endpoints Reporting & Analysis @ Duo [WIP]",
         "subtitle": "UX Research + Design. Data Viz.",
-        "path": "/portfolio/endpoints-ra",
+        "path": "/portfolio/endpoints-ra-duo",
         "img": "duo-thumb.png",
         "show": false
     },
@@ -52,6 +52,13 @@
         "subtitle": "UX Research + Design.",
         "path": "/portfolio/umsi-design-clinic",
         "show": false
+    },
+    {
+        "title": "geomeTRY",
+        "subtitle": "Type Design.",
+        "path": "/portfolio/geometry-type",
+        "img": "geometry-thumb.jpeg",
+        "show": true
     },
     {
         "title": "Consultant at DTE Energy",
