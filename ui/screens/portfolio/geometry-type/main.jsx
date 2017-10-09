@@ -7,7 +7,7 @@ import "../style.scss"
 
 
 // Variables:
-let initialText = "geometry";
+let initialText = "yahoo";
 
 
 
