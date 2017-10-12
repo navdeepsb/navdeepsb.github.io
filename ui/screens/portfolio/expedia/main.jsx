@@ -8,7 +8,7 @@ import "../style.scss"
 export default class Expedia extends React.Component {
     render() {
         let bannerData = {
-            projName: "Expedia",
+            projName: "Usability Evaluation of Expedia",
             roles: "UX Researcher",
             duration: "Jan-Apr 2017",
             imgSrc: require( "./steve-halama-aeroplane.jpg" ),

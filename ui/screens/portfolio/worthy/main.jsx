@@ -9,7 +9,7 @@ export default class Worthy extends React.Component {
         // Variables:
         let bannerData = {
             projName: "Worthy",
-            roles: "UX Researcher + Designer, Interaction Designer",
+            roles: "Product Designer",
             duration: "Sep- 2017",
             imgSrc: require( "./olga-delawrence-dollars-unsplash.jpg" ),
             imgCredit: {
