@@ -8,7 +8,7 @@ export default class AtelierTpl extends React.Component {
         let data = this.props.data;
 
         return (
-            <div className="atelier">
+            <div className="atelier-piece">
                 <h3>{ data.title }</h3>
                 <p className="timestamp">{ data.timestamp }</p>
                 { data.contentSections.map( ( content, idx ) => {

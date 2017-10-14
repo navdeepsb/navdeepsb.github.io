@@ -10,6 +10,7 @@ const TOOLS_I_USED = [{
     "fotoshp": "Adobe Photoshop",
     "powrpnt": "Microsoft Powerpoint"
 }];
+const DESC_CHARS = 80;
 
 
 class ToolsUsed extends React.Component {
@@ -33,7 +34,8 @@ export default class AtelierThumbnail extends React.Component {
     render() {
         let data = this.props.data;
         let timestamp = data.timestamp ? <p className="date">{ data.timestamp }</p> : null;
-        let thumbnail = data.thumbnailImg ? <img src={ data.thumbnailImg } alt={ "Thumbnail nail for " + data.title } className="canvas" /> : <div className="canvas no-img" />;
+        let thumbnail = data.thumbnailImg ? <img src={ data.thumbnailImg } alt={ "Thumbnail nail for " + data.title } className="canvas" /> : <div className="canvas" />;
+        let descrptn  = ( data.contentSections[ 0 ] || "" ).desc ? <p className="piece-info">{ data.contentSections[ 0 ].desc.substr( 0, DESC_CHARS ) + "..." }</p> : null;
 
         return (
             <div className="atelier-thumbnail">
@@ -41,6 +43,7 @@ export default class AtelierThumbnail extends React.Component {
                     { thumbnail }
                     <div className="text-wrapper">
                         <h3>{ data.title }</h3>
+                        { descrptn }
                         <div className="piece-info">
                             <p>{ ( data.contentSections || [] ).length } media</p>
                             { timestamp }

@@ -1,6 +1,15 @@
+$columnGutter: 20px;
+$numThumbnailsInAtelierRow: 4;
+
+
 .atelier {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    // align-items: flex-start;
+    column-count: 1;
+    column-gap: $columnGutter;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            column-count: $numThumbnailsInAtelierRow;
+            column-fill: auto;
+        }
+    }
 }

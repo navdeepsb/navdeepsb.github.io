@@ -1,32 +1,22 @@
 // Variables:
-$numThumbnailsInRow: 4;
 $thumbnailImgHeight: 200px;
 $toolImgHeight: 30px;
 
 
-.atelier-thumbnail {
-    flex-basis: 100%;
-    // width: 100%;
-    // display: inline-block;
-    // vertical-align: top;
-    padding: 20px 0;
 
-    @media screen and (min-width: $breakpoint-web) {
-        & {
-            flex-basis: ( 1 / $numThumbnailsInRow ) * 100%;
-            // width: ( 1 / $numThumbnailsInRow ) * 100%;
-            padding: 20px;
-        }
-    }
+.atelier-thumbnail {
+    width: 100%;
+    display: inline-block;
 
     .background-wrapper {
         color: $primaryText;
         background: darken( white, 3% );
         text-decoration: none;
         display: block;
-        border: 1px solid lighten( $secondaryText, 50% );
+        border: 1px solid #ddd;
         border-radius: 10px;
         overflow: hidden;
+        margin-bottom: 20px;
     }
 
     .text-wrapper {
@@ -52,6 +42,7 @@ $toolImgHeight: 30px;
 
     .piece-info {
         color: $secondaryText;
+        margin: 0;
 
         & > * {
             width: 50%;
