@@ -1,0 +1,60 @@
+// Variables:
+$numThumbnailsInRow: 4;
+$thumbnailImgHeight: 200px;
+$toolImgHeight: 30px;
+
+
+.atelier-thumbnail {
+    width: ( 1 / $numThumbnailsInRow ) * 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-decoration: none;
+    color: $primaryText;
+
+    .background-wrapper {
+        background: darken( white, 3% );
+        border: 1px solid lighten( $secondaryText, 50% );
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .text-wrapper {
+        padding: 20px;
+    }
+
+    .canvas {
+        height: $thumbnailImgHeight;
+        background: $accent;
+    }
+
+    h3 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin: 0 0 20px 0;
+        hyphens: auto;
+    }
+
+    .piece-info {
+        & > * {
+            width: 50%;
+            display: inline-block;
+        }
+
+        .date {
+            color: $secondaryText;
+            margin-bottom: 0;
+            text-align: right;
+        }
+    }
+
+    .tools-imgs {
+        .img-wrapper {
+            width: $toolImgHeight;
+            height: $toolImgHeight;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}

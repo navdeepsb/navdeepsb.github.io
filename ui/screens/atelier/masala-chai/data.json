@@ -1,0 +1,27 @@
+{
+    "title": "Favorite Beverage Infographic",
+    "path": "atelier/masala-chai",
+    "timestamp": "Feb 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb.png",
+    "contentSections": [{
+        "img": "infographic.jpg",
+        "imgTitle": "Infographic for my favorite beverage, Masala Chai",
+        "desc": "The final result for my infographic about my favorite beverage, <strong>Masala Chai</strong> (Spiced Tea Latte or Chai Tea Latte). I used Adobe Illustrator for this and created the illustrations used in the top portion. Please note that the illustrations of map and human body are works of their own authors, not mine.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "type": "palette",
+        "colorPalette": [ "#a2b9b7", "#d68189", "#ffdc98" ]
+    },{
+        "img": "initial-sketching-01.jpg",
+        "imgTitle": "Initial sketching #1",
+        "desc": "Trying to find the perfect placement of elements during the initial sketching phase so it looks balanced overall. I was deciding mainly between whether to use the top-down view of a drinking cup or the side-view.",
+        "imgPadded": true
+    },{
+        "img": "initial-sketching-02.jpg",
+        "imgTitle": "Initial sketching #2",
+        "desc": "A birds-eye view of the layout I was planning. This helped me greatly when implementing the digital version.",
+        "imgPadded": true
+    }]
+}

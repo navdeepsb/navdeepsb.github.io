@@ -14,6 +14,7 @@ import ConsultantDTEScreen from "./ui/screens/portfolio/consultant-dte/main.jsx"
 import CyclikaScreen from "./ui/screens/portfolio/cyclika/main.jsx";
 import LusieScreen from "./ui/screens/portfolio/lusie/main.jsx";
 import AtelierScreen from "./ui/screens/atelier/main.jsx";
+import AtelierPieceScreen from "./ui/screens/atelier/piece.jsx";
 import BadgerScreen from "./ui/screens/portfolio/badger/main.jsx";
 import WorthyScreen from "./ui/screens/portfolio/worthy/main.jsx";
 import MeraInstituteScreen from "./ui/screens/portfolio/merainstitute/main.jsx";
@@ -71,6 +72,7 @@ ReactDOMRender(
             <Route path="portfolio/expedia" component={ ExpediaScreen } />
             <Route path="portfolio/geometry-type" component={ GeomeTRYScreen } />
             <Route path="atelier" component={ AtelierScreen } />
+            <Route path="atelier/:piece" component={ AtelierPieceScreen } />
             <Route path="creative-writing" component={ CreativeWritingScreen } />
             <Route path="creative-writing/:articleName" component={ ArticleScreen } />
             <Route path="resume" component={ ResumeScreen } />

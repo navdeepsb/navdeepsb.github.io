@@ -31,7 +31,7 @@ $listItemGutter: 20px;
         }
 
         img {
-            border: 1px solid #bebebe;
+            border: 1px solid $imageBorder;
 
             & + p {
                 text-align: center;
