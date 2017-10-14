@@ -12,6 +12,7 @@ export default class AtelierTpl extends React.Component {
                 <h3>{ data.title }</h3>
                 <p className="timestamp">{ data.timestamp }</p>
                 { data.contentSections.map( ( content, idx ) => {
+                    let numColors    = ( content.colorPalette || [] ).length;
                     let imgClassList = "padded ";
 
                     if( !content.imgPadded ) {
@@ -28,7 +29,7 @@ export default class AtelierTpl extends React.Component {
                                 <h4><strong>Color Palette</strong></h4>
                                 { content.colorPalette.map( color => {
                                     return (
-                                        <div className="palette-block" style={{ "background": color.c }}>
+                                        <div className="palette-block" style={{ "background": color.c, "width": ( 100 / numColors ) + "%" }}>
                                             <p className={ color.isLightHue ? "dark" : "" }>{ color.c }</p>
                                         </div>
                                     );

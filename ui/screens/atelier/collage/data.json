@@ -4,5 +4,6 @@
     "timestamp": "Feb 2017",
     "tools": [ "fotoshp" ],
     "thumbnailImg": "",
-    "contentSections": []
+    "contentSections": [],
+    "isNotReady": true
 }

@@ -23,24 +23,23 @@
         }
 
         .palette-block {
-            width: 100%;
             height: 200px;
             display: inline-block;
             border: 1px solid white;
             position: relative;
 
-            @media screen and (min-width: $breakpoint-web) {
-                & {
-                    width: ( 1 / 3 ) * 100%;
-                }
-            }
-
             p {
                 color: white;
-                font-size: 2rem;
+                font-size: 1rem;
                 position: absolute;
                 bottom: 0;
-                left: 30px;
+                left: 20px;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    font-size: 2rem;
+                }
+            }
 
                 &.dark {
                     color: lighten( black, 20% );

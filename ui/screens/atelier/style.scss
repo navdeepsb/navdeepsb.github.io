@@ -1,10 +1,9 @@
-$columnGutter: 20px;
 $numThumbnailsInAtelierRow: 4;
 
 
 .atelier {
     column-count: 1;
-    column-gap: $columnGutter;
+    column-gap: $atelierThumbGutter;
 
     @media screen and (min-width: $breakpoint-web) {
         & {

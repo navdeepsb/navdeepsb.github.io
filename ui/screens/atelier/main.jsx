@@ -21,7 +21,7 @@ export default class Atelier extends React.Component {
     render() {
         return (
             <div className="atelier">
-            { atelierPieces.map( ( piece, idx ) => {
+            { atelierPieces.filter( piece => !piece.isNotReady ).map( ( piece, idx ) => {
                 if( piece.thumbnailImg ) {
                     piece.thumbnailImg = require( `./${ piece.contentImgPath + piece.thumbnailImg.split( "/" ).reverse()[ 0 ] }` );
                 }

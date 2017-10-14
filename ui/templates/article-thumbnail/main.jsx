@@ -12,6 +12,7 @@ export default class ArticleThumbnail extends React.Component {
         return (
             <div className="article-thumbnail">
                 <h3>{ data.title }</h3>
+                <p className="timestamp">{ data.timestamp }</p>
                 <p dangerouslySetInnerHTML={{ __html: preview + "..." }} />
                 <Link to={ data.path } title={ data.title }>Continue reading</Link>
             </div>

@@ -1,7 +1,31 @@
 {
-    "title": "Personal Projects Logos",
-    "path": "atelier/personal-projects-logos",
+    "title": "Personal Project Logos",
+    "path": "atelier/personal-project-logos",
     "tools": [ "ilstrtr", "powrpnt" ],
-    "thumbnailImg": "",
-    "contentSections": []
+    "thumbnailImg": "thumb-logos.png",
+    "contentSections": [{
+        "img": "merainstitute-logo.png",
+        "imgTitle": "Logo for my project, merainstitute.com",
+        "desc": "The logo I designed for my startup, merainstitute.com. The word \"merainstitute\" is made up of two words - \"mera\", meaning \"my\" in Hindi, and \"institute\", so the website means \"my institute\". I decided to focus on the letters \"m\" and \"i\" and this logo perfectly captures both these alphabets in a single shape. Designed in MS PowerPoint.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "lusie-logo.png",
+        "imgTitle": "Logo for my project, Lusie",
+        "desc": "The logo for Lusie, my web app that automates the game of Tambola. I used the number \"51\" to represent the letters \"si\" in the word \"lusie\". The end-result is quirky and very closely resembles the game, housie, which I automated. Designed in MS PowerPoint.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "run-finder-logo.png",
+        "imgTitle": "Logo for my project, Lusie",
+        "desc": "The logo for my Run Finder project. This logo captures the key differentiator of the app which is the ability to analyze tracks seggrageted in sections.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "portfolio-logo.png",
+        "imgTitle": "Logo for my pnline portfolio, this portfolio, yes!",
+        "desc": "The logo for this portfolio, adapted from my Faces illustrations.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
 }

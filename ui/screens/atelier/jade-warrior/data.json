@@ -4,5 +4,6 @@
     "timestamp": "Aug 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "",
-    "contentSections": []
+    "contentSections": [],
+    "isNotReady": true
 }

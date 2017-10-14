@@ -35,7 +35,7 @@ export default class AtelierThumbnail extends React.Component {
         let data = this.props.data;
         let timestamp = data.timestamp ? <p className="date">{ data.timestamp }</p> : null;
         let thumbnail = data.thumbnailImg ? <img src={ data.thumbnailImg } alt={ "Thumbnail nail for " + data.title } className="canvas" /> : <div className="canvas" />;
-        let descrptn  = ( data.contentSections[ 0 ] || "" ).desc ? <p className="piece-info">{ data.contentSections[ 0 ].desc.substr( 0, DESC_CHARS ) + "..." }</p> : null;
+        let descrptn  = ( data.contentSections[ 0 ] || "" ).desc ? <p className="piece-info" dangerouslySetInnerHTML={{ __html: data.contentSections[ 0 ].desc.substr( 0, DESC_CHARS ) + "..." }} /> : null;
 
         return (
             <div className="atelier-thumbnail">

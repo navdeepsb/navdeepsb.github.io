@@ -16,7 +16,7 @@ $toolImgHeight: 30px;
         border: 1px solid #ddd;
         border-radius: 10px;
         overflow: hidden;
-        margin-bottom: 20px;
+        margin-bottom: $atelierThumbGutter;
     }
 
     .text-wrapper {
@@ -41,8 +41,8 @@ $toolImgHeight: 30px;
     }
 
     .piece-info {
-        color: $secondaryText;
         margin: 0;
+        color: $secondaryText;
 
         & > * {
             width: 50%;
@@ -53,6 +53,11 @@ $toolImgHeight: 30px;
             margin-bottom: 0;
             text-align: right;
         }
+    }
+
+    p.piece-info {
+        color: $primaryText;
+        hyphens: auto;
     }
 
     .tools-imgs {

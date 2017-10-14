@@ -3,6 +3,33 @@
     "path": "atelier/mr-goo",
     "timestamp": "Jun 2017",
     "tools": [ "ilstrtr" ],
-    "thumbnailImg": "",
-    "contentSections": []
+    "thumbnailImg": "thumb-goo.png",
+    "contentSections": [{
+        "img": "goo-1.png",
+        "imgTitle": "Mr. Goo",
+        "desc": "I was just feeling overwhelmed and wanted to capture my emotions in a character illustration. And Mr. Goo was born.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "goo-2.png",
+        "imgTitle": "Mr. Goo",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "goo-3.png",
+        "imgTitle": "Mr. Goo",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "goo-4.png",
+        "imgTitle": "Mr. Goo",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "type": "palette",
+        "colorPalette": [ { "c": "#fe4365" }, { "c": "#ffeb1c", "isLightHue": true } ]
+    }]
 }
