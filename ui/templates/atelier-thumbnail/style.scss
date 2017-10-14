@@ -1,6 +1,7 @@
 // Variables:
 $thumbnailImgHeight: 200px;
-$toolImgHeight: 30px;
+$toolImgHeight: 40px;
+$toolImgHeightMob: 60px;
 
 
 
@@ -62,10 +63,17 @@ $toolImgHeight: 30px;
 
     .tools-imgs {
         .img-wrapper {
-            width: $toolImgHeight;
-            height: $toolImgHeight;
+            width: $toolImgHeightMob;
+            height: $toolImgHeightMob;
             display: inline-block;
             margin-right: 10px;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    width: $toolImgHeight;
+                    height: $toolImgHeight;
+                }
+            }
         }
     }
 }

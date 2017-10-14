@@ -3,7 +3,23 @@
     "path": "atelier/jade-warrior",
     "timestamp": "Aug 2017",
     "tools": [ "ilstrtr" ],
-    "thumbnailImg": "",
-    "contentSections": [],
-    "isNotReady": true
+    "thumbnailImg": "thumb-jade-warrior.png",
+    "contentSections": [{
+        "img": "jade-warrior-by-navdeep---www.navdeepsb.com.png",
+        "imgTitle": "My graphic illustration of an imaginary character which I called the Jade Warrior.",
+        "desc": "Alright! So, here's the deal. A hunter woke up from his dreams to find himself at the base of a hollowing chasm. Right at the bottom of it! Must've fallen? He couldn't remember but he hadn't forgotten to find that mythical <em>Jade Cave</em> somewhere down in these coves. He needed to find it to get the final missing piece to Moon Knight's puzzle that enchanted his beloved, Miselda. The final piece was a <em>Jade Pearl</em>, the size of a human skull, shimmering always, said to produce a low humming sound. Some poets are also believed to call it as <em>The Humming Stone</em>.<br /><br />There was nothing the hunter wasn't prepared for except the <strong>Jade Warrior</strong>, a huge figure guarding the cave entry that glistened with a million tiny jade pearls! He had found the Jade Cave but he had also found something else. The sight of the Jade Warrior was a vision to behold! The hunter would have never guessed that The Humming Stone, sitting right in the center of this bug's gut, also acted as his source of life. The hunter was scared to make a move after his presence was noticed by the wide eyes of this creature. The ornate trident seemed to have a breath of it's own, waiting to be unleashed by her wielder...",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "jade-warrior-white-bkg-by-navdeep---www.navdeepsb.com.png",
+        "imgTitle": "Jade Warrior with a plain white background",
+        "desc": "I hope you liked my short build-up to <strong>one of my my favorite illustrations</strong> that I have come up so far. During the summer of 2017, I found a really awesome and gorgeous platformer video game, <a href=\"http://hollowknight.com/\" rel=\"nofollow\" target=\"_blank\" tabindex=\"-1\" title=\"Hollow Knight | An atmospheric adventure through a surreal, bug-infested world\">Hollow Knight</a>, on Steam (Steam Summer Sale is the best!). I spent a ton of hours on this game totally immersed in the beautiful world created by the awesome designers/creators at <a href=\"http://teamcherry.com.au/\" rel=\"nofollow\" target=\"_blank\" tabindex=\"-1\" title=\"Team Cherry | Sweet Round Games\">Team Cherry</a> from the best continent in this world, Oz. I was heavily inspired by this game to come up with this illustration. I imagined the Jade Warrior to be one of the epic bosses the player fights in Hollow Knight.<br /><br />Below is the warrior behind a white background. Not so threatening, huh?!",
+        "imgPadded": true
+    },{
+        "img": "jade-warrior-ambient-bkg-by-navdeep---www.navdeepsb.com.png",
+        "imgTitle": "Jade Warrior with a plain ambient background",
+        "desc": "And another one...",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
 }
