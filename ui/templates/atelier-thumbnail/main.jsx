@@ -32,17 +32,8 @@ class ToolsUsed extends React.Component {
 export default class AtelierThumbnail extends React.Component {
     render() {
         let data = this.props.data;
-        let thumbnail = null;
         let timestamp = data.timestamp ? <p className="date">{ data.timestamp }</p> : null;
-
-        if( data.thumbnailImg ) {
-            thumbnail = <div className="canvas img-wrapper">
-                            <img src={ data.thumbnailImg } alt={ "Thumbnail nail for " + data.title } />
-                        </div>;
-        }
-        else {
-            thumbnail = <div className="canvas" />
-        }
+        let thumbnail = data.thumbnailImg ? <img src={ data.thumbnailImg } alt={ "Thumbnail nail for " + data.title } className="canvas" /> : <div className="canvas no-img" />;
 
         return (
             <div className="atelier-thumbnail">
@@ -51,7 +42,7 @@ export default class AtelierThumbnail extends React.Component {
                     <div className="text-wrapper">
                         <h3>{ data.title }</h3>
                         <div className="piece-info">
-                            <p>{ ( data.contentSections || [] ).length } images</p>
+                            <p>{ ( data.contentSections || [] ).length } media</p>
                             { timestamp }
                         </div>
                         <ToolsUsed tools={ data.tools } />

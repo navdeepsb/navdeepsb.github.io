@@ -5,14 +5,16 @@ $toolImgHeight: 30px;
 
 
 .atelier-thumbnail {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
+    flex-basis: 100%;
+    // width: 100%;
+    // display: inline-block;
+    // vertical-align: top;
     padding: 20px 0;
 
     @media screen and (min-width: $breakpoint-web) {
         & {
-            width: ( 1 / $numThumbnailsInRow ) * 100%;
+            flex-basis: ( 1 / $numThumbnailsInRow ) * 100%;
+            // width: ( 1 / $numThumbnailsInRow ) * 100%;
             padding: 20px;
         }
     }
@@ -32,8 +34,12 @@ $toolImgHeight: 30px;
     }
 
     .canvas {
-        height: $thumbnailImgHeight;
+        width: 100%;
         background: $accent;
+
+        &.no-img {
+            height: 200px;
+        }
     }
 
     h3 {

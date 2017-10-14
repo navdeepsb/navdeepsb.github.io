@@ -3,6 +3,9 @@ import React from "react";
 import AtelierThumbnail from "../../templates/atelier-thumbnail/main.jsx";
 
 
+import "./style.scss";
+
+
 
 // Get all `data.json`s from each subdirectory
 let atelierPieces = require.context( "../atelier", true, /^.*\.json$/ ).keys().map( individualPiece => {
