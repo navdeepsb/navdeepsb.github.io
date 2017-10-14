@@ -45,8 +45,8 @@ export default class AtelierThumbnail extends React.Component {
         }
 
         return (
-            <Link to={ data.path } className="atelier-thumbnail" title={ data.title }>
-                <div className="background-wrapper">
+            <div className="atelier-thumbnail">
+                <Link to={ data.path } className="background-wrapper" title={ data.title }>
                     { thumbnail }
                     <div className="text-wrapper">
                         <h3>{ data.title }</h3>
@@ -56,8 +56,8 @@ export default class AtelierThumbnail extends React.Component {
                         </div>
                         <ToolsUsed tools={ data.tools } />
                     </div>
-                </div>
-            </Link>
+                </Link>
+            </div>
         );
     }
 }
