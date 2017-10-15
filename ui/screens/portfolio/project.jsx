@@ -1,16 +1,9 @@
 import React from "react";
 
-import ArticleTpl from "../../templates/article/main.jsx";
-
-import "./style.scss";
-
-
-import articles from "./data.json";
 import NAV_LINKS from "../../common/web-links.json";
 
 
-
-export default class Article extends React.Component {
+export default class PortfolioProject extends React.Component {
     componentDidMount() {
         // Activate the link in the nav bar:
         // ---
@@ -21,19 +14,12 @@ export default class Article extends React.Component {
             });
 
         // Step #2 - Use that link attr to select the `a` tag and add class `active` to it
+        if( this.activeLink[ 0 ] === NAV_LINKS.PORTFOLIO ) this.activeLink[ 0 ] = "/";
         document.querySelector( `nav a[href='#${ this.activeLink[ 0 ] }']` ).classList.add( "active" );
     }
 
     componentWillUnmount() {
         // Step #3 - Deactivate the link
         document.querySelector( `nav a[href='#${ this.activeLink[ 0 ] }']` ).classList.remove( "active" );
-    }
-
-    render() {
-        let articleData = articles.find( article => article.path.split( "/" )[ 1 ] === this.props.routeParams.articleName );
-
-        return (
-            <ArticleTpl data={ articleData } />
-        );
     }
 }

@@ -1,6 +1,6 @@
 {
     "title": "D&D Poster",
-    "path": "atelier/dnd-poster",
+    "path": "/dnd-poster",
     "timestamp": "Nov 2016",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-dnd.png",

@@ -2,109 +2,109 @@
     {
         "title": "Worthy",
         "subtitle": "Product Design",
-        "path": "/portfolio/worthy",
+        "path": "/worthy",
         "img": "worthy-thumb.jpg",
         "show": true
     },
     {
         "title": "Lost Endpoints Workflow",
         "subtitle": "Product Design",
-        "path": "/portfolio/lost-endpoints-duo",
+        "path": "/lost-endpoints-duo",
         "img": "duo-thumb.png",
         "show": false
     },
     {
         "title": "Endpoints Reporting & Analysis @ Duo [WIP]",
         "subtitle": "Product Design, Data Viz",
-        "path": "/portfolio/endpoints-ra-duo",
+        "path": "/endpoints-ra-duo",
         "img": "duo-thumb.png",
         "show": false
     },
     {
         "title": "Run Finder",
         "subtitle": "UX Research, IxDesign",
-        "path": "/portfolio/run-finder",
+        "path": "/run-finder",
         "img": "run-finder-thumb.jpg",
         "show": true
     },
     {
         "title": "Usability Evaluation of Expedia",
         "subtitle": "UX Research",
-        "path": "/portfolio/expedia",
+        "path": "/expedia",
         "img": "expedia-thumb.png",
         "show": true
     },
     {
         "title": "Audiovate",
         "subtitle": "UX Research, PM, Consulting",
-        "path": "/portfolio/audiovate",
+        "path": "/audiovate",
         "img": "audiovate-thumb.jpg",
         "show": true
     },
     {
         "title": "This Portfolio [WIP]",
         "subtitle": "Product Design",
-        "path": "/portfolio/this",
+        "path": "/this",
         "show": false
     },
     {
         "title": "UMSI Design Clinic [WIP]",
         "subtitle": "Product Design",
-        "path": "/portfolio/umsi-design-clinic",
+        "path": "/umsi-design-clinic",
         "show": false
     },
     {
         "title": "geomeTRY",
         "subtitle": "Type Design",
-        "path": "/portfolio/geometry-type",
+        "path": "/geometry-type",
         "img": "geometry-thumb.jpeg",
         "show": true
     },
     {
         "title": "Consultant at DTE Energy",
         "subtitle": "Contextual Inquiry, Consulting",
-        "path": "/portfolio/consultant-dte",
+        "path": "/consultant-dte",
         "img": "dte-thumb.jpg",
         "show": true
     },
     {
         "title": "merainstitute.com",
         "subtitle": "Startup, Programming",
-        "path": "/portfolio/merainstitute",
+        "path": "/merainstitute",
         "img": "mi-thumb.png",
         "show": true
     },
     {
         "title": "Cyclika",
         "subtitle": "Qualitative Research",
-        "path": "/portfolio/cyclika",
+        "path": "/cyclika",
         "img": "cyclika-thumb.jpg",
         "show": true
     },
     {
         "title": "HomeArte",
         "subtitle": "Design, Programming",
-        "path": "/portfolio/homearte",
+        "path": "/homearte",
         "show": false
     },
     {
         "title": "BadgerJS",
         "subtitle": "IxDesign, Programming",
-        "path": "/portfolio/badger",
+        "path": "/badger",
         "img": "badger-thumb.jpeg",
         "show": true
     },
     {
         "title": "Lusie",
         "subtitle": "Programming",
-        "path": "/portfolio/lusie",
+        "path": "/lusie",
         "img": "lusie-thumb.png",
         "show": true
     },
     {
         "title": "My Atelier",
         "subtitle": "Graphic Design",
-        "path": "/portfolio/atelier",
+        "path": "/atelier",
         "img": "atelier-thumb.png",
         "show": false
     }

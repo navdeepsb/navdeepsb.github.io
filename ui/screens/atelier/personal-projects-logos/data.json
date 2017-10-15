@@ -1,6 +1,6 @@
 {
     "title": "Personal Project Logos",
-    "path": "atelier/personal-project-logos",
+    "path": "/personal-project-logos",
     "tools": [ "ilstrtr", "powrpnt" ],
     "thumbnailImg": "thumb-logos.png",
     "contentSections": [{

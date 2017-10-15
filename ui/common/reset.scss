@@ -59,11 +59,11 @@ hr {
     max-width: 65rem;
     min-height: 400px;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 0 20px 30px 20px;
 
     @media screen and (min-width: $breakpoint-web) {
         & {
-            padding: 50px 0;
+            padding: 0 0 50px 0;
         }
     }
 }

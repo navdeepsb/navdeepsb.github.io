@@ -7,6 +7,8 @@ import useScroll from "react-router-scroll/lib/useScroll";
 
 // Import components:
 import Header from "./ui/components/header/main.jsx";
+import Navigation from "./ui/components/nav/main.jsx";
+import MobileNavigationHelper from "./ui/components/nav/mobile.jsx";
 import Footer from "./ui/components/footer/main.jsx";
 import PortfolioScreen from "./ui/screens/portfolio/main.jsx";
 import RunFinderScreen from "./ui/screens/portfolio/run-finder/main.jsx";
@@ -31,6 +33,9 @@ import NotFoundScreen from "./ui/screens/404/main.jsx";
 // Import styles:
 import "./ui/common/reset.scss";
 
+// Import data:
+import NAV_LINKS from "./ui/common/web-links.json";
+
 
 // Google Analytics stuff:
 ReactGA.initialize( "UA-90739428-01" );
@@ -47,6 +52,7 @@ class App extends React.Component {
             <div>
                 <Header />
                 <div className="container">
+                    <Navigation />
                     { this.props.children }
                 </div>
                 <Footer />
@@ -60,24 +66,24 @@ ReactDOMRender(
     <Router history={ hashHistory } render={ applyRouterMiddleware( useScroll() ) } onUpdate={ logPageView }>
         <Route path="/" component={ App }>
             <IndexRoute component={ PortfolioScreen } />
-            <Route path="portfolio" component={ PortfolioScreen } />
-            <Route path="portfolio/run-finder" component={ RunFinderScreen } />
-            <Route path="portfolio/consultant-dte" component={ ConsultantDTEScreen } />
-            <Route path="portfolio/cyclika" component={ CyclikaScreen } />
-            <Route path="portfolio/lusie" component={ LusieScreen } />
-            <Route path="portfolio/badger" component={ BadgerScreen } />
-            <Route path="portfolio/worthy" component={ WorthyScreen } />
-            <Route path="portfolio/merainstitute" component={ MeraInstituteScreen } />
-            <Route path="portfolio/audiovate" component={ AudiovateScreen } />
-            <Route path="portfolio/expedia" component={ ExpediaScreen } />
-            <Route path="portfolio/geometry-type" component={ GeomeTRYScreen } />
-            <Route path="atelier" component={ AtelierScreen } />
-            <Route path="atelier/:piece" component={ AtelierPieceScreen } />
-            <Route path="creative-writing" component={ CreativeWritingScreen } />
-            <Route path="creative-writing/:articleName" component={ ArticleScreen } />
-            <Route path="resume" component={ ResumeScreen } />
-            <Route path="contact" component={ ContactScreen } />
-            <Route path="about" component={ AboutScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO } component={ PortfolioScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/run-finder" } component={ RunFinderScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/consultant-dte" } component={ ConsultantDTEScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/cyclika" } component={ CyclikaScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/lusie" } component={ LusieScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/badger" } component={ BadgerScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/worthy" } component={ WorthyScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/merainstitute" } component={ MeraInstituteScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/audiovate" } component={ AudiovateScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/expedia" } component={ ExpediaScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/geometry-type" } component={ GeomeTRYScreen } />
+            <Route path={ NAV_LINKS.GRAPHIC_DESIGN } component={ AtelierScreen } />
+            <Route path={ NAV_LINKS.GRAPHIC_DESIGN + "/:piece" } component={ AtelierPieceScreen } />
+            <Route path={ NAV_LINKS.CREATIVE_WRITING } component={ CreativeWritingScreen } />
+            <Route path={ NAV_LINKS.CREATIVE_WRITING + "/:articleName" } component={ ArticleScreen } />
+            <Route path={ NAV_LINKS.RESUME } component={ ResumeScreen } />
+            <Route path={ NAV_LINKS.CONTACT } component={ ContactScreen } />
+            <Route path={ NAV_LINKS.ABOUT_ME } component={ AboutScreen } />
             <Route path="*" component={ NotFoundScreen } />
         </Route>
     </Router>,

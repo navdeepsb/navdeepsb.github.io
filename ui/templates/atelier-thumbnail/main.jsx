@@ -3,6 +3,8 @@ import "./style.scss";
 import React from "react";
 import { Link } from "react-router";
 
+import NAV_LINKS from "../../common/web-links.json";
+
 
 // Handy-dandy variables:
 const TOOLS_I_USED = [{
@@ -39,7 +41,7 @@ export default class AtelierThumbnail extends React.Component {
 
         return (
             <div className="atelier-thumbnail">
-                <Link to={ data.path } className="background-wrapper" title={ data.title }>
+                <Link to={ NAV_LINKS.GRAPHIC_DESIGN + data.path } className="background-wrapper" title={ data.title }>
                     { thumbnail }
                     <div className="text-wrapper">
                         <h3>{ data.title }</h3>

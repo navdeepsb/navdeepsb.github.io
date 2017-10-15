@@ -3,6 +3,8 @@ import "./style.scss";
 import React from "react";
 import { Link } from "react-router";
 
+import NAV_LINKS from "../../common/web-links.json";
+
 
 
 export default class ProjectThumbnail extends React.Component {
@@ -20,7 +22,7 @@ export default class ProjectThumbnail extends React.Component {
         }
 
         return (
-            <Link to={ data.path } className="proj-thumbnail" title={ data.title }>
+            <Link to={ NAV_LINKS.PORTFOLIO + data.path } className="proj-thumbnail" title={ data.title }>
                 { thumbnail }
                 <h3>{ data.title }</h3>
                 <p>{ data.subtitle }</p>
