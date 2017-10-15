@@ -1,0 +1,65 @@
+{
+    "title": "Branding for Self",
+    "path": "atelier/personal-branding",
+    "timestamp": "Apr 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-n.png",
+    "contentSections": [{
+        "img": "thumb-n.png",
+        "imgTitle": "Logo for self",
+        "desc": "This is the logo I came up with for myself. The logomark captures the alphabets \"N\", \"A\", \"V\" and \"I\", which is my nickname - Navi. The typeface complements the sharp straight edges of the logomark. I tried to find a typeface that utilized straight lines and had minimal curves. I was thrilled to come across Industry typeface on Adobe Typekit. Please find the <a href=\"https://goo.gl/WcqBHA\" rel=\"nofollow\" target=\"_blank\" tabIndex=\"-1\" title=\"Brand Booklet - Navdeep Singh Bagga | Google Drive\">full booklet</a> here",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "type": "palette",
+        "colorPalette": [ { "c": "#f1f6dc", "isLightHue": true }, { "c": "#10b689" }, { "c": "#008c6e" }, { "c": "#5e5f5f" } ]
+    },{
+        "img": "n-logotype.png",
+        "imgTitle": "Logotype for self",
+        "desc": "Logomark + logotype",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-web-home.png",
+        "imgTitle": "Website home page",
+        "desc": "Also created a website design for this brand package.<br /><br />Home page:",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-web-about.png",
+        "imgTitle": "Website about page",
+        "desc": "About page:",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-web-contact.png",
+        "imgTitle": "Website contact page",
+        "desc": "Contact page:",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-web-home-mobile.png",
+        "imgTitle": "Website home page mobile version",
+        "desc": "Home page (mobile version):",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-visiting-card-front.png",
+        "imgTitle": "Front-side of the visiting card",
+        "desc": "Visiting card (front):",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-visiting-card-rear.png",
+        "imgTitle": "Rear-side of the visiting card",
+        "desc": "Visiting card (rear):",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "n-type-specimen.png",
+        "imgTitle": "Type specimen",
+        "desc": "Type specimen:",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
+}

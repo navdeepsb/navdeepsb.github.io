@@ -3,6 +3,72 @@
     "path": "atelier/people-stickers",
     "timestamp": "May 2017",
     "tools": [ "ilstrtr" ],
-    "thumbnailImg": "",
-    "contentSections": []
+    "thumbnailImg": "thumb-people.png",
+    "contentSections": [{
+        "img": "01-bob.png",
+        "imgTitle": "Bob",
+        "desc": "I created one illustration of \"Bob\" shown below and then thought of reusing the main components to create different illustrations. It worked out really well as I couldn't stop creating these stickers. Taking a break after making 11 of these now, have a look, this is <strong>one of my favorite illustrations</strong>.<br /><br />Bob",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "02-victor.png",
+        "imgTitle": "Victor",
+        "desc": "Victor",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "03-heidi.png",
+        "imgTitle": "Heidi",
+        "desc": "Heidi",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "04-marilyn.png",
+        "imgTitle": "Marilyn",
+        "desc": "Marilyn",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "05-kerry.png",
+        "imgTitle": "Kerry",
+        "desc": "Kerry",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "06-cheech.png",
+        "imgTitle": "Cheech",
+        "desc": "Cheech",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "07-hippie.png",
+        "imgTitle": "Hippie",
+        "desc": "Hippie",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "08-zenmaster.png",
+        "imgTitle": "Zen Master",
+        "desc": "Zen Master",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "09-becky.png",
+        "imgTitle": "Becky",
+        "desc": "Becky",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "10-jimmy.png",
+        "imgTitle": "Jimmy",
+        "desc": "Jimmy",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "11-jennie.png",
+        "imgTitle": "Jennie",
+        "desc": "Jennie",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
 }

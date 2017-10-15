@@ -45,7 +45,7 @@ export default class AtelierThumbnail extends React.Component {
                         <h3>{ data.title }</h3>
                         { descrptn }
                         <div className="piece-info">
-                            <p>{ ( data.contentSections || [] ).length } media</p>
+                            <p>{ ( data.contentSections || [] ).filter( content => content.type !== "palette" ).length } media</p>
                             { timestamp }
                         </div>
                         <ToolsUsed tools={ data.tools } />

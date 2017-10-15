@@ -1,0 +1,99 @@
+{
+    "title": "Branding for uLEAD",
+    "path": "atelier/ulead-branding",
+    "timestamp": "Mar 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-ulead.png",
+    "contentSections": [{
+        "img": "ulead-logo.png",
+        "imgTitle": "Logo for uLEAD",
+        "desc": "Part of my graphic design class in U-M, we were tasked to create a <strong>corporate identity</strong> for the uLEAD (University Leaders for Educational Access and Diversity) network which is an online community of university leaders committed to broadening postsecondary access and support for all students, regardless of immigration status.<br /><br />The client specifically asked to <em>\"keep a pillar (in the logomark) - show us at least one version with that element.\"</em> So I came up with this final logo that creates the shape of a pillar.",
+        "imgPadded": true,
+        "imgNoBorder": true
+    },{
+        "img": "ulead-logo-option-1.png",
+        "imgTitle": "Initial logo option #1",
+        "desc": "Before coming up with the final logo, I came up with the following 3 options. After discussion with the mentors, option #2 was decided to proceed forward with.<br /><br />Initial logo option number 1",
+        "imgPadded": true,
+        "imgNoBorder": true
+    },{
+        "img": "ulead-logo-option-2.png",
+        "imgTitle": "Initial logo option number 2",
+        "desc": "Initial logo option #2",
+        "imgPadded": true,
+        "imgNoBorder": true
+    },{
+        "img": "ulead-logo-option-3.png",
+        "imgTitle": "Initial logo option number 3",
+        "desc": "Initial logo option #3",
+        "imgPadded": true,
+        "imgNoBorder": true
+    },{
+        "img": "ulead-business-card-front.png",
+        "imgTitle": "Business card for uLEAD",
+        "desc": "The business card also takes the same elements of Modernism and is clean and easy to read.<br /><br />Front-side of the business card",
+        "imgPadded": true,
+        "imgNoBorder": true
+    },{
+        "img": "ulead-business-card-rear.png",
+        "imgTitle": "Business card for uLEAD",
+        "desc": "Rear-side of the business card",
+        "imgPadded": true,
+        "imgNoBorder": true
+    },{
+        "img": "brand-booklet-01.png",
+        "imgTitle": "Brand booklet page number 1",
+        "desc": "This was the branding booklet I created for uLEAD.<br /><br />Page #1 /10"
+    },{
+        "img": "brand-booklet-02.png",
+        "imgTitle": "Brand booklet page number 2",
+        "desc": "Page #2 /10"
+    },{
+        "img": "brand-booklet-03.png",
+        "imgTitle": "Brand booklet page number 3",
+        "desc": "Page #3 /10"
+    },{
+        "img": "brand-booklet-04.png",
+        "imgTitle": "Brand booklet page number 4",
+        "desc": "Page #4 /10"
+    },{
+        "img": "brand-booklet-05.png",
+        "imgTitle": "Brand booklet page number 5",
+        "desc": "Page #5 /10"
+    },{
+        "img": "brand-booklet-06.png",
+        "imgTitle": "Brand booklet page number 6",
+        "desc": "Page #6 /10"
+    },{
+        "img": "brand-booklet-07.png",
+        "imgTitle": "Brand booklet page number 7",
+        "desc": "Page #7 /10"
+    },{
+        "img": "brand-booklet-08.png",
+        "imgTitle": "Brand booklet page number 8",
+        "desc": "Page #8 /10"
+    },{
+        "img": "brand-booklet-09.png",
+        "imgTitle": "Brand booklet page number 9",
+        "desc": "Page #9 /10"
+    },{
+        "img": "brand-booklet-10.png",
+        "imgTitle": "Brand booklet page number 10",
+        "desc": "Page #10 /10"
+    },{
+        "img": "ulead-sketch-1.jpg",
+        "imgTitle": "Sketching #1",
+        "desc": "Some initial sketches:",
+        "imgPadded": true
+    },{
+        "img": "ulead-sketch-2.jpg",
+        "imgTitle": "Sketching #2",
+        "desc": "",
+        "imgPadded": true
+    },{
+        "img": "ulead-sketch-3.jpg",
+        "imgTitle": "Sketching #3",
+        "desc": "",
+        "imgPadded": true
+    }]
+}
