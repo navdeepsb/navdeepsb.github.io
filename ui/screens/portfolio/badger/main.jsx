@@ -1,10 +1,13 @@
 import React from "react";
 
-import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
-
 import "../style.scss"
 
-export default class Badger extends React.Component {
+import PortfolioProject from "../project.jsx";
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
+
+
+export default class Badger extends PortfolioProject {
     render() {
         let bannerData = {
             projName: "BadgerJS",

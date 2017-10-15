@@ -1,17 +1,19 @@
 import React from "react";
 
-import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
-
 import "./style.scss"
 import "../style.scss"
+
+import PortfolioProject from "../project.jsx";
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
+
 
 
 // Variables:
 let initialText = "yahoo";
 
 
-
-class CustomType extends React.Component {
+class CustomType extends PortfolioProject {
     render() {
         var glyph = this.props.glyph;
         let elemToRender = null;

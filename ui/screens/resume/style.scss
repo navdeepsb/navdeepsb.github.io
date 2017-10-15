@@ -56,7 +56,12 @@
 
     .pdf-text {
         margin-bottom: 60px;
-        text-align: center;
         font-size: 1.2rem;
-    }
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                text-align: center;
+            }
+        }
+   }
 }

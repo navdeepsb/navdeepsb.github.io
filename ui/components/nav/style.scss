@@ -1,0 +1,82 @@
+// Vars:
+$accentHeight: 1px;
+$navBkg: rgba( white, 0.96 );
+
+nav {
+    background: $navBkg;
+    padding: 30px 20px 20px 20px;
+    margin: 0 -20px 30px -20px;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            margin: 0 -20px 50px -20px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            z-index: 999;
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                text-align: center;
+            }
+        }
+
+        li {
+            display: block;
+            margin: 10px 0;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    display: inline-block;
+                    margin: 0 20px;
+                }
+            }
+
+            a {
+                color: $primaryText;
+
+                &.active {
+                    color: $accent;
+
+                    @media screen and (min-width: $breakpoint-web) {
+                        &::after {
+                            // box-shadow: 0 6px 0 transparent, 0 7px $accent;
+                            content: "";
+                            display: block;
+                            height: $accentHeight;
+                            border-radius: ( 2 * $accentHeight );
+                            background: $accent;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.mobileStickyNav {
+    margin: 0 -20px;
+    padding: 10px 20px;
+    background: $navBkg;
+    text-align: right;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            display: none;
+        }
+    }
+}

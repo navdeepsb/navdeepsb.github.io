@@ -1,11 +1,13 @@
 import React from "react";
 
-import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
-
 import "../style.scss"
 
+import PortfolioProject from "../project.jsx";
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
 
-export default class Expedia extends React.Component {
+
+
+export default class Expedia extends PortfolioProject {
     render() {
         let bannerData = {
             projName: "Usability Evaluation of Expedia",

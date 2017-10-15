@@ -3,7 +3,12 @@ $formControlWidth: 400px;
 .contact {
     p {
         color: $secondaryText;
-        text-align: center;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                text-align: center;
+            }
+        }
     }
 
     form {

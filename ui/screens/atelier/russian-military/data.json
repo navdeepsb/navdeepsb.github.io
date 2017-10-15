@@ -1,6 +1,6 @@
 {
     "title": "Russian Military Vehicles",
-    "path": "atelier/russian-military-vehicles",
+    "path": "/russian-military-vehicles",
     "timestamp": "Sep 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-russian-military.png",

@@ -1,9 +1,10 @@
 import React from "react";
 
-import AtelierThumbnail from "../../templates/atelier-thumbnail/main.jsx";
-
-
 import "./style.scss";
+
+import NAV_LINKS from "../../common/web-links.json";
+
+import AtelierThumbnail from "../../templates/atelier-thumbnail/main.jsx";
 
 
 
@@ -18,6 +19,16 @@ let atelierPieces = require.context( "../atelier", true, /^.*\.json$/ ).keys().m
 
 
 export default class Atelier extends React.Component {
+    componentDidMount() {
+        // Activate the link in the nav bar:
+        document.querySelector( `nav a[href='#${ NAV_LINKS.GRAPHIC_DESIGN }']` ).classList.add( "active" );
+    }
+
+    componentDidUnmount() {
+        // Activate the link in the nav bar:
+        document.querySelector( `nav a[href='#${ NAV_LINKS.GRAPHIC_DESIGN }']` ).classList.remove( "active" );
+    }
+
     render() {
         return (
             <div className="atelier">

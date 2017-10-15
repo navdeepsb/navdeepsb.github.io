@@ -1,10 +1,13 @@
 import React from "react";
 
-import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
-
 import "../style.scss"
 
-export default class Worthy extends React.Component {
+import PortfolioProject from "../project.jsx";
+import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
+
+
+
+export default class Worthy extends PortfolioProject {
     render() {
         // Variables:
         let bannerData = {

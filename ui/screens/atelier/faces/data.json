@@ -1,6 +1,6 @@
 {
     "title": "Faces",
-    "path": "atelier/faces",
+    "path": "/faces",
     "timestamp": "Dec 2016",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-faces.png",

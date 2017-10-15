@@ -1,14 +1,25 @@
 import React from "react";
 
-import ProjectThumbnail from "../../templates/proj-thumbnail/main.jsx";
-
 import "./style.scss";
 
-
 import projects from "./data.json";
+import NAV_LINKS from "../../common/web-links.json";
+
+import ProjectThumbnail from "../../templates/proj-thumbnail/main.jsx";
+
 
 
 export default class Portfolio extends React.Component {
+    componentDidMount() {
+        // Activate the link in the nav bar:
+        document.querySelector( `nav a[href='#${ NAV_LINKS.HOME }']` ).classList.add( "active" );
+    }
+
+    componentDidUnmount() {
+        // Activate the link in the nav bar:
+        document.querySelector( `nav a[href='#${ NAV_LINKS.HOME }']` ).classList.remove( "active" );
+    }
+
     render() {
         return (
             <div className="portfolio">
