@@ -47,6 +47,14 @@ figure {
     }
 }
 
+hr {
+    margin: 0;
+    border-top: 1px solid $secondaryText;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 .container {
     max-width: 65rem;
     min-height: 400px;

@@ -1,0 +1,14 @@
+{
+    "title": "D&D Poster",
+    "path": "atelier/dnd-poster",
+    "timestamp": "Nov 2016",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-dnd.png",
+    "contentSections": [{
+        "img": "dnd-poster.png",
+        "imgTitle": "The poster for my first Dungeons & Dragons tournament as a Dungeon Master",
+        "desc": "I DM'ed for a Dungeons and Dragons session and this was the poster I used to lure folks into the epic world of fantasy and drama. This was one of my initial interactions with Illustrator.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
+}

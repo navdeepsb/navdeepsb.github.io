@@ -1,0 +1,20 @@
+{
+    "title": "Postmodern Poster",
+    "path": "atelier/postmodern-poster",
+    "timestamp": "Oct 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-pm-poster.png",
+    "contentSections": [{
+        "img": "postmodern-poster.png",
+        "imgTitle": "Postmodern Poster",
+        "desc": "Recently, Dropbox made a drastic change in their brand. They went haywire with colors and adopted the Postmodernism ( or \"modern Modernism\" ) style. I loved it! The variety of colors, the strange background-foreground color combinations, emphasis on shapes (which I've always done) all convinced me to embrace this new design shift. I picked up my portfolio's logo and experimented with the colors.<br /><br />I have printed this out and put it on my room's wall. Looks great!",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "redesign-article_color-pairings---dropbox.com.png",
+        "imgTitle": "Dropbox's new design",
+        "desc": "My source of colors. Image taken from <a tabindex=\"-1\" href=\"https://dropbox.design/\" title=\"Dropbox Design\">dropbox.design</a> on Oct 14, 17.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
+}

@@ -1,0 +1,81 @@
+// Variables:
+$thumbnailImgHeight: 200px;
+$toolImgHeight: 40px;
+$toolImgHeightMob: 60px;
+
+
+
+.atelier-thumbnail {
+    width: 100%;
+    display: inline-block;
+
+    .background-wrapper {
+        color: $primaryText;
+        background: darken( white, 3% );
+        text-decoration: none;
+        display: block;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: $atelierThumbGutter;
+    }
+
+    .text-wrapper {
+        padding: 20px;
+    }
+
+    .canvas {
+        width: 100%;
+        background: $accent;
+
+        &.no-img {
+            height: 200px;
+        }
+    }
+
+    h3 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin: 0 0 20px 0;
+        hyphens: auto;
+    }
+
+    .piece-info {
+        margin: 0;
+        color: $secondaryText;
+
+        & > * {
+            width: 50%;
+            display: inline-block;
+            margin-bottom: 0;
+        }
+
+        .date {
+            text-align: right;
+        }
+    }
+
+    p.piece-info {
+        color: $primaryText;
+        hyphens: auto;
+    }
+
+    .tools-imgs {
+        display: none;
+
+        .img-wrapper {
+            width: $toolImgHeightMob;
+            height: $toolImgHeightMob;
+            display: inline-block;
+            margin-right: 10px;
+
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    width: $toolImgHeight;
+                    height: $toolImgHeight;
+                }
+            }
+        }
+    }
+}

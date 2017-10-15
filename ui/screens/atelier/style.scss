@@ -1,16 +1,14 @@
+$numThumbnailsInAtelierRow: 4;
+
+
 .atelier {
-    text-align: center;
+    column-count: 1;
+    column-gap: $atelierThumbGutter;
 
-    img + p {
-        margin-bottom: 60px;
-    }
-
-    .description {
-        max-width: 800px;
-        margin: 0 auto 60px auto;
-    }
-
-    img.logo {
-        width: 300px;
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            column-count: $numThumbnailsInAtelierRow;
+            column-fill: auto;
+        }
     }
 }

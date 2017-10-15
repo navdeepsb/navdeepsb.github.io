@@ -1,0 +1,37 @@
+{
+    "title": "Favorite Beverage Infographic",
+    "path": "atelier/masala-chai",
+    "timestamp": "Feb 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-chai.jpg",
+    "contentSections": [{
+        "img": "infographic.jpg",
+        "imgTitle": "Infographic for my favorite beverage, Masala Chai",
+        "desc": "The final result for my infographic about my favorite beverage, <strong>Masala Chai</strong> (Spiced Tea Latte or Chai Tea Latte). I used Adobe Illustrator for this and created the illustrations used in the top portion. Please note that the illustrations of map and human body are works of their own authors, not mine.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "type": "palette",
+        "colorPalette": [ { "c": "#a2b9b7" }, { "c": "#d68189" }, { "c": "#ffdc98", "isLightHue": true } ]
+    },{
+        "img": "type-specimen.png",
+        "imgTitle": "Type specimen for this project",
+        "desc": "I went with a sans-serif solution for the title followed by a strong serif typeface.",
+        "imgPadded": true
+    },{
+        "img": "illustrations.png",
+        "imgTitle": "Some illustrations for this project",
+        "desc": "I chose not to use any real-life photographs so I gave a try to make my own illustrations of a cup holding masala chai and various ingredients in Adobe Illustrator. Simple shapes, pencil, the Pathfinder window and the Shape Builder tool proved mighty helpful for this process. Below are the illustrations I created:",
+        "imgPadded": true
+    },{
+        "img": "initial-sketching-01.jpg",
+        "imgTitle": "Initial sketching #1",
+        "desc": "Trying to find the perfect placement of elements during the initial sketching phase so it looks balanced overall. I was deciding mainly between whether to use the top-down view of a drinking cup or the side-view.",
+        "imgPadded": true
+    },{
+        "img": "initial-sketching-02.jpg",
+        "imgTitle": "Initial sketching #2",
+        "desc": "A birds-eye view of the layout I was planning. This helped me greatly when implementing the digital version.",
+        "imgPadded": true
+    }]
+}

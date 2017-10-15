@@ -1,0 +1,14 @@
+{
+    "title": "Faces",
+    "path": "atelier/faces",
+    "timestamp": "Dec 2016",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-faces.png",
+    "contentSections": [{
+        "img": "faces.png",
+        "imgTitle": "4 illustration showing human faces created using simple shapes",
+        "desc": "My first jab at Adobe Illustrator. I made four faces using simple shapes; called it Diversity. One of my friends pointed out that the face on the bottom right looked a lot like me which I agreed. I made it the logo of my portfolio website.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
+}

@@ -1,16 +1,28 @@
 $width: 300px;
 
 .article-thumbnail {
-    max-width: $width;
+    width: 100%;
     display: inline-block;
-    margin: 20px;
     text-align: left;
     vertical-align: top;
+    margin: 40px 0;
+
+    @media screen and (min-width: $breakpoint-web) {
+        & {
+            max-width: $width;
+            margin: 20px;
+        }
+    }
 
     h3 {
         font-family: "Montserrat";
         font-weight: bold;
         font-size: 1.8rem;
         margin-top: 0;
+    }
+
+    .timestamp {
+        color: $secondaryText;
+        margin-top: -20px;
     }
 }

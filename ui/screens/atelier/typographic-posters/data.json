@@ -1,0 +1,24 @@
+{
+    "title": "Typographic Posters",
+    "path": "atelier/typographic-posters",
+    "timestamp": "Sep 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-type-posters.png",
+    "contentSections": [{
+        "img": "frisco.png",
+        "imgTitle": "San Francisco",
+        "desc": "I always wanted to visit San Francisco and was in Berkeley visiting a good friend of mine during the 2016 holidays. Created this mini-banner in Illustrator for the upcoming awesome trip at that time."
+    },{
+        "img": "start-finish-share.png",
+        "imgTitle": "Start. Finish. Share.",
+        "desc": "I have a thing for silhouettes. Used Adobe Photoshop to convey my new year resolution for 2017."
+    },{
+        "img": "half-dome.jpg",
+        "imgTitle": "Half-Dome, Yosemite Valley, California, USA",
+        "desc": "Half Dome, Yosemite Valley. Photo by <a href=\"https://unsplash.com/@aaronhjlee\" rel=\"nofollow\" target=\"_blank\" tabIndex=\"-1\" title=\"Aaron Lee\">Aaron Lee</a>."
+    },{
+        "img": "himalayas.jpg",
+        "imgTitle": "Himalayas, Himachal Pradesh, India",
+        "desc": "Himalayas, India. Photo by <a href=\"https://unsplash.com/@rvshekhar10\" rel=\"nofollow\" target=\"_blank\" tabIndex=\"-1\" title=\"Ravi Shekhar\">Ravi Shekhar</a>."
+    }]
+}

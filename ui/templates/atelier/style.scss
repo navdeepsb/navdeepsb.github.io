@@ -1,0 +1,84 @@
+.atelier-piece {
+    text-align: left;
+
+    h3 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .timestamp {
+        width: 100%;
+        color: $secondaryText;
+        margin: 0;
+    }
+
+    .atelier__content {
+        width: 100%;
+        margin-top: 50px;
+
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                margin-top: 100px;
+            }
+        }
+
+        &.no-margin {
+            margin-top: 30px;
+        }
+
+        .palette-block {
+            height: 200px;
+            display: inline-block;
+            border: 1px solid white;
+            position: relative;
+
+            p {
+                color: white;
+                font-size: 1rem;
+                position: absolute;
+                bottom: 0;
+                left: 20px;
+
+                @media screen and (min-width: $breakpoint-web) {
+                    & {
+                        font-size: 2rem;
+                    }
+                }
+
+                &.dark {
+                    color: lighten( black, 20% );
+                }
+            }
+        }
+    }
+
+    .atelier-img-wrapper {
+        @media screen and (min-width: $breakpoint-web) {
+            & {
+                padding: 40px;
+                background: lighten( black, 30% );
+                text-align: center;
+            }
+        }
+    }
+
+    img {
+        border: 1px solid $imageBorder;
+
+        &.no-border {
+            border: none;
+        }
+
+        &.padded {
+            @media screen and (min-width: $breakpoint-web) {
+                & {
+                    width: 500px;
+                    display: inherit;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "title": "Russian Military Vehicles",
+    "path": "atelier/russian-military-vehicles",
+    "timestamp": "Sep 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-russian-military.png",
+    "contentSections": [{
+        "img": "maz-537.png",
+        "imgTitle": "Illustration of the MAZ-537",
+        "desc": "MAZ-537",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "uaz-469.png",
+        "imgTitle": "Illustration of the UAZ-469",
+        "desc": "UAZ-469",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "btr-152.png",
+        "imgTitle": "Illustration of the BTR-152",
+        "desc": "BTR-152",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "type": "palette",
+        "colorPalette": [{ "c": "#E8C860", "isLightHue": true }, { "c": "#839F26" }]
+    }]
+}

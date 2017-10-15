@@ -1,0 +1,68 @@
+{
+    "title": "Animals",
+    "path": "atelier/illustrations-of-animals",
+    "timestamp": "May 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-animals.png",
+    "contentSections": [{
+        "img": "chameleon.png",
+        "imgTitle": "Chameleon illustration",
+        "desc": "I attempted to create illustrations of certain animals that I liked. The style of these illustrations is heavily influenced by <strong>Modernism</strong> with the use of geometry and symmetry.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "humming-bird.png",
+        "imgTitle": "Humming Bird illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "hipopotamus.png",
+        "imgTitle": "Hipopotamus Bird illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "lion.png",
+        "imgTitle": "Lion Bird illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "koala.png",
+        "imgTitle": "Koala illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "monkey.png",
+        "imgTitle": "Monkey illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "panda.png",
+        "imgTitle": "Panda illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "fox.png",
+        "imgTitle": "Fox illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "walrus.png",
+        "imgTitle": "Walrus illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "panther.png",
+        "imgTitle": "Panther illustration",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true
+    }]
+}
