@@ -3,12 +3,20 @@ $numThumbnailsInAtelierRow: 4;
 
 .atelier {
     column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
     column-gap: $atelierThumbGutter;
+    -webkit-column-gap: $atelierThumbGutter;
+    -moz-column-gap: $atelierThumbGutter;
 
     @media screen and (min-width: $breakpoint-web) {
         & {
             column-count: $numThumbnailsInAtelierRow;
+            -webkit-column-count: $numThumbnailsInAtelierRow;
+            -moz-column-count: $numThumbnailsInAtelierRow;
             column-fill: auto;
+            -webkit-column-fill: auto;
+            -moz-column-fill: balance;
         }
     }
 }

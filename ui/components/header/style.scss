@@ -1,3 +1,6 @@
+// Variables:
+$animationTimeInterval: 0.7s;
+
 .header {
     text-align: left;
     padding: 20px 20px 0 20px;
@@ -10,6 +13,16 @@
 
     img {
         margin: 25px 0;
+        width: 70px;
+        transition: $animationTimeInterval background-color;
+        -webkit-transition: $animationTimeInterval transform;
+        -moz-transition: $animationTimeInterval transform;
+        -ms-transition: $animationTimeInterval transform;
+        -o-transition: $animationTimeInterval transform;
+
+        &:hover {
+            transform: rotateZ( 360deg );
+        }
     }
 
     h1 {
