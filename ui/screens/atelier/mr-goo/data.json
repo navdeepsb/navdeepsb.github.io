@@ -5,9 +5,15 @@
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-goo.png",
     "contentSections": [{
-        "img": "goo-1.png",
+        "img": "mr-goo-by-navdeep---www.navdeepsb.com.gif",
         "imgTitle": "Mr. Goo",
         "desc": "I was just feeling overwhelmed and wanted to capture my emotions in a character illustration. And Mr. Goo was born.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "goo-1.png",
+        "imgTitle": "Mr. Goo",
+        "desc": "",
         "imgNoBorder": true,
         "imgPadded": true
     },{
