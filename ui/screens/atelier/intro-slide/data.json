@@ -8,7 +8,6 @@
         "img": "intro-slide.jpg",
         "imgTitle": "A slide showing me walking on the lush green pastures of Gulmarg, Kashmir with some intro text around the graphic",
         "desc": "I had taken a graphic design class and we were tasked to create a slide/screen depicting ourselves. I used one of my favorite photographs from <strong>Gulmarg, Srinagar</strong> to act as the backdrop. To lessen it's effect and so it can be in harmony with our typographic components, I added a greyscale effect to it. Overall, I was pretty satisfied with the outcome.<br /><br />Used Powerpoint for this.",
-        "imgNoBorder": true,
-        "imgPadded": true
+        "imgNoBorder": true
     }]
 }

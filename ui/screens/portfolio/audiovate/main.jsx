@@ -2,12 +2,12 @@ import React from "react";
 
 import "../style.scss"
 
-import PortfolioProject from "../project.jsx";
+import OneParentForThemAll from "../../../common/one-parent.jsx";
 import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
 
 
 
-export default class Audiovate extends PortfolioProject {
+export default class Audiovate extends OneParentForThemAll {
     render() {
         let bannerData = {
             projName: "Audiovate",

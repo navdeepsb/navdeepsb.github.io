@@ -3,7 +3,7 @@ import React from "react";
 import "./style.scss"
 import "../style.scss"
 
-import PortfolioProject from "../project.jsx";
+import OneParentForThemAll from "../../../common/one-parent.jsx";
 import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
 
 
@@ -13,7 +13,7 @@ import ProjectBannerTpl from "../../../templates/project-banner/main.jsx";
 let initialText = "yahoo";
 
 
-class CustomType extends PortfolioProject {
+class CustomType extends OneParentForThemAll {
     render() {
         var glyph = this.props.glyph;
         let elemToRender = null;

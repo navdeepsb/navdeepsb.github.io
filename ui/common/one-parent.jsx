@@ -1,9 +1,9 @@
 import React from "react";
 
-import NAV_LINKS from "../../common/web-links.json";
+import NAV_LINKS from "./web-links.json";
 
 
-export default class PortfolioProject extends React.Component {
+export default class OneParentForThemAll extends React.Component {
     componentDidMount() {
         // Activate the link in the nav bar:
         // ---
