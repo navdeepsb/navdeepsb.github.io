@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
                         <p>Copyright &copy; { currYear } Navdeep Singh Bagga</p>
                     </div>
                     <div className="social-media">
-                        { links.map( ( link, idx ) => {
+                        { links.filter( link => link.show ).map( ( link, idx ) => {
                             return <SocialMediaLink data={ link } key={ idx } />;
                         }) }
                     </div>

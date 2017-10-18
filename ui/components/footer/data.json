@@ -2,31 +2,43 @@
     {
         "type": "linkedin",
         "background": "#007BB6",
-        "to": "https://www.linkedin.com/in/navdeepsb"
+        "to": "https://www.linkedin.com/in/navdeepsb",
+        "show": true
     },
     {
         "type": "github",
         "background": "#24292E",
-        "to": "https://github.com/navdeepsb"
+        "to": "https://github.com/navdeepsb",
+        "show": true
+    },
+    {
+        "type": "behance",
+        "background": "#0067FF",
+        "to": "https://www.behance.net/navdeepsb",
+        "show": true
     },
     {
         "type": "facebook",
         "background": "#3B5998",
-        "to": "https://www.facebook.com/navdeepsb"
+        "to": "https://www.facebook.com/navdeepsb",
+        "show": true
     },
     {
         "type": "twitter",
         "background": "#00ACED",
-        "to": "https://www.twitter.com/navdeepsb"
+        "to": "https://www.twitter.com/navdeepsb",
+        "show": true
     },
     {
         "type": "google-plus",
         "background": "#DD4B39",
-        "to": "https://plus.google.com/+NavdeepSinghBagga"
+        "to": "https://plus.google.com/+NavdeepSinghBagga",
+        "show": false
     },
     {
         "type": "instagram",
         "background": "#BC2A8D",
-        "to": "https://www.instagram.com/_navdeepsb_/"
+        "to": "https://www.instagram.com/_navdeepsb_/",
+        "show": true
     }
 ]
