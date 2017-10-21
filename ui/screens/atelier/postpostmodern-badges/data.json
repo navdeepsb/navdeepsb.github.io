@@ -1,0 +1,55 @@
+{
+    "title": "Postpostmodern Badges",
+    "path": "/postpostmodern-badges",
+    "timestamp": "Oct 2017",
+    "tools": [ "ilstrtr", "fotoshp" ],
+    "thumbnailImg": "thumb-ppm-badges.png",
+    "contentSections": [{
+        "img": "ppm1-manage-like-a-pro--with-filter.png",
+        "imgTitle": "Illustration of a joyful octopus wearing golden glasses",
+        "desc": "I created 4 badges inspired by the postpostmodern style of art, employing instant cuteness by anthropomorphizing some animals to convey a few motivational messages. Each of the illustration of an animal has some human-object interaction in it. I thought this can be a unifying property that would also support consistency in these designs. I also created an icon for each badge that sits on the top.<br /><br />The purpose of these badges is to be used as source of day-to-day motivation. Practical uses include laptop stickers, posters, index cards, etc. Used <strong>Adobe Illustrator</strong> to create the badges and then applied a filter using <strong>Adobe Photoshop</strong>.<br /><br /><br />Below is my implementation for management issues that arise in any organization. This cute octopus wearing golden sunglasses is a <em>visual litote</em> for saying that if an octopus can do it (although with 8 limbs), you can do it too!",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "ppm2-do-your-research--with-filter.png",
+        "imgTitle": "Illustration of a studious owl holding a book",
+        "desc": "Following the same theme here as before, the studious owl is a visual litote for inspiring people to do thorough research on a topic before presenting it to others.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "ppm3-express-yourself--with-filter.png",
+        "imgTitle": "Illustration of a cool polar bear wearing sunglasses and waving \"hello\"",
+        "desc": "I had to put sunglasses on a polar bear. I love polar bears and think that they think that they are cool, so I listened to them. The posture of the bear is a confident one and it is waving at us, expressing itself.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "ppm4-care-for-others--with-filter.png",
+        "imgTitle": "Illustration of an injured bison who has just been taken care of and wearing two bandages",
+        "desc": "A cute injured bison who has just been taken care of. The bison was nearly extinct in the 19th century and through this badge, I want to show that someone with a kind heart rescued this bison and it survived to live long enough.",
+        "imgNoBorder": true,
+        "imgPadded": true
+    },{
+        "img": "ppm-all-no-filter.png",
+        "imgTitle": "All illustrations in one bunch",
+        "desc": "All of the illustrations shown without any filter effect:",
+        "imgNoBorder": true
+    },{
+        "img": "ppm-layer-organization.png",
+        "imgTitle": "<br /><br /><br />Screenshot of Adobe Illustrator layers used for this project",
+        "desc": "Screenshot of Adobe Illustrator layers used for this project:",
+        "imgNoBorder": true,
+        "noImgBackground": true
+    },{
+        "img": "ppm-use-of-guides.png",
+        "imgTitle": "Screenshot of Adobe Illustrator guides used for this project",
+        "desc": "Screenshot of Adobe Illustrator guides:",
+        "imgNoBorder": true,
+        "noImgBackground": true
+    },{
+        "img": "ppm-mr-spyder.png",
+        "imgTitle": "Mr. Spyder",
+        "desc": "I started off with this dude over here. But I found that initial reaction of people towards it was not as expected. Mr. Spyder was creeping people out (not me, I loved it). The idea was to show that a spider has 8 legs and can use each to do multiple things at a time.",
+        "imgNoBorder": true,
+        "noImgBackground": true
+    }]
+}

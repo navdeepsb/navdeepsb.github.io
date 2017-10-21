@@ -41,7 +41,7 @@ export default class AtelierTpl extends React.Component {
                     return (
                         <div className={ "atelier__content" + ( !idx ? " no-margin" : "" ) }>
                             <p className="atelier__txt" dangerouslySetInnerHTML={{ __html: content.desc }} />
-                            <div className="atelier-img-wrapper">
+                            <div className={ "atelier-img-wrapper" + ( content.noImgBackground ? " no-bkg" : "" ) }>
                                 <img src={ content.img } alt={ content.imgTitle } className={ imgClassList } />
                             </div>
                         </div>

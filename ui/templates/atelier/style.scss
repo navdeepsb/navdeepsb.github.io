@@ -61,6 +61,10 @@
                 padding: 40px;
                 background: lighten( black, 30% );
                 text-align: center;
+
+                &.no-bkg {
+                    background: none;
+                }
             }
         }
     }
