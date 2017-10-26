@@ -24,7 +24,7 @@
     },{
         "img": "portfolio-logo.png",
         "imgTitle": "Logo for my online portfolio, this portfolio, yes!",
-        "desc": "The logo for <a tabindex=\"-1\" href=\"/\">this</a> portfolio website, adapted from my <a tabindex=\"-1\" href=\"#/atelier/faces\">Faces</a> illustration.",
+        "desc": "The logo for <a tabindex=\"-1\" href=\"/\">this</a> portfolio website, adapted from my <a tabindex=\"-1\" href=\"#/atelier/faces\">Faces</a> illustration. I call this logo \"Navi\" after my nick name.",
         "imgNoBorder": true,
         "imgPadded": true
     }]
