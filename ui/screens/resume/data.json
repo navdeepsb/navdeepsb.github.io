@@ -1,5 +1,15 @@
 [
     {
+        "timerange": "Oct 2017 - present",
+        "title": "Web Assistant at U-M Office of Provost",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Responsible for refactoring an existing website for orienting new academic deans",
+            "In charge of updating the website to latest web standards along with designing it’s new experience",
+            "Followed by standardizing the content collection process"
+        ]
+    },
+    {
         "timerange": "Sep 2017 - present",
         "title": "Research Assistant (UX Engineer) at U-M",
         "location": "Ann Arbor, MI",
@@ -7,7 +17,8 @@
             "Primary focus to generate insights from para-transit ridership data",
             "In charge of data mining, information visualization, UX design & front-end development",
             "Sponsored by NIDILRR (National Institute on Disability, Independent Living, and Rehabilitation Research)"
-        ]
+        ],
+        "noShow": true
     },
     {
         "timerange": "Sep 2017 - present",
@@ -15,7 +26,7 @@
         "location": "Ann Arbor, MI",
         "details": [
             "Assisting 33 students with intro to graphic design & visual communication",
-            "Responsible for grading assignments, logistics & lab help"
+            "Responsible for critiquing students' works & hands-on help"
         ]
     },
     {
@@ -23,15 +34,15 @@
         "title": "Product Design Intern at Duo Security",
         "location": "Ann Arbor, MI",
         "details": [
-            "Worked on a data viz project to present user information to admins",
-            "Delivered a new feature to take care of lost/stolen corporate-issued devices",
-            "Moderated a usability test session",
+            "Worked on a data viz project to present information about user's devices to admins",
+            "Delivered a new feature for the admins to take care of lost/stolen corporate-issued devices",
+            "Moderated a usability test session consisting of 4 remote users, followed by synthesizing the findings for a fellow designer's project",
             "Gave a lightning talk on effective use of web forms"
         ]
     },
     {
         "timerange": "Apr 2017",
-        "title": "Temp Web Assistant at U-M Office of Provost",
+        "title": "Temp. Web Assistant at U-M Office of Provost",
         "location": "Ann Arbor, MI",
         "details": [
             "Developed a crucial website from scratch for the department of the Provost and the Vice-President",

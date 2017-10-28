@@ -9,66 +9,77 @@
         "imgTitle": "Bob",
         "desc": "I created one illustration of \"Bob\" shown below and then thought of reusing the main components to create different illustrations. It worked out really well as I couldn't stop creating these stickers. Taking a break after making 11 of these now, have a look, these are some of <strong>my favorite illustrations</strong>.<br /><br />Bob",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "02-victor.png",
         "imgTitle": "Victor",
-        "desc": "Victor",
+        "desc": "<br /><br />Victor:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "03-heidi.png",
         "imgTitle": "Heidi",
-        "desc": "Heidi",
+        "desc": "<br /><br />Heidi:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "04-marilyn.png",
         "imgTitle": "Marilyn",
-        "desc": "Marilyn",
+        "desc": "<br /><br />Marilyn:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "05-kerry.png",
         "imgTitle": "Kerry",
-        "desc": "Kerry",
+        "desc": "<br /><br />Kerry:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "06-cheech.png",
         "imgTitle": "Cheech",
-        "desc": "Cheech",
+        "desc": "<br /><br />Cheech:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "07-hippie.png",
         "imgTitle": "Hippie",
-        "desc": "Hippie",
+        "desc": "<br /><br />Hippie:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "08-zenmaster.png",
         "imgTitle": "Zen Master",
-        "desc": "Zen Master",
+        "desc": "<br /><br />Zen Master:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "09-becky.png",
         "imgTitle": "Becky",
-        "desc": "Becky",
+        "desc": "<br /><br />Becky:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "10-jimmy.png",
         "imgTitle": "Jimmy",
-        "desc": "Jimmy",
+        "desc": "<br /><br />Jimmy:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "11-jennie.png",
         "imgTitle": "Jennie",
-        "desc": "Jennie",
+        "desc": "<br /><br />Jennie:",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     }]
 }

@@ -9,34 +9,40 @@
         "imgTitle": "A poster showing 3 characters, a skeleton, an anthropomorphic pumpkin and a sleeping vampire hanging upside down from the top. Spiders also populate the scene to add an extra \"creep\" factor to the poster.",
         "desc": "I designed this poster for the Halloween event hosted by my student organization, the School of Information Master's Association (SIMA) at U-M for the Fall 2017 term.<br /><br />Before this, I had never designed something \"scary\" or \"spooky\" so it was a nice challenge for me. I also decided to make a few well-known characters for the poster but give them my touch, you know?! Used flat shapes and symmetry to come up with the below layout.<br /><br />Below poster shows the 3 main characters I created: a skeleton, an anthropomorphic pumpkin and a sleeping vampire hanging upside down from the top. Spiders also populate the scene to add an extra \"creepy\" factor to the poster (personally, spiders don't creep me out).",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "halloween-poster-skullman.png",
         "imgTitle": "Skullman in all his lively candor doing what it does best, trying to scare off people.",
         "desc": "<strong>Individual characters</strong><br />Here is <strong>Mr. Skullman</strong> in all his lively candor doing what it does best, trying to scare off people.",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "halloween-poster-anthro-pumpkin.png",
         "imgTitle": "Oh no! The human pumpkin is loose again!",
         "desc": "And here is our <strong>Anthropomorphic Pumpkin</strong> ( or \"Kin\" for short ). I tried to make this guy look scary and cute, I guess it worked out. I feel comfortable with this human pumpkin dwelling just inside a digital screen.",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "halloween-poster-sleepy-vampire.png",
         "imgTitle": "A young she-vampire sleeping upside down with arms closed and hanging from the ceiling.",
         "desc": "<strong>Sleepy Vampire</strong> over here would find any place where she can hang and complete her never-ending naps. Had to bring her down from the ceiling to get an upright shot, but she's still sleeping, see?!",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "halloween-poster-spidey.png",
         "imgTitle": "Goofy little spider hanging by a string of web",
         "desc": "<strong>Spidey</strong> just likes to scare people, given it can drop off from anywhere. These goofy little furballs are harmless and like to get a laugh out of scaring others, watch out for these little nuisances.",
         "imgNoBorder": true,
-        "imgPadded": true
+        "imgPadded": true,
+        "noImgBackground": true
     },{
         "img": "halloween-poster-type.png",
         "imgTitle": "Type specimen for Bebas Neue typeface used in this poster. This typeface is taken from Adobe Typekit online foundry and is licensed as open-source",
-        "desc": "<strong>Typography</strong><br />I used <a href=\"https://typekit.com/fonts/bebas-neue\" rel=\"nofollow\" target=\"_blank\" tabindex=\"-1\" title=\"Bebas Neue | Adobe Typekit\">Bebas Neue</a> typeface from the Adobe Typekit online foundry which is licensed as open-source. Below is the type specimen (no lowercase glyphs in this type)."
+        "desc": "<strong>Typography</strong><br />I used <a href=\"https://typekit.com/fonts/bebas-neue\" rel=\"nofollow\" target=\"_blank\" tabindex=\"-1\" title=\"Bebas Neue | Adobe Typekit\">Bebas Neue</a> typeface from the Adobe Typekit online foundry which is licensed as open-source. Below is the type specimen (no lowercase glyphs in this type).",
+        "noImgBackground": true
     }]
 }
