@@ -7,7 +7,7 @@
     "contentSections": [{
         "img": "01-bob.png",
         "imgTitle": "Bob",
-        "desc": "I created one illustration of \"Bob\" shown below and then thought of reusing the main components to create different illustrations. It worked out really well as I couldn't stop creating these stickers. Taking a break after making 11 of these now, have a look, these are some of <strong>my favorite illustrations</strong>.<br /><br />Bob",
+        "desc": "I created one illustration of \"Bob\" shown below and then thought of reusing the main components to create different illustrations. It worked out really well as I couldn't stop creating these stickers. Taking a break after making a dozen of these now, have a look, these are some of <strong>my favorite illustrations</strong> so far. The emphasis of this project is on <strong>reusability</strong> and <strong>remixability</strong>, if you may.<br /><br />Bob:",
         "imgNoBorder": true,
         "imgPadded": true,
         "noImgBackground": true
@@ -78,6 +78,13 @@
         "img": "11-jennie.png",
         "imgTitle": "Jennie",
         "desc": "<br /><br />Jennie:",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": true
+    },{
+        "img": "12-xiao.png",
+        "imgTitle": "Xiao",
+        "desc": "<br /><br />Xiao:",
         "imgNoBorder": true,
         "imgPadded": true,
         "noImgBackground": true
