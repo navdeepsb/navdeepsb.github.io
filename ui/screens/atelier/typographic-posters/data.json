@@ -5,6 +5,11 @@
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-type-posters.png",
     "contentSections": [{
+        "img": "planet-navdeep.png",
+        "imgTitle": "Planet Navdeep",
+        "desc": "Just playing around with Photoshop and Illustrator. The startdate is actually my birthday. No, I am not a Star Trek fan, just like the concept of a \"star date\" Photo by <a href=\"https://unsplash.com/@csontala\" rel=\"nofollow\" target=\"_blank\" tabIndex=\"-1\" title=\"Alexander Csontala\">Alexander Csontala</a>.",
+        "imgPadded": true
+    },{
         "img": "frisco.png",
         "imgTitle": "San Francisco",
         "desc": "I always wanted to visit San Francisco and was in Berkeley visiting a good friend of mine during the 2016 holidays. Created this mini-banner in Illustrator for the upcoming awesome trip at that time."
