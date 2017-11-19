@@ -1,0 +1,44 @@
+{
+    "title": "Aleatoricism",
+    "path": "/aleatoricism",
+    "timestamp": "Nov 2017",
+    "tools": [ "fotoshp" ],
+    "thumbnailImg": "thumb-aleatoricism.jpg",
+    "contentSections": [{
+        "img": "poster-watercolor-02.jpg",
+        "imgTitle": "Aleatoricistic piece for Quentin Tarantino",
+        "desc": "Only pronouncing this word was difficult, not the process. Created using water colors and Adobe Photoshop.",
+        "imgNoBorder": true,
+        "imgPadded": false
+    },{
+        "img": "abstract-616.jpg",
+        "imgTitle": "The aleatoricistic piece created for this project using water colors",
+        "desc": "The aleatoricistic piece created for this project using random splashes of water colors, scribbling with crayons and what not.",
+        "imgNoBorder": true,
+        "imgPadded": false
+    },{
+        "img": "qt.jpg",
+        "imgTitle": "Quentin Tarantino",
+        "desc": "The original image of Quentin Tarantino used in this project. This image is the original work of their own author, couldn't find their name to credit.",
+        "imgNoBorder": true,
+        "imgPadded": false
+    },{
+        "img": "poster-watercolor-01.jpg",
+        "imgTitle": "Aleatoricistic piece for Quentin Tarantino",
+        "desc": "<br /><br />More options:",
+        "imgNoBorder": true,
+        "imgPadded": false
+    },{
+        "img": "poster-watercolor-03.jpg",
+        "imgTitle": "Aleatoricistic piece for Quentin Tarantino",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false
+    },{
+        "img": "poster-watercolor-04.jpg",
+        "imgTitle": "Aleatoricistic piece for Quentin Tarantino",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false
+    }]
+}

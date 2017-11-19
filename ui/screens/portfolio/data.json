@@ -82,6 +82,13 @@
         "show": true
     },
     {
+        "title": "Jim Toy Community Center",
+        "subtitle": "Site Lead, Digital Cataloging",
+        "path": "/jim-toy",
+        "img": "",
+        "show": false
+    },
+    {
         "title": "HomeArte",
         "subtitle": "Design, Programming",
         "path": "/homearte",
