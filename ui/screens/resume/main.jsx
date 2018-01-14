@@ -18,7 +18,7 @@ class Event extends React.Component {
                     <p className="location">{ data.location }</p>
                     <ul>
                     { data.details.map( ( item, idx ) => {
-                        return <li key={ idx }>{ item }</li>;
+                        return <li key={ idx } dangerouslySetInnerHTML={{ __html: item }}></li>;
                     }) }
                     </ul>
                 </div>

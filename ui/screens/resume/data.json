@@ -1,7 +1,19 @@
 [
     {
-        "timerange": "Oct 2017 - present",
-        "title": "Web Assistant at U-M Office of Provost",
+        "timerange": "Jan 2018 - present",
+        "title": "Graduate Student Instructor (Web Design) at UMSI",
+        "location": "Ann Arbor, MI",
+        "details": [
+            "Assisting a batch of over 80 undergrad students,",
+            "and leading 2 discussion sections teaching introduction to web design and development",
+            "All the while paying attention to conforming with best practices & a11y standards",
+            "Course: SI-339 \"Web Design\"",
+            "Professor: <a href='https://www.linkedin.com/in/colleen-van-lent-670a3b5/' rel='nofollow' target='_blank' tabIndex='-1' style='' title=\"Link to Colleen's LinkedIn profile\">Colleen Van Lent</a>"
+        ]
+    },
+    {
+        "timerange": "Sep - Dec 2017",
+        "title": "Web Designer at U-M Office of Provost",
         "location": "Ann Arbor, MI",
         "details": [
             "Responsible for refactoring an existing website for orienting new academic deans",
@@ -21,16 +33,18 @@
         "noShow": true
     },
     {
-        "timerange": "Sep 2017 - present",
-        "title": "Teaching Assistant (Graphic Design) at U-M",
+        "timerange": "Sep - Dec 2017",
+        "title": "Teaching Assistant (Graphic Design) at UMSI",
         "location": "Ann Arbor, MI",
         "details": [
-            "Assisting 33 students with intro to graphic design & visual communication",
-            "Responsible for critiquing students' works & hands-on help"
+            "Assisting 33 undergrad students with intro to graphic design & visual communication",
+            "Responsible for critiquing students' works & hands-on help",
+            "Course: SI-320 \"Graphic Design\"",
+            "Professor(s): <a href='https://www.linkedin.com/in/vadbes/' rel='nofollow' target='_blank' tabIndex='-1' style='' title=\"Link to Vadim's LinkedIn profile\">Vadim Besprozvanny</a> & <a href='https://www.linkedin.com/in/elenagodin/' rel='nofollow' target='_blank' tabIndex='-1' style='' title=\"Link to Elena's LinkedIn profile\">Elena Godin</a>"
         ]
     },
     {
-        "timerange": "May 2017 - Aug 2017",
+        "timerange": "May - Aug 2017",
         "title": "Product Design Intern at Duo Security",
         "location": "Ann Arbor, MI",
         "details": [
@@ -51,7 +65,7 @@
         ]
     },
     {
-        "timerange": "Jan 2017 - Apr 2017",
+        "timerange": "Jan - Apr 2017",
         "title": "UX Designer at UMSI Design Clinic",
         "location": "Ann Arbor, MI",
         "details": [
@@ -90,7 +104,7 @@
         ]
     },
     {
-        "timerange": "May 2015 - Sep 2015",
+        "timerange": "May - Sep 2015",
         "title": "Co-Founder at merainstitute.com",
         "location": "Indore, India",
         "details": [
