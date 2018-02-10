@@ -4,6 +4,7 @@
     "timestamp": "Sep 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-russian-military.png",
+    "order": 130,
     "contentSections": [{
         "img": "maz-537.png",
         "imgTitle": "Illustration of the MAZ-537",

@@ -3,6 +3,7 @@
     "path": "/personal-project-logos",
     "tools": [ "ilstrtr", "powrpnt" ],
     "thumbnailImg": "thumb-logos.png",
+    "order": 100,
     "contentSections": [{
         "img": "merainstitute-logo.png",
         "imgTitle": "Logo for my project, merainstitute.com",

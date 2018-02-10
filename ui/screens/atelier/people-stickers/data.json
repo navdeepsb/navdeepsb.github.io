@@ -4,6 +4,7 @@
     "timestamp": "May 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-people.png",
+    "order": 110,
     "contentSections": [{
         "img": "01-bob.png",
         "imgTitle": "Bob",

@@ -4,6 +4,7 @@
     "timestamp": "Feb 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-chai.jpg",
+    "order": 90,
     "contentSections": [{
         "img": "infographic.jpg",
         "imgTitle": "Infographic for my favorite beverage, Masala Chai",

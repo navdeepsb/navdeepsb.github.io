@@ -4,6 +4,7 @@
     "timestamp": "Aug 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-jade-warrior.png",
+    "order": 190,
     "contentSections": [{
         "img": "jade-warrior-by-navdeep---www.navdeepsb.com.png",
         "imgTitle": "My graphic illustration of an imaginary character which I called the Jade Warrior.",

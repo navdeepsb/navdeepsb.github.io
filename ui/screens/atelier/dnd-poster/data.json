@@ -4,6 +4,7 @@
     "timestamp": "Nov 2016",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-dnd.png",
+    "order": 40,
     "contentSections": [{
         "img": "dnd-poster.png",
         "imgTitle": "The poster for my first Dungeons & Dragons tournament as a Dungeon Master",

@@ -4,6 +4,7 @@
     "timestamp": "Jan 2017",
     "tools": [ "powrpnt" ],
     "thumbnailImg": "thumb-intro.jpg",
+    "order": 50,
     "contentSections": [{
         "img": "intro-slide.jpg",
         "imgTitle": "A slide showing me walking on the lush green pastures of Gulmarg, Kashmir with some intro text around the graphic",

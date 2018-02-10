@@ -4,6 +4,7 @@
     "timestamp": "Apr 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-n.png",
+    "order": 200,
     "contentSections": [{
         "img": "thumb-n.png",
         "imgTitle": "Logo for self",

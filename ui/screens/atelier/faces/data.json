@@ -4,6 +4,7 @@
     "timestamp": "Dec 2016",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-faces.png",
+    "order": 60,
     "contentSections": [{
         "img": "faces.png",
         "imgTitle": "4 illustration showing human faces created using simple shapes",

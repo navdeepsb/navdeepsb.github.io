@@ -4,6 +4,7 @@
     "timestamp": "Nov 2017",
     "tools": [ "fotoshp" ],
     "thumbnailImg": "thumb-aleatoricism.jpg",
+    "order": 10,
     "contentSections": [{
         "img": "poster-watercolor-02.jpg",
         "imgTitle": "Aleatoricistic piece for Quentin Tarantino",

@@ -4,6 +4,7 @@
     "timestamp": "Sep 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-type-posters.png",
+    "order": 150,
     "contentSections": [{
         "img": "planet-navdeep.png",
         "imgTitle": "Planet Navdeep",

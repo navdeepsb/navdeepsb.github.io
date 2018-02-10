@@ -1,0 +1,86 @@
+{
+    "title": "Data Art",
+    "path": "/data-art",
+    "timestamp": "Dec 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-data-art.png",
+    "order": 70,
+    "contentSections": [{
+        "img": "",
+        "imgTitle": "",
+        "desc": "I created a Data Art prototype for visualizing my grad school's cohort demonyms. We were just asked to work on the designs and the interactions we intended the prototype to exhibit. The design was supposed to be for a <strong>large touchscreen interface</strong> which could be installed in hallways and students could interact with it easily.<br/><br/><div class='fluid-media'><iframe src='https://marvelapp.com/7i78ajb?emb=1' width='1920' height='1080' allowTransparency='true' frameborder='0' rel='nofollow'></iframe></div>",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": true
+    },{
+        "img": "data-art-sketch1.jpg",
+        "imgTitle": "Sketch no. 1",
+        "desc": "I wanted to play around with the block-M and esp. did not want to use a generic world map to represent the diversity of the UMSI cohort. So I thought of using the shape of the block-M to depict the part-whole relationship of student nationalities in the cohort. Use of colors of varying hues represents diversity. Below are the initial sketches of this visualization.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "data-art-sketch2.jpg",
+        "imgTitle": "Sketch no. 2",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "data-art-sketch3.jpg",
+        "imgTitle": "Sketch no. 3",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "data-art-colors-poc.png",
+        "imgTitle": "Experimenting with various colors to come up with a consistent palette.",
+        "desc": "Experimenting with various colors to come up with a consistent palette.",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+    },{
+        "img": "screen00.png",
+        "imgTitle": "Screen no. 0",
+        "desc": "All the screens for this project are shown below in the order of the user flow:",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+    },{
+        "img": "screen01.png",
+        "imgTitle": "Screen no. 1",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+    },{
+        "img": "screen02.png",
+        "imgTitle": "Screen no. 2",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+   },{
+        "img": "screen03.png",
+        "imgTitle": "Screen no. 3",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+   },{
+        "img": "screen04.png",
+        "imgTitle": "Screen no. 4",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+   },{
+        "img": "screen05.png",
+        "imgTitle": "Screen no. 5",
+        "desc": "",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+   }]
+}

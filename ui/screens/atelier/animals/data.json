@@ -4,6 +4,7 @@
     "timestamp": "May 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-animals.png",
+    "order": 30,
     "contentSections": [{
         "img": "chameleon.png",
         "imgTitle": "Chameleon illustration",

@@ -1,0 +1,51 @@
+{
+    "title": "Logo design for a Student Org",
+    "path": "/umnasa-logo-design",
+    "timestamp": "Oct 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-umnasa-logo.png",
+    "order": 210,
+    "contentSections": [{
+        "img": "thumb-umnasa-logo.png",
+        "imgTitle": "The final logo themed on a traditional Native American dreamcatcher",
+        "desc": "I designed a couple of logo drafts for University of Michigan's Nativa American Student Association (NASA) back in Fall 2017. The client reached out to the UMSI community through the master's student listserv and I immediately pounced on this opportunity to practice and enhance my logo design skills. I reached out to the client with 3 sketches (shown below) and was good to work on this side-project on my own time.<br /><br />The final logo is depicted below themed on a traditional Native American dreamcatcher.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "umnasa-sketch1.jpg",
+        "imgTitle": "Sketch #1 - War bonnet: I absolutely love the form and structure of a war bonnet. There is a lot of opportunity in exploring different color solutions using a bonnet. We can also borrow U-M’s maize and blue colors for the bonnet after adjusting their hue/saturation. The block-M sits in the middle of the forehead and the letters “N”, “A”, “S” and “A” sit on the boundary on a circular path. I deliberately made the character to smile to send out a welcoming message to everyone. This can also be interpreted as <strong>\"we are fierce but also humble\"</strong>.",
+        "desc": "Reading the email containing initial information about the requirements, I restricted my sketches under the following constraints:<ul><li>The initials, NASA, should be visible in the logomark</li><li>Michigan’s block-M being combined in the logomark</li><li>(optional) Block-M inside a Dreamcatcher as in Colorado College’s flier</li></ul><br/><br/><br/>I started off with <strong>sketching</strong> a few preliminary high-level ideas for the logo as shown below. After getting the client's approval for logo option #3 (dreamcatcher), I proceeded to create a digital version in Illustrator.<br/><br/><br/>Sketch #1 - War bonnet: I absolutely love the form and structure of a war bonnet. There is a lot of opportunity in exploring different color solutions using a bonnet. We can also borrow U-M’s maize and blue colors for the bonnet after adjusting their hue/saturation. The block-M sits in the middle of the forehead and the letters “N”, “A”, “S” and “A” sit on the boundary on a circular path.<br /><br />I deliberately made the character to smile to send out a welcoming message to everyone. This can also be interpreted as <strong>\"we are fierce but also humble\"</strong>.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "umnasa-sketch2.jpg",
+        "imgTitle": "Sketch #2 - Horse: When I was little, I remember watching Spirit: Stallion of the Cimarron animated movie and I was totally captivated by the beautiful natural American beauty shown in the movie. I would pause in between and just try to sketch some of the scenes. I also remember some of Native American heritage’s intricacies being depicted in the movie such as a person putting a feather in their horse’s mane. I tried to represent that in the following sketch.",
+        "desc": "Sketch #2 - Horse: When I was little, I remember watching <a href='http://www.imdb.com/title/tt0166813/' target='_blank' rel='nofollow'>Spirit: Stallion of the Cimarron</a> animated movie and I was totally captivated by the beautiful natural American beauty shown in the movie. I would pause in between and just try to sketch some of the scenes. I also remember some of Native American heritage’s intricacies being depicted in the movie such as a person putting a feather in their horse’s mane. I tried to represent that in the following sketch.<br /><br />I know the sketch is a bit wonky and the legs are a bit inaccurate but this was an initial sketch and I am pretty sure the digital work, if decided to implement, would be far clear, precise and accurate. The block-M is missing from this design because it would appear out of place with all the slanting motion created by the horse logomark and the NASA logotype. So, I transformed “UM” into a similar slanting typeface.<br/><br/>I also think that <strong>a horse is the perfect representation of free spirit :-)</strong>",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "umnasa-sketch3.jpg",
+        "imgTitle": "Sketch #3 - Dreamcatcher:",
+        "desc": "Sketch #3 - Dreamcatcher: Then finally, <strong>I returned to the optional constraint of a block-M inside a dreamcatcher</strong> as suggested in the initial communication. The letters, “N”, “A”, “S” and “A” are shown inside the pearls (not sure) hanging from the main ring, followed by terminating white feathers.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "umnasa-logos-v1.png",
+        "imgTitle": "Various iterations of the logo's v1 designs",
+        "desc": "After converting the sketch into digital, I played around with different options and even applied the U-M colors to see how things were working.",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+    },{
+        "img": "umnasa-logos-v2.png",
+        "imgTitle": "Various iterations of the logo's v2 designs",
+        "desc": " Not convinced with my designs, I decided to draw fresh inspiration and change my perspective. Despite going for realistic dreamcatcher, I decided to abstract it and employed concepts of <strong>Swiss Design</strong> to create the v2. I iterated a couple of times on the v2 as shown below, v2.4 was selected as the final one.",
+        "imgNoBorder": true,
+        "imgPadded": false,
+        "noImgBackground": false
+    }]
+}

@@ -85,28 +85,28 @@ $listItemGutter: 20px;
         }
     }
 
-    .fluid-media {
-        position: relative;
-        padding-bottom: 56.25%; // proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%)
-        padding-top: 30px;
-        height: 0;
-        overflow: hidden;
-
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        // @src http://www.bymichaellancaster.com/blog/fluid-iframe-and-images-without-javascript-plugins/
-    }
-
     .padded-list-item {
         margin-bottom: $listItemGutter;
     }
 
     .red { color: #F38181; }
     .green { color: #65BB81; }
+}
+
+.fluid-media {
+    position: relative;
+    padding-bottom: 56.25%; // proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%)
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    // @src http://www.bymichaellancaster.com/blog/fluid-iframe-and-images-without-javascript-plugins/
 }

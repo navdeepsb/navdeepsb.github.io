@@ -4,6 +4,7 @@
     "timestamp": "Oct 2017",
     "tools": [ "ilstrtr", "fotoshp" ],
     "thumbnailImg": "thumb-ppm-badges.png",
+    "order": 170,
     "contentSections": [{
         "img": "ppm1-manage-like-a-pro--with-filter.png",
         "imgTitle": "Illustration of a joyful octopus wearing golden glasses",

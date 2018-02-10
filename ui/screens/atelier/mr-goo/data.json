@@ -4,6 +4,7 @@
     "timestamp": "Jun 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-goo.png",
+    "order": 80,
     "contentSections": [{
         "img": "mr-goo-by-navdeep---www.navdeepsb.com.gif",
         "imgTitle": "Mr. Goo",

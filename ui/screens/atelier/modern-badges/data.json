@@ -1,0 +1,51 @@
+{
+    "title": "Modern Badges",
+    "path": "/modern-badges",
+    "timestamp": "Oct 2017",
+    "tools": [ "ilstrtr" ],
+    "thumbnailImg": "thumb-modern-badges.png",
+    "order": 180,
+    "contentSections": [{
+        "img": "modern-badges-all.jpg",
+        "imgTitle": "Set of 4 badges or laptop stickers themed around academic success and professional leadership",
+        "desc": "Part of Adv. Graphic Design curriculum in Fall '17, students were tasked to design a set of badges/laptop stickers themed around the topic of academic success and professional leadership. The client for this project provided us with a brief of the problem statement and branding guidelines for the final designs.<br /><br />For my stickers, I decided to adopt <strong>modern design</strong> which was prominent in Europe during the mid-1900's and popularized by Swiss (& German) designers, hence the term <strong>Swiss Design</strong> is also used interchangeably for modern design. I was not trying to recreate modern design, rather I was trying to draw inspiration from it and remix it with my personal influences which has anyways always been the Swiss design.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "modern-badges-client-req.png",
+        "imgTitle": "Branding guidelines provided by the client",
+        "desc": "This <strong>branding guidelines</strong> document was provided by the client and contains details about the color paletter, types to use, etc. Working around this constraint was fun as I could follow a focused approach for my designs.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "01-self-confidence.png",
+        "imgTitle": "Badge no. 1, \"Self confidence\": I think that a person swinging their arms wide open in the air resonates self-confidence quite well.",
+        "desc": "To justify a set, I wanted to create at least 4 badges. So I sat down and <strong>first brainstormed the type content</strong> for the badges as it was one of the primary requirements to have supporting text in the badges. Building up on my own experiences in UX, design & life, in general, I came up with the following type content to put up on my badges:<ul><li>Self-Confidence.</li><li>Do. Don't argue.</li><li>Come up with wild ideas.</li><li>Be kind & humble.</li></ul>I was pretty happy with these \"quotes\" and <strong>next moved on to create the metaphorical relationship</strong> between type and visuals in each badge. Following this, I sketched a few vague ideas and proceeded to digitize each using Adobe Illustrator.<br/><br/><br/>I think that a person swinging their arms wide open in the air resonates self-confidence quite well.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "02-do-dont-argue.png",
+        "imgTitle": "Badge no. 2, \"Do. Don't argue.\": Inspired from an advice I follow deeply in my design process: \"Design. Don't argue.\", I generalized it into a wider concept.",
+        "desc": "Inspired from an advice I follow deeply in my design process: \"Design. Don't argue.\", I generalized it into a wider concept.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "03-come-up-with-wild-ideas.png",
+        "imgTitle": "Badge no. 3, \"Come up with wild ideas.\": Another of the principles emphasized heavily in UX. Just thinking about crazy and wild ideas could give a spark to more realistic and scoped solutions.",
+        "desc": "Another of the principles emphasized heavily in UX. Just thinking about crazy and wild ideas could give a spark to more realistic and scoped solutions.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    },{
+        "img": "04-be-kind-and-humble.png",
+        "imgTitle": "Badge no. 4, \"Be kind & humble.\": I believe that good designers are good persons. I think that in order to be really successful in life, one has to be humble enough to listen carefully and be empathetic enough to act intently.",
+        "desc": "I believe that good designers are good persons. I think that in order to be really successful in life, one has to be humble enough to listen carefully and be empathetic enough to act intently.",
+        "imgNoBorder": true,
+        "imgPadded": true,
+        "noImgBackground": false
+    }]
+}

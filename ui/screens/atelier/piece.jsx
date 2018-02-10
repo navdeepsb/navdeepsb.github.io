@@ -23,7 +23,7 @@ export default class AtelierPiece extends OneParentForThemAll {
         // Also cure content section image paths:
         atelierData.contentSections.map( sec => {
             if( !sec.img ) return null;
-            sec.img = require( `./${ atelierData.contentImgPath + sec.img.split( "/" ).reverse()[ 0 ] }` );
+            sec.img = require( `./${ atelierData.contentImgPath + sec.img.split( "/" ).pop() }` );
             // ^ The `split()` thing is to get rid of "public/" in the image path. Reverse allowes me to
             //   make a more general function. Examples:
             //     #1:

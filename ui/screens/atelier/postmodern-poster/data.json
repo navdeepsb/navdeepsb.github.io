@@ -4,6 +4,7 @@
     "timestamp": "Oct 2017",
     "tools": [ "ilstrtr" ],
     "thumbnailImg": "thumb-pm-poster.png",
+    "order": 140,
     "contentSections": [{
         "img": "postmodern-poster.png",
         "imgTitle": "Postmodern Poster",
