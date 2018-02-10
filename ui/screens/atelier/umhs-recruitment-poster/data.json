@@ -8,7 +8,7 @@
     "contentSections": [{
         "img": "umhs-poster-final.png",
         "imgTitle": "",
-        "desc": "This was one of my memorable projects where the <a href='./umhs-brief.pdf' target='_blank' rel='nofollow'>problem statement</a> was unorthodox. We were assigned to create a poster inviting (more) participation in research studies related to Cognitive Control and Obesity. I decided to convey a story through the recruitment poster. I wanted to build up on parent-child relationship to invoke an emotional response from my users. I thought of depicting certain playful activities that could be fairly easily performed by obese parents, such as a kid bouncing off their parent's soft belly, etc. Next, I adopted the <a href='https://design.tutsplus.com/articles/what-exactly-is-this-japanese-trend-known-as-kawaii-all-about--vector-15984' target='blank' rel='nofollow'>Kawaii illustration style</a> for my characters since the Kawaii characters are frequently drawn as chubby and cute.<br /><br /><br />Below is the final and version 2 of the poster:",
+        "desc": "This was one of my memorable projects where the <a href='./umhs-brief.pdf' target='_blank' rel='nofollow'>problem statement</a> was unorthodox. We were assigned to create a poster inviting (more) participation in research studies related to Cognitive Control and Obesity. I decided to convey a story through the recruitment poster. I wanted to build up on parent-child relationship to invoke an emotional response from my users. I thought of depicting certain playful activities that could be fairly easily performed by obese parents, such as a kid bouncing off their parent's soft belly, etc. Next, I adopted the <a href='https://design.tutsplus.com/articles/what-exactly-is-this-japanese-trend-known-as-kawaii-all-about--vector-15984' target='blank' rel='nofollow'>Kawaii illustration style</a> for my characters since the Kawaii characters are frequently drawn as chubby and cute.<br /><br /><br />Unable to illustrate the exact scene as in sketches due to time constraints, I decided to draw normal standing positions. Dissatisfied with v1, I decided to work on the next iteration. I made two characters, one younger and the other elder. Both of them are wearing dino suits which tells that just like we put a suit on for an occasion, the participants need to put on this role. And then, one of the characters is in a goofy posture and the other is obese to emphasis on cognitive control and obesity. Below is the final version of the poster:",
         "imgNoBorder": true,
         "imgPadded": true,
         "noImgBackground": false
@@ -17,27 +17,27 @@
         "imgTitle": "Participant name tag and sticker goodies were my supporting materials for this poster",
         "desc": "Participant name tag and sticker goodies were my supporting materials for this poster.",
         "imgNoBorder": true,
-        "imgPadded": true,
+        "imgPadded": false,
         "noImgBackground": false
     },{
         "img": "umhs-sketch-01.jpg",
-        "imgTitle": "",
+        "imgTitle": "Sketch no. 1",
         "desc": "The sketches below depict some of the activities that could be performed fairly easily by obese parents.",
         "imgNoBorder": true,
         "imgPadded": false,
         "noImgBackground": false
     },{
         "img": "umhs-sketch-02.jpg",
-        "imgTitle": "",
+        "imgTitle": "Sketch no. 2",
         "desc": "",
         "imgNoBorder": true,
         "imgPadded": true,
         "noImgBackground": false
     },{
         "img": "umhs-poster-v1.png",
-        "imgTitle": "",
-        "desc": "Unable to illustrate the exact scene as in sketches due to time constraints, I decided to draw normal standing positions. Not satisfied with this version, I immediately got to v2 and introduced costumes for my characters which was my attempt to establish analogy between donning lab equipment for research study and donning costumes for an event, from the participant's perspective.",
-        "imgNoBorder": true,
+        "imgTitle": "Version 1 of the poster",
+        "desc": "Version 1 of the poster.",
+        "imgNoBorder": false,
         "imgPadded": true,
         "noImgBackground": false
     },{
