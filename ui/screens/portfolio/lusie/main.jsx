@@ -18,6 +18,7 @@ export default class Lusie extends OneParentForThemAll {
         return (
             <div className="project">
                 <ProjectBannerTpl data={ bannerData } />
+                <p style={{ textAlign: "right" }}><a href="https://cdn.rawgit.com/navdeepsb/lusie/master/index.html" rel="nofollow" target="_blank" tabIndex="-1" title="Open Lusie in new tab">Open Lusie new tab</a></p>
                 <div className="content-block">
                     <h4>Problem Statement</h4>
                     <p>To automate the household board game of housie a.k.a. tambola a.k.a. Indian Bingo.</p>
