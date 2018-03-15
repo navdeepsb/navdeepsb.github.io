@@ -22,7 +22,7 @@ export default class ConsultantDTE extends OneParentForThemAll {
                 <div className="content-block">
                     <h4>Objective</h4>
                     <p>To evaluate current work practices and suggest recommendations to improve the existing workflow of Detroit-based utilites company, DTE Energy. I worked with 3 other team members to provide an outside perspective on the workflow and we worked together over the course of 4 months researching and analysing the client needs through user-centered design techniques such as contextual inquiry and making an affinity wall.</p>
-                    <p>The final report as well as the artefacts for each of the steps of the process followed are available on request and not published here due to an <strong>NDA agreement</strong>. Please contact me at navdeepb@umich.edu and I will be happy to share them with you.</p>
+                    <p>The final report as well as the artefacts for each of the steps of the process followed are available on request and not published here due to an <strong>NDA</strong>. Please contact me at navdeepb@umich.edu and I will be happy to share them with you.</p>
                 </div>
                 <div className="content-block">
                     <h4>The Process</h4>

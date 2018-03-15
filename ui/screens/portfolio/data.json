@@ -7,14 +7,14 @@
         "show": true
     },
     {
-        "title": "Lost Endpoints Workflow",
+        "title": "Lost Endpoints Workflow [Duo]",
         "subtitle": "Product Design",
         "path": "/lost-endpoints-duo",
         "img": "duo-thumb.png",
         "show": false
     },
     {
-        "title": "Endpoints Reporting & Analysis @ Duo [WIP]",
+        "title": "Endpoints Reporting & Analysis [Duo]",
         "subtitle": "Product Design, Data Viz",
         "path": "/endpoints-ra-duo",
         "img": "duo-thumb.png",

@@ -23,7 +23,7 @@ import MeraInstituteScreen from "./ui/screens/portfolio/merainstitute/main.jsx";
 import AudiovateScreen from "./ui/screens/portfolio/audiovate/main.jsx";
 import ExpediaScreen from "./ui/screens/portfolio/expedia/main.jsx";
 import GeomeTRYScreen from "./ui/screens/portfolio/geometry-type/main.jsx";
-import JomToyScreen from "./ui/screens/portfolio/jim-toy/main.jsx";
+import EndpointsRADuo from "./ui/screens/portfolio/endpoints-ra-duo/main.jsx";
 import CreativeWritingScreen from "./ui/screens/creative-writing/main.jsx";
 import ArticleScreen from "./ui/screens/creative-writing/article.jsx";
 import ResumeScreen from "./ui/screens/resume/main.jsx";
@@ -41,9 +41,11 @@ import NAV_LINKS from "./ui/common/web-links.json";
 // Google Analytics stuff:
 ReactGA.initialize( "UA-90739428-01" );
 function logPageView() {
-    let url = window.location.pathname + window.location.hash;
-    ReactGA.set({ page: url });
-    ReactGA.pageview( url );
+    if( location.hostname.indexOf( "navdeepsb.com" ) >= 0 ) {
+        let url = window.location.pathname + window.location.hash;
+        ReactGA.set({ page: url });
+        ReactGA.pageview( url );
+    }
 }
 
 
@@ -78,7 +80,7 @@ ReactDOMRender(
             <Route path={ NAV_LINKS.PORTFOLIO + "/audiovate" } component={ AudiovateScreen } />
             <Route path={ NAV_LINKS.PORTFOLIO + "/expedia" } component={ ExpediaScreen } />
             <Route path={ NAV_LINKS.PORTFOLIO + "/geometry-type" } component={ GeomeTRYScreen } />
-            <Route path={ NAV_LINKS.PORTFOLIO + "/jim-toy" } component={ JomToyScreen } />
+            <Route path={ NAV_LINKS.PORTFOLIO + "/endpoints-ra-duo" } component={ EndpointsRADuo } />
             <Route path={ NAV_LINKS.GRAPHIC_DESIGN } component={ AtelierScreen } />
             <Route path={ NAV_LINKS.GRAPHIC_DESIGN + "/:piece" } component={ AtelierPieceScreen } />
             <Route path={ NAV_LINKS.CREATIVE_WRITING } component={ CreativeWritingScreen } />
