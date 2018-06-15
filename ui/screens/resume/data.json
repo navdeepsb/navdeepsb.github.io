@@ -1,11 +1,20 @@
 [
     {
-        "timerange": "Jan 2018 - present",
+        "timerange": "May 2018 - present",
+        "title": "UX Designer at Nutanix",
+        "location": "Bay Area, CA",
+        "details": [
+            "Applying design thinking to solve enterprise IT’s complex and nuanced problems",
+            "Working on Prism UI to manage & monitor hyperconverged infrastructure for multiple-size deployments"
+        ]
+    },
+    {
+        "timerange": "Jan - Apr 2018",
         "title": "Graduate Student Instructor (Web Design) at UMSI",
         "location": "Ann Arbor, MI",
         "details": [
-            "Assisting a batch of over 80 undergrad students,",
-            "and leading 2 discussion sections teaching introduction to web design and development",
+            "Assisted a batch of over 80 undergrad students,",
+            "and lead 2 discussion sections teaching introduction to web design and development",
             "All the while paying attention to conforming with best practices & a11y standards",
             "Course: SI-339 \"Web Design\"",
             "Professor: <a href='https://www.linkedin.com/in/colleen-van-lent-670a3b5/' rel='nofollow' target='_blank' tabIndex='-1' style='' title=\"Link to Colleen's LinkedIn profile\">Colleen Van Lent</a>"
@@ -37,7 +46,7 @@
         "title": "Teaching Assistant (Graphic Design) at UMSI",
         "location": "Ann Arbor, MI",
         "details": [
-            "Assisting 33 undergrad students with intro to graphic design & visual communication",
+            "Assisted 33 undergrad students with intro to graphic design & visual communication",
             "Responsible for critiquing students' works & hands-on help",
             "Course: SI-320 \"Graphic Design\"",
             "Professor(s): <a href='https://www.linkedin.com/in/vadbes/' rel='nofollow' target='_blank' tabIndex='-1' style='' title=\"Link to Vadim's LinkedIn profile\">Vadim Besprozvanny</a> & <a href='https://www.linkedin.com/in/elenagodin/' rel='nofollow' target='_blank' tabIndex='-1' style='' title=\"Link to Elena's LinkedIn profile\">Elena Godin</a>"
@@ -74,13 +83,13 @@
         ]
     },
     {
-        "timerange": "Sep 2016 - present",
+        "timerange": "Sep 2016 - Apr 2018",
         "title": "University of Michigan School of Information (UMSI)",
         "location": "Ann Arbor, MI",
         "details": [
-            "M.S. candidate in Information, 2018",
-            "Specializing in Human-Computer Interaction",
-            "Information Officer at master’s student association",
+            "M.S. in Information, 2018",
+            "Specializing in Human-Computer Interaction (HCI)",
+            "Information Officer at master’s student association (W17, F17)",
             "Go Blue!"
         ]
     },
