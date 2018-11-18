@@ -24,6 +24,7 @@ export default class RunFinder extends OneParentForThemAll {
             <div className="project">
                 <ProjectBannerTpl data={ bannerData } />
                 <div className="content-block">
+                    <iframe width="428" height="866" src="https://invis.io/879OLVPBQ" frameBorder="0" rel="nofollow" allowFullScreen style={{ border: "0", display: "block", margin: "0 auto" }}>Connecting with InVisionApp...</iframe>
                     <h4>Problem Statement</h4>
                     <p>
                         <em>To make running an informed experience for novice runners.</em>
@@ -120,7 +121,7 @@ export default class RunFinder extends OneParentForThemAll {
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/shU4mAXRXrE" frameBorder="0" rel="nofollow" allowFullScreen></iframe>
                     </div>
                     <h4 className="subtitle">Hi-fi prototyping</h4>
-                    <iframe width="428" height="866" src="http://invis.io/879OLVPBQ" frameBorder="0" rel="nofollow" allowFullScreen style={{ border: "0" }}></iframe>
+                    <iframe width="428" height="866" src="https://invis.io/879OLVPBQ" frameBorder="0" rel="nofollow" allowFullScreen style={{ border: "0", display: "block", margin: "0 auto" }}></iframe>
                 </div>
                 <div className="content-block">
                     <h4>Key Takeaways</h4>

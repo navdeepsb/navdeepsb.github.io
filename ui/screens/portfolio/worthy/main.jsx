@@ -13,7 +13,7 @@ export default class Worthy extends OneParentForThemAll {
         let bannerData = {
             projName: "Worthy",
             roles: "Product Designer",
-            duration: "Sep- 2017",
+            duration: "Sep-Nov 2017",
             imgSrc: require( "./olga-delawrence-dollars-unsplash.jpg" ),
             imgCredit: {
                 author: "Olga Delawrence",
@@ -25,8 +25,14 @@ export default class Worthy extends OneParentForThemAll {
         return (
             <div className="project">
                 <ProjectBannerTpl data={ bannerData } />
-                <p style={{ textAlign: "right" }}>Not interested in the process? <a href="https://marvelapp.com/35e21i0" rel="nofollow" target="_blank" tabIndex="-1" title="Hi-fi prototype hosted on Marvel App">Open prototype in new tab</a></p>
+                <p style={{ textAlign: "right" }}><a href="https://marvelapp.com/35e21i0" rel="nofollow" target="_blank" tabIndex="-1" title="Hi-fi prototype hosted on Marvel App">Open prototype in new tab</a> or interact with it below</p>
                 <div className="content-block">
+                    <div className="fluid-media">
+                        <iframe src="https://marvelapp.com/35e21i0?emb=1" width="1440" height="1731" allowTransparency="true" frameborder="0" rel="nofollow"></iframe>
+                    </div>
+                    <p style={{ textAlign: "center", fontSize: "0.8rem" }}>Once you're in the prototype, press "H" to start on the first screen</p>
+                    <br />
+                    <br />
                     <h4>The Backstory</h4>
                     <p>Since I have arrived in the US, I have become diligent about my expenses and having multiple dispersed sources of money such as bank accounts, credit cards and even things like Venmo, have hindered my ability to micro-manage my transactions.</p>
                     <br />
